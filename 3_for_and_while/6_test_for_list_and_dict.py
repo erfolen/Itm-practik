@@ -24,9 +24,11 @@ fruits_colors = {
 
 for i in my_list:
     print(i, end=' ')
-print('\n'*2, '*'*100, '\n')
-# выводи key и value
 
+print('\n'*2, '*'*100, '\n')
+
+
+# выводи key и value
 
 for key, item in fruits_colors.items():
     print(f'{key} --- {item}')
