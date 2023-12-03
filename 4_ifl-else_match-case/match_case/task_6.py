@@ -16,12 +16,13 @@ def main():
             case '*':
                 print(first_number * second_number)
             case '/':
-                print(first_number + second_number)
+                print(first_number / second_number)
     except ZeroDivisionError:
         print('На ноль делить нельзя')
     except Exception as e:
         print("Вы ввели не число")
         print(e)
 
-
+if __name__ == '__main__':
+    main()
 

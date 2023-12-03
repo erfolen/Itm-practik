@@ -5,7 +5,7 @@ my_logger = logging.getLogger('my_exception')
 my_logger.setLevel(logging.INFO)
 
 # настройка обработчика и форматировщика
-my_handler = logging.FileHandler("error.log", mode='w')    #mode='w' - перезаписывает файл
+my_handler = logging.FileHandler("error.log")    #mode='w' - перезаписывает файл
 my_format = logging.Formatter("%(name)s %(asctime)s %(levelname)s %(message)s")
 
 # добавление форматировщика к обработчику
