@@ -15,6 +15,7 @@ class Car(Mot):
         print(cls.car_drive)
 
 
+
 class Moped(Mot):
     def __init__(self, color, model, count_wheels):
         super().__init__(color, model)

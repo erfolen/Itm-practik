@@ -21,6 +21,8 @@ class Singleton_2:
             cls._instance = super().__new__(cls)
         return cls._instance
 
+
+
 if __name__ == '__main__':
     govt = GovtSingleton()
     print(govt)
