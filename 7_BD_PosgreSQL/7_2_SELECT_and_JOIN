@@ -1,0 +1,120 @@
+SELECT * FROM shippers;
+SELECT FROM shippers;#количество записей в таблице
+SELECT * FROM employees;
+SELECT first_name, last_name, job_title FROM employees;
+SELECT * FROM employees WHERE job_title = 'Специалист по продажам';
+SELECT * FROM products;
+SELECT name, stock_status, quantity, price FROM products;
+SELECT name, stock_status, quantity, price FROM products ORDER BY name  LIMIT 5;
+SELECT id, name, stock_status, quantity, price FROM products OFFSET 5 LIMIT 5;
+SELECT id, name, stock_status, quantity, price FROM products OFFSET 8 FETCH FIRST 5 ROW ONLY;
+SELECT DISTINCT job_title FROM employees;
+SELECT id, name, substr(description, 1, 20), images, cost, stock_status, quantity, price FROM products;
+SELECT id, name, quantity, (1 - cost / price) * 100 AS prochent, cost, price FROM products;
+
+SELECT * FROM supplies INNER JOIN shippers ON supplies.shippers_id = shippers.id ;
+
+SELECT sh.name, sh.fio, sh.phone, s.id, s.delivery_date, p.name, p.quantity, p.price
+FROM supplies AS s
+JOIN shippers as sh ON s.shippers_id = sh.id
+JOIN products AS p ON p.supplies_id = s.id;
+
+SELECT * FROM supplies INNER JOIN products ON products.supplies_id = supplies.id;
+SELECT * FROM orders INNER JOIN employees ON orders.employees_id = employees.id;
+
+SELECT * FROM orders INNER JOIN employees ON orders.employees_id = employees.id
+JOIN customers ON orders.customers_id = customers.id
+JOIN products ON orders.products_id = products.id;
+
+SELECT o.id, o.date_did_order, e.last_name, e.job_title, p.name, p.price, c.fio FROM orders AS o
+INNER JOIN employees AS e ON o.employees_id = e.id
+JOIN customers AS c ON o.customers_id = c.id
+JOIN products AS p ON o.products_id = p.id;
+
+SELECT * FROM orders JOIN customers ON orders.customers_id = customers.id;
+SELECT o.id, p.name, p.price, e.last_name FROM orders AS o
+JOIN products AS p ON o.products_id = p.id
+JOIN employees AS e ON o.employees_id = e.id;
+
+SELECT * FROM orders LEFT JOIN customers ON orders.customers_id = customers.id;
+SELECT * FROM supplies LEFT JOIN shippers ON supplies.shippers_id = shippers.id;
+SELECT * FROM supplies LEFT JOIN products ON products.supplies_id = supplies.id;
+SELECT * FROM orders LEFT JOIN employees ON orders.employees_id = employees.id;
+
+SELECT * FROM orders RIGHT JOIN employees ON orders.employees_id = employees.id;
+SELECT * FROM orders RIGHT JOIN customers ON orders.customers_id = customers.id;
+SELECT * FROM supplies RIGHT JOIN shippers ON supplies.shippers_id = shippers.id;
+SELECT * FROM supplies RIGHT JOIN products ON products.supplies_id = supplies.id;
+
+SELECT * FROM orders FULL OUTER JOIN employees ON orders.employees_id = employees.id;
+SELECT * FROM orders FULL OUTER JOIN customers ON orders.customers_id = customers.id;
+SELECT * FROM supplies FULL OUTER JOIN shippers ON supplies.shippers_id = shippers.id;
+SELECT * FROM supplies FULL OUTER JOIN products ON products.supplies_id = supplies.id;
+
+UPDATE employees SET job_title = 'Специалист по продажам' WHERE job_title = 'Специалист по работе с клиентами';
+UPDATE employees SET home_phone = trim(leading '8029' from home_phone) WHERE home_phone LIKE '8029%';#ILIKE - без учета регистра
+UPDATE employees SET home_phone = '+37529'|| home_phone  WHERE home_phone NOT LIKE '+375%' AND home_phone NOT LIKE '375%';
+UPDATE shippers SET phone = '+3750296223737' WHERE id = 1;
+UPDATE shippers SET agent = 'Оптовый отдел' WHERE id = 2;
+UPDATE supplies SET shippers_id = 3 WHERE id = 19;
+UPDATE products SET price = cost * 1.45;
+UPDATE products SET price = price + 17 WHERE id = 32;
+UPDATE orders SET date_did_order = NOW() WHERE id = 5;
+
+SELECT home_phone FROM employees WHERE home_phone LIKE '8029%'
+SELECT id, name, quantity, price FROM products WHERE id = 32;
+SELECT * FROM orders WHERE id = 5;
+SELECT DISTINCT job_title FROM employees;
+SELECT DISTINCT name,id, quantity, price FROM products;
+SELECT name, stock_status, quantity, price FROM products ORDER BY name;
+SELECT * FROM employees ORDER BY last_name;
+SELECT * FROM employees ORDER BY last_name DESC;
+SELECT * FROM employees ORDER BY last_name, first_name;
+SELECT * FROM employees ORDER BY dob DESC;
+SELECT * FROM employees WHERE job_title IN ('Юрисконсульт', 'Кладовщик', 'Директор', 'бухгалтер' );
+SELECT * FROM employees WHERE dob BETWEEN '1977-10-10' AND '1982-03-15';
+SELECT job_title, COUNT(*) FROM employees GROUP BY job_title;
+SELECT first_name, COUNT(*) AS 'кол-во' FROM employees GROUP BY first_name HAVING COUNT(*) > 1;
+SELECT name, quantity  FROM products WHERE quantity > 10;
+SELECT name, quantity, price FROM (SELECT * FROM products WHERE price > 1000) AS p;
+SELECT name, quantity, price FROM (SELECT * FROM products WHERE price > 1000) AS p ORDER BY price;
+
+CREATE INDEX ind_products ON products(name);
+CREATE INDEX ind_date_orders ON orders(date_create);
+CREATE INDEX ind_products_price ON products(price);
+\di
+
+CREATE VIEW view_employees AS SELECT * FROM employees;
+SELECT MAX(price) FROM products;
+SELECT MIN(price) FROM products;
+SELECT ROUND(AVG(price)) FROM products;
+SELECT last_name, SUM(price) FROM (SELECT o.id, p.name, p.price, e.last_name FROM orders AS o
+JOIN products AS p ON o.products_id = p.id
+JOIN employees AS e ON o.employees_id = e.id) AS a GROUP BY last_name ORDER BY SUM(price)
+
+SELECT last_name, MAX(price) FROM (SELECT o.id, p.name, p.price, e.last_name FROM orders AS o
+JOIN products AS p ON o.products_id = p.id
+JOIN employees AS e ON o.employees_id = e.id) AS a GROUP BY last_name;
+
+TRUNCATE employees CASCADE;
+ALTER TABLE supplies DROP CONSTRAINT supplies_shippers_id_fkey;
+DELETE FROM shippers
+
+UPDATE products SET total = quantity * price;
+
+CREATE FUNCTION total_update_def() RETURNS trigger AS
+$$
+BEGIN
+UPDATE products SET total = quantity * price; RETURN NEW; END; $$ LANGUAGE 'plpgsql';
+
+CREATE TRIGGER total_update AFTER UPDATE OF quantity ON products FOR EACH ROW EXECUTE FUNCTION total_update_def();
+
+UPDATE products SET quantity = 10 WHERE id = 1;
+SELECT quantity, price, total FROM products ORDER BY id LIMIT 5
+
+CREATE TABLE employees_products (id SERIAL PRIMARY KEY, employees_id INT NOT NULL REFERENCES employees, products_id INT NOT NULL REFERENCES products);
+INSERT INTO employees_products (employees_id, products_id) VALUES (1, 1), (1, 3),  (2, 2), (2, 3), (2, 4), (3, 1), (3, 4);
+SELECT e.surname AS name, p.name AS product
+FROM employees e
+LEFT JOIN employees_products ep ON ep.employees_id = e.id
+LEFT JOIN products p ON p.id = ep.products_id;

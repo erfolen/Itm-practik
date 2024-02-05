@@ -1,0 +1,15 @@
+CREATE DATABASE sklad;
+
+CREATE TABLE customers ( id SERIAL PRIMARY KEY, fio varchar(100), address varchar(250), phone varchar(15));
+INSERT INTO customers (fio, address, phone) VALUES ('Виктор Кондратчик', 'Лесная 2', '375298097446' );
+SELECT * FROM customers;
+CREATE TABLE employees ( id SERIAL PRIMARY KEY, last_name varchar(100), first_name varchar(100),
+surname varchar(100), job_title varchar(100), address varchar(250), home_phone varchar(50), dob date);
+
+CREATE TABLE supply ( id SERIAL PRIMARY KEY, shippers_id smallint NOT NULL, delivery_date date, FOREIGN KEY (shippers_id) REFERENCES shippers(id));
+ALTER TABLE supply RENAME TO supplies;
+ALTER TABLE supplies DROP CONSTRAINT supply_shippers_id_fkey;
+ALTER TABLE products ADD COLUMN total NUMERIC (9, 2);
+
+
+
