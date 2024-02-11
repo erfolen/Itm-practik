@@ -1,8 +1,9 @@
 import os
+from decimal import Decimal
 from dotenv import load_dotenv
-import sqlalchemy
-from sqlalchemy import create_engine
-from sqlalchemy import create_engine
+from sqlalchemy import create_engine, String, Numeric
+from sqlalchemy.orm import sessionmaker, DeclarativeBase
+from typing import Annotated
 
 
 # # Подключение к серверу MySQL на localhost с помощью PyMySQL DBAPI.
@@ -26,15 +27,16 @@ password = os.getenv("PASSWORD")
 database = os.getenv("DATABASE")
 host = os.getenv("HOST")
 
-class DB_test:
+engine = create_engine(f"postgresql+psycopg2://{login}:{password}@{host}/{database}")
+session_fabric = sessionmaker(engine)
 
-    def __init__(self, database, host, login, password):
-        self.engine = create_engine(f"postgresql+psycopg2://{login}:{password}@{host}/{database}")
-        self.engine.connect()
+str_150 = Annotated[str, 150]
+str_15 = Annotated[str, 15]
+num_12_2 = Annotated[Decimal, 12]
 
-
-
-if __name__ == '__main__':
-    test_2 = DB_test(database, host, login, password)
-    print(test_2.engine)
-    print(login)
+class Base(DeclarativeBase):
+    type_annotation_map = {
+        str_150: String(200),
+        str_15: String(15),
+        num_12_2: Numeric(12, 2)
+    }
