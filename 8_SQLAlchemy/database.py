@@ -5,7 +5,6 @@ from sqlalchemy import create_engine, String, Numeric
 from sqlalchemy.orm import sessionmaker, DeclarativeBase
 from typing import Annotated
 
-
 # # Подключение к серверу MySQL на localhost с помощью PyMySQL DBAPI.
 # engine = create_engine("mysql+pymysql://root:pass@localhost/mydb")
 # # Подключение к серверу MySQL по ip 23.92.23.113 с использованием mysql-python DBAPI.
@@ -27,12 +26,13 @@ password = os.getenv("PASSWORD")
 database = os.getenv("DATABASE")
 host = os.getenv("HOST")
 
-engine = create_engine(f"postgresql+psycopg2://{login}:{password}@{host}/{database}")
+engine = create_engine(f"postgresql+psycopg2://{login}:{password}@{host}/{database}", echo=True)
 session_fabric = sessionmaker(engine)
 
 str_150 = Annotated[str, 150]
 str_15 = Annotated[str, 15]
 num_12_2 = Annotated[Decimal, 12]
+
 
 class Base(DeclarativeBase):
     type_annotation_map = {

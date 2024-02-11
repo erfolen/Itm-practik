@@ -33,6 +33,7 @@ class Shippers(Base):
     address: Mapped[str_150]
     supplies: Mapped[List['Supplies']] = relationship(back_populates='shipper')
 
+
 class Supplies(Base):
     __tablename__ = 'supplies'
 
@@ -41,6 +42,7 @@ class Supplies(Base):
     delivery_date: Mapped[datetime.date]
     shipper: Mapped['Shippers'] = relationship(back_populates='supplies')
     products: Mapped[List['Products']] = relationship(back_populates='supplier')
+
 
 class Products(Base):
     __tablename__ = 'products'
@@ -59,6 +61,8 @@ class Products(Base):
 
 
 class Customers(Base):
+    __tablename__ = 'customers'
+
     id: Mapped[intpk]
     fio: Mapped[str]
     address: Mapped[str]
