@@ -8,22 +8,28 @@ if __name__ == '__main__':
     # # ActionsDB.insert_data_one(employees_data_1)
     # # ActionsDB.insert_data_all([employees_data_2, employees_data_3,
     # employees_data_4, employees_data_5, employees_data_6])
+    ## Ввод данных
     # ActionsDB.insert_data_all(employees_data)
     # ActionsDB.insert_data_all(shippers_data)
     # ActionsDB.insert_data_all(supplies_data)
     # ActionsDB.insert_data_all(products_data)
     # ActionsDB.insert_data_all(customers_data)
     # ActionsDB.insert_data_all(orders_data)
-    employees = ActionsDB.select_all_table(Employees)
-    ActionsDB.print_properties(employees)
-    shippers = ActionsDB.select_all_table(Shippers)
-    ActionsDB.print_properties(shippers)
-    supplies = ActionsDB.select_all_table(Supplies)
-    ActionsDB.print_properties(supplies)
-    products = ActionsDB.select_all_table(Products)
-    ActionsDB.print_properties(products)
-    customers = ActionsDB.select_all_table(Customers)
-    ActionsDB.print_properties(customers)
-    orders = ActionsDB.select_all_table(Orders)
-    ActionsDB.print_properties(orders)
-
+    ## Вывод данных
+    # employees = ActionsDB.select_all_table(Employees)
+    # ActionsDB.print_properties(employees)
+    # shippers = ActionsDB.select_all_table(Shippers)
+    # ActionsDB.print_properties(shippers)
+    # supplies = ActionsDB.select_all_table(Supplies)
+    # ActionsDB.print_properties(supplies)
+    # products = ActionsDB.select_all_table(Products)
+    # ActionsDB.print_properties(products)
+    # customers = ActionsDB.select_all_table(Customers)
+    # ActionsDB.print_properties(customers)
+    # orders = ActionsDB.select_all_table(Orders)
+    join_supplies = ActionsDB.join_table(Supplies, Supplies.shipper)
+    ActionsDB.print_properties(join_supplies)
+    # for row in join_supplies:
+    #     for i in vars(row):
+    #         print(i)
+    #

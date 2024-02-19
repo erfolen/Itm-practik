@@ -1,5 +1,6 @@
 from database import Base, engine, session_fabric
-from sqlalchemy import select
+from sqlalchemy import select, join
+from sqlalchemy.orm import selectinload
 
 class ActionsDB:
     @staticmethod
@@ -26,6 +27,18 @@ class ActionsDB:
             return result.scalars().all()
 
     @staticmethod
+    def join_table(table, join_table):
+        '''SELECT * FROM supplies INNER JOIN shippers ON supplies.shippers_id = shippers.id ;'''
+        with session_fabric() as session:
+            query = select(table).options(selectinload(join_table))
+            # query = select(table).join(join_table)
+            result = session.execute(query)
+            print(query)
+            return result.scalars().all()
+
+
+
+    @staticmethod
     def drop_table():
         Base.metadata.drop_all(engine)
 
@@ -36,3 +49,4 @@ class ActionsDB:
             for prop in vars(i).items():
                 if prop[0] != '_sa_instance_state':
                     print(f'{prop[0]} = {prop[1]}')
+
