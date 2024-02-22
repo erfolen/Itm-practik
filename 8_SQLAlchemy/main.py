@@ -27,9 +27,8 @@ if __name__ == '__main__':
     # customers = ActionsDB.select_all_table(Customers)
     # ActionsDB.print_properties(customers)
     # orders = ActionsDB.select_all_table(Orders)
-    join_supplies = ActionsDB.join_table(Supplies, Supplies.shipper)
-    ActionsDB.print_properties(join_supplies)
+    join_supplies = ActionsDB.join_table(Shippers, Supplies)
+    print(join_supplies)
     # for row in join_supplies:
-    #     for i in vars(row):
-    #         print(i)
-    #
+    #     ActionsDB.print_properties(row)
+    #     print('-' * 20)

@@ -27,13 +27,12 @@ class ActionsDB:
             return result.scalars().all()
 
     @staticmethod
-    def join_table(table, join_table):
+    def join_table(table, tab2):
         '''SELECT * FROM supplies INNER JOIN shippers ON supplies.shippers_id = shippers.id ;'''
         with session_fabric() as session:
-            query = select(table).options(selectinload(join_table))
-            # query = select(table).join(join_table)
+            query = select(table, tab2).options(selectinload(tab2))
+            # query = select(table, tab2).join(tab2)
             result = session.execute(query)
-            print(query)
             return result.scalars().all()
 
 
