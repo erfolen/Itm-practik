@@ -27,8 +27,16 @@ if __name__ == '__main__':
     # customers = ActionsDB.select_all_table(Customers)
     # ActionsDB.print_properties(customers)
     # orders = ActionsDB.select_all_table(Orders)
+    # вывод join
     join_supplies = ActionsDB.join_table(Shippers, Supplies)
-    print(join_supplies)
-    # for row in join_supplies:
-    #     ActionsDB.print_properties(row)
-    #     print('-' * 20)
+    for row in join_supplies:
+        ActionsDB.print_properties(row)
+        print('-' * 20)
+    join_orders = ActionsDB.join_table(Orders, Employees)
+    for row in join_orders:
+        ActionsDB.print_properties(row)
+        print('-' * 20)
+    #update
+    ActionsDB.update_table_phone(Customers, 2, '+37588888888888')
+    customers = ActionsDB.select_all_table(Customers)
+    ActionsDB.print_properties(customers)

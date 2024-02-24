@@ -1,6 +1,7 @@
 from database import Base, engine, session_fabric
 from sqlalchemy import select, join
 from sqlalchemy.orm import selectinload
+from models import Orders
 
 class ActionsDB:
     @staticmethod
@@ -30,12 +31,18 @@ class ActionsDB:
     def join_table(table, tab2):
         '''SELECT * FROM supplies INNER JOIN shippers ON supplies.shippers_id = shippers.id ;'''
         with session_fabric() as session:
-            query = select(table, tab2).options(selectinload(tab2))
-            # query = select(table, tab2).join(tab2)
+            # query = select(table, tab2).options(selectinload(tab2))
+            query = select(table, tab2).join(tab2)
             result = session.execute(query)
-            return result.scalars().all()
+            return result.all()
 
 
+    @staticmethod
+    def update_table_phone(table, table_id, new_date):
+        with session_fabric() as session:
+            table_row = session.get(table, table_id)
+            table_row.phone = new_date
+            session.commit()
 
     @staticmethod
     def drop_table():
