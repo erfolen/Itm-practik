@@ -27,6 +27,7 @@ if __name__ == '__main__':
     # customers = ActionsDB.select_all_table(Customers)
     # ActionsDB.print_properties(customers)
     # orders = ActionsDB.select_all_table(Orders)
+    # ActionsDB.print_properties(orders)
     # вывод join
     join_supplies = ActionsDB.join_table(Shippers, Supplies)
     for row in join_supplies:
@@ -40,3 +41,12 @@ if __name__ == '__main__':
     ActionsDB.update_table_phone(Customers, 2, '+37588888888888')
     customers = ActionsDB.select_all_table(Customers)
     ActionsDB.print_properties(customers)
+    #Where
+    where_employeees = ActionsDB.where_table_name_employees('Елена')
+    ActionsDB.print_properties(where_employeees)
+    # order_by
+    ord_by_employees = ActionsDB.order_by_employess()
+    ActionsDB.print_properties(ord_by_employees)
+    # group_by
+    res = ActionsDB.group_by_employees()
+    print(res)

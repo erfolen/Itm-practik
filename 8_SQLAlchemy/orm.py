@@ -1,7 +1,8 @@
 from database import Base, engine, session_fabric
-from sqlalchemy import select, join
+from sqlalchemy import select, join, func
 from sqlalchemy.orm import selectinload
-from models import Orders
+from models import Orders, Employees, Customers
+
 
 class ActionsDB:
     @staticmethod
@@ -36,6 +37,19 @@ class ActionsDB:
             result = session.execute(query)
             return result.all()
 
+    @staticmethod
+    def where_table_name_employees(name):
+        with session_fabric() as session:
+            query = select(Employees).filter(Employees.first_name == name)
+            result = session.execute(query).scalars().all()
+            return result
+
+    @staticmethod
+    def order_by_employess():
+        """SELECT * FROM employees ORDER BY last_name, first_name;"""
+        with session_fabric() as session:
+            query = select(Employees).order_by(Employees.last_name, Employees.first_name)
+            return session.execute(query).scalars().all()
 
     @staticmethod
     def update_table_phone(table, table_id, new_date):
@@ -43,6 +57,12 @@ class ActionsDB:
             table_row = session.get(table, table_id)
             table_row.phone = new_date
             session.commit()
+
+    @staticmethod
+    def group_by_employees():
+        with session_fabric() as session:
+            query = select(Employees.last_name, func.count(Employees.id)).join(Orders).group_by(Employees.id, Employees.last_name)
+            return session.execute(query).all()
 
     @staticmethod
     def drop_table():
@@ -55,4 +75,3 @@ class ActionsDB:
             for prop in vars(i).items():
                 if prop[0] != '_sa_instance_state':
                     print(f'{prop[0]} = {prop[1]}')
-
