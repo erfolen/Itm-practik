@@ -1,7 +1,7 @@
 from database import Base, engine, session_fabric
-from sqlalchemy import select, join, func
+from sqlalchemy import select, join, func, distinct, delete
 from sqlalchemy.orm import selectinload
-from models import Orders, Employees, Customers
+from models import Orders, Employees, Customers, Products, Shippers
 
 
 class ActionsDB:
@@ -63,6 +63,24 @@ class ActionsDB:
         with session_fabric() as session:
             query = select(Employees.last_name, func.count(Employees.id)).join(Orders).group_by(Employees.id, Employees.last_name)
             return session.execute(query).all()
+
+    @staticmethod
+    def distinct_table_products():
+        with session_fabric() as session:
+            query = select(Products.name).distinct()
+            return session.execute(query).all()
+
+    @staticmethod
+    def max_price_product():
+        with session_fabric() as session:
+            query = select(func.max(Products.price))
+            return session.execute(query).scalar()
+
+    @staticmethod
+    def delete_shippers(name):
+        with session_fabric() as session:
+            session.query(Shippers).filter(Shippers.name == name).delete()
+            session.commit()
 
     @staticmethod
     def drop_table():

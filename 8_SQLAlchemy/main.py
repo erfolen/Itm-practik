@@ -50,3 +50,12 @@ if __name__ == '__main__':
     # group_by
     res = ActionsDB.group_by_employees()
     print(res)
+    res_2 = ActionsDB.distinct_table_products()
+    print(res_2)
+    res_3 = ActionsDB.max_price_product()
+    print(res_3)
+    shippers = ActionsDB.select_all_table(Shippers)
+    ActionsDB.print_properties(shippers)
+    ActionsDB.delete_shippers('ООО "БелТрансСервис"')
+    shippers = ActionsDB.select_all_table(Shippers)
+    ActionsDB.print_properties(shippers)
