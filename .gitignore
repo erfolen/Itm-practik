@@ -1,2 +1,4 @@
 .idea
-.env
+9_FastAPI/Fastapi_project/.env
+venv
+__pycache__
