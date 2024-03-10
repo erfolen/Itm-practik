@@ -2,3 +2,4 @@
 9_FastAPI/Fastapi_project/.env
 venv
 __pycache__
+.env
