@@ -6,6 +6,7 @@ from sqlalchemy.orm import Mapped, mapped_column
 
 from database import Base
 
+
 intpk = Annotated[int, mapped_column(primary_key=True)]
 
 
