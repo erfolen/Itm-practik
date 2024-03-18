@@ -118,3 +118,5 @@ SELECT e.surname AS name, p.name AS product
 FROM employees e
 LEFT JOIN employees_products ep ON ep.employees_id = e.id
 LEFT JOIN products p ON p.id = ep.products_id;
+
+DELETE FROM documents WHERE id = 8;

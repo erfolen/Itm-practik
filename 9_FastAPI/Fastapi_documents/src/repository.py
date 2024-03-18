@@ -24,7 +24,23 @@ class DocumentsDB:
     @staticmethod
     async def del_doc(doc_id):
         async with async_session_fabric() as session:
+            # await session.query(Documents).filter(Documents.id == doc_id)
             query = delete(Documents).filter_by(id=doc_id)
             await session.execute(query)
             await session.commit()
 
+
+class DocumentsTextDB:
+    @staticmethod
+    async def add_text(doc_id, text_img):
+        async with async_session_fabric() as session:
+            text = DocumentsText(id_doc=doc_id, text=text_img)
+            session.add(text)
+            await session.commit()
+
+    @staticmethod
+    async def get_text(text_id):
+        async with async_session_fabric() as session:
+            query = select(DocumentsText).filter(DocumentsText.id_doc == text_id)
+            result = await session.execute(query)
+            return result.scalar_one().text

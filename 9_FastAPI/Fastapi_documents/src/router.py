@@ -1,11 +1,10 @@
 import os
 import shutil
-import pytesseract
 from PIL import Image
-
+import pytesseract
 from fastapi import APIRouter, UploadFile
 
-from repository import DocumentsDB
+from repository import DocumentsDB, DocumentsTextDB
 
 router = APIRouter(
     prefix="",
@@ -37,10 +36,14 @@ async def delete_file(doc_id: int):
 async def add_text(doc_id: int):
     """Запись текста с картинки"""
     path = await DocumentsDB.get_path(doc_id)
-    text = pytesseract.image_to_string(Image.open(path))
-    print(text)
+    img = Image.open(path)
+    text = pytesseract.image_to_string(img, lang='eng+rus')
+    await DocumentsTextDB.add_text(doc_id, text)
+    return {'ok': True}
 
 
 @router.get('/get_text/{doc_id}')
 async def get_text(doc_id: int):
-    pass
+    """Вывод текста из картинки"""
+    text = await DocumentsTextDB.get_text(doc_id)
+    return {'ok': True, 'text': text}
