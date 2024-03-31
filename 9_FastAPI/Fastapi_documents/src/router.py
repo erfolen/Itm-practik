@@ -1,10 +1,10 @@
 import os
 import shutil
-from PIL import Image
-import pytesseract
+
 from fastapi import APIRouter, UploadFile
 
 from repository import DocumentsDB, DocumentsTextDB
+from celery_app import scan_text_on_img
 
 router = APIRouter(
     prefix="",
@@ -36,9 +36,7 @@ async def delete_file(doc_id: int):
 async def add_text(doc_id: int):
     """Запись текста с картинки"""
     path = await DocumentsDB.get_path(doc_id)
-    img = Image.open(path)
-    text = pytesseract.image_to_string(img, lang='eng+rus')
-    await DocumentsTextDB.add_text(doc_id, text)
+    scan_text_on_img.delay(path, doc_id)
     return {'ok': True}
 
 

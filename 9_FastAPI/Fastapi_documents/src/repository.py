@@ -1,4 +1,4 @@
-from database import async_session_fabric
+from database import async_session_fabric, session_fabric
 from models import Documents, DocumentsText
 from sqlalchemy import select, delete
 
@@ -37,6 +37,14 @@ class DocumentsTextDB:
             text = DocumentsText(id_doc=doc_id, text=text_img)
             session.add(text)
             await session.commit()
+            await session.refresh(text)
+
+    @staticmethod
+    def add_text_sync(doc_id, text_img):
+        with session_fabric() as session:
+            text = DocumentsText(id_doc=doc_id, text=text_img)
+            session.add(text)
+            session.commit()
 
     @staticmethod
     async def get_text(text_id):
