@@ -1,0 +1,76 @@
+version: "3.7"
+services:
+  db:
+    image: postgres:15-alpine
+    container_name: db_postgres
+    command: -p 5435
+    expose:
+      - 5435
+    restart: always
+    env_file:
+      - .env-non
+    volumes:
+      - ./shared_volume:/fastapi_app/pgdata
+    networks:
+      - network_fastapi
+
+  rabbit:
+    image: rabbitmq:latest
+    container_name: rabbit_app
+    restart: always
+    environment:
+      - RABBITMQ_DEFAULT_USER=root
+      - RABBITMQ_DEFAULT_PASS=12345678
+    depends_on:
+      - db
+    volumes:
+      - ./shared_volume:/fastapi_app/rabbit
+    networks:
+      - network_fastapi
+
+  app:
+    build:
+      context: .
+    container_name: fastapi_app
+    command: ["/fastapi_app/docker/app.sh"]
+    env_file:
+      - .env-non
+    ports:
+      - 9999:8000
+    depends_on:
+      - db
+      - celery
+      - rabbit
+    volumes:
+      - ./shared_volume:/fastapi_app/shared_data
+    networks:
+      - network_fastapi
+
+  celery:
+    build:
+      context: .
+    container_name: celery_app
+    command: [ "/fastapi_app/docker/celery.sh", "celery" ]
+    depends_on:
+      - db
+      - rabbit
+    env_file:
+      - .env-non
+    networks:
+      - network_fastapi
+
+  flower:
+    build:
+      context: .
+    container_name: flower_app
+    command: [ "/fastapi_app/docker/celery.sh", "flower" ]
+    depends_on:
+      - db
+      - rabbit
+      - celery
+    ports:
+      - 8888:5555
+    env_file:
+      - .env-non
+    networks:
+      - network_fastapi
