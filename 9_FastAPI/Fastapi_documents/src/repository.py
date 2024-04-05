@@ -8,6 +8,7 @@ class DocumentsDB:
     async def add_doc(file_name):
         async with async_session_fabric() as session:
             doc = Documents(path=f'documents/{file_name}')
+            print(doc)
             session.add(doc)
             await session.flush()
             doc_id = doc.id
