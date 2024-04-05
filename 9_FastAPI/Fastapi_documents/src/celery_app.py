@@ -9,13 +9,13 @@ import pytesseract
 session = session_fabric()
 # Создаем экземпляр Celery
 # celery -A celery_app:celery_app worker --loglevel=INFO
-#result_backend='rpc://root:12345678@rabbitmq:5672'
+# result_backend='rpc://root:12345678@rabbitmq:5672'
 
-celery_app = Celery('task', result_backend='rpc://', broker='amqp://root:12345678@0localhost:5672/vdata',
+celery_app = Celery('task', result_backend='rpc://root:12345678@rabbit:5672/vdata', broker='amqp://root:12345678@rabbit:5672/vdata',
                     broker_connection_retry_on_startup=True)
 
-# result_backend='rpc://async_python:12345@rabbit:5672/',
-#                 broker='amqp://async_python:12345@rabbit:5672/'
+
+#
 @celery_app.task
 def scan_text_on_img(path, doc_id):
     img = Image.open(path)

@@ -24,6 +24,8 @@ typing_extensions==4.10.0
 uvicorn==0.28.0
 
 pytesseract~=0.3.10
-pillow~=10.2.0
 flower
 gunicorn
+pillow
+python-multipart
+amqp

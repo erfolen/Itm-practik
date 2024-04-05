@@ -1,32 +1,33 @@
-version: "3.7"
+version: "3.8"
 services:
   db:
     image: postgres:15-alpine
     container_name: db_postgres
-    command: -p 5435
-    expose:
-      - 5435
+    ports:
+      - "5435:5432"
     restart: always
     env_file:
-      - .env-non
+      - .env
     volumes:
       - ./shared_volume:/fastapi_app/pgdata
-    networks:
-      - network_fastapi
+    environment:
+      - POSTGRES_DB=documents
+      - POSTGRES_USER=victor
+      - POSTGRES_PASSWORD=user
 
   rabbit:
-    image: rabbitmq:latest
+    image: rabbitmq:3.9.13-alpine
     container_name: rabbit_app
     restart: always
     environment:
       - RABBITMQ_DEFAULT_USER=root
       - RABBITMQ_DEFAULT_PASS=12345678
+      - RABBITMQ_DEFAULT_VHOST=vdata
     depends_on:
       - db
     volumes:
       - ./shared_volume:/fastapi_app/rabbit
-    networks:
-      - network_fastapi
+
 
   app:
     build:
@@ -34,17 +35,16 @@ services:
     container_name: fastapi_app
     command: ["/fastapi_app/docker/app.sh"]
     env_file:
-      - .env-non
+      - .env
     ports:
       - 9999:8000
     depends_on:
       - db
-      - celery
       - rabbit
+      - celery
+
     volumes:
       - ./shared_volume:/fastapi_app/shared_data
-    networks:
-      - network_fastapi
 
   celery:
     build:
@@ -55,9 +55,8 @@ services:
       - db
       - rabbit
     env_file:
-      - .env-non
-    networks:
-      - network_fastapi
+      - .env
+
 
   flower:
     build:
@@ -71,6 +70,5 @@ services:
     ports:
       - 8888:5555
     env_file:
-      - .env-non
-    networks:
-      - network_fastapi
+      - .env
+
