@@ -10,8 +10,9 @@ session = session_fabric()
 # Создаем экземпляр Celery
 # celery -A celery_app:celery_app worker --loglevel=INFO
 # result_backend='rpc://root:12345678@rabbitmq:5672'
+# result_backend='rpc://root:12345678@rabbit_app:5672/vdata'
 
-celery_app = Celery('task', result_backend='rpc://root:12345678@rabbit_app:5672/vdata', broker='amqp://root:12345678@rabbit_app:5672/vdata',
+celery_app = Celery('task', result_backend='rpc://', broker='amqp://root:12345678@rabbit_app:5672/vdata',
                     broker_connection_retry_on_startup=True)
 
 
@@ -25,3 +26,5 @@ def scan_text_on_img(path, doc_id):
     # session.commit()
     # print(text)
     DocumentsTextDB.add_text(doc_id, text)
+    return 'create row text'
+    #
