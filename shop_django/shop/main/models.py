@@ -1,16 +1,10 @@
 from django.db import models
 
 
-class SeoContent(models.Model):
+class Content(models.Model):
     meta_title = models.CharField(max_length=250, blank=True, verbose_name='SEO заголовок', null=True)
     meta_description = models.TextField(blank=True, verbose_name='SEO описание', null=True)
     meta_keywords = models.TextField(blank=True, verbose_name='Поисковые слова', null=True)
-
-    class Meta:
-        abstract: True
-
-
-class Content(models.Model):
     name = models.CharField(max_length=250, verbose_name='Наименование')
     description = models.TextField(verbose_name='Описание', blank=True, null=True)
     created = models.TimeField(auto_now_add=True)
@@ -27,18 +21,7 @@ class Content(models.Model):
         return self.name
 
 
-class Categories(models.Model):
-    meta_title = models.CharField(max_length=250, blank=True, verbose_name='SEO заголовок', null=True)
-    meta_description = models.TextField(blank=True, verbose_name='SEO описание', null=True)
-    meta_keywords = models.TextField(blank=True, verbose_name='Поисковые слова', null=True)
-    name = models.CharField(max_length=250, verbose_name='Наименование')
-    description = models.TextField(verbose_name='Описание', blank=True, null=True)
-    created = models.TimeField(auto_now_add=True)
-    update = models.TimeField(auto_now=True)
-    status = models.BooleanField(default=True)
-    sort_order = models.IntegerField(default=0)
-    image = models.ImageField(upload_to='shop_images', verbose_name='Фото', blank=True, null=True)
-    url_slag = models.SlugField(max_length=200, verbose_name='URL', blank=True, null=True)
+class Categories(Content):
     parent_id = models.IntegerField(default=0)
 
     class Meta:
@@ -47,18 +30,7 @@ class Categories(models.Model):
         verbose_name_plural = 'Категории'
 
 
-class Manufactures(models.Model):
-    meta_title = models.CharField(max_length=250, blank=True, verbose_name='SEO заголовок', null=True)
-    meta_description = models.TextField(blank=True, verbose_name='SEO описание', null=True)
-    meta_keywords = models.TextField(blank=True, verbose_name='Поисковые слова', null=True)
-    name = models.CharField(max_length=250, verbose_name='Наименование')
-    description = models.TextField(verbose_name='Описание', blank=True, null=True)
-    created = models.TimeField(auto_now_add=True)
-    update = models.TimeField(auto_now=True)
-    status = models.BooleanField(default=True)
-    sort_order = models.IntegerField(default=0)
-    image = models.ImageField(upload_to='shop_images', verbose_name='Фото', blank=True, null=True)
-    url_slag = models.SlugField(max_length=200, verbose_name='URL', blank=True, null=True)
+class Manufactures(Content):
 
     class Meta:
         db_table = 'manufacture'
@@ -66,19 +38,7 @@ class Manufactures(models.Model):
         verbose_name_plural = 'Производители'
 
 
-class Products(models.Model):
-    meta_title = models.CharField(max_length=250, blank=True, verbose_name='SEO заголовок', null=True)
-    meta_description = models.TextField(blank=True, verbose_name='SEO описание', null=True)
-    meta_keywords = models.TextField(blank=True, verbose_name='Поисковые слова', null=True)
-    name = models.CharField(max_length=250, verbose_name='Наименование')
-    description = models.TextField(verbose_name='Описание', blank=True, null=True)
-    created = models.TimeField(auto_now_add=True)
-    update = models.TimeField(auto_now=True)
-    status = models.BooleanField(default=True)
-    sort_order = models.IntegerField(default=0)
-    image = models.ImageField(upload_to='shop_images', verbose_name='Фото', blank=True, null=True)
-    url_slag = models.SlugField(max_length=200, verbose_name='URL', blank=True, null=True)
-    parent_id = models.IntegerField(default=0)
+class Products(Content):
     article = models.CharField(max_length=100, verbose_name='Артикул')
     price = models.DecimalField(default=0.00, max_digits=6, decimal_places=2, verbose_name='Цена')
     discount = models.DecimalField(default=0.00, max_digits=6, decimal_places=2, verbose_name='Скидка в процентах')
