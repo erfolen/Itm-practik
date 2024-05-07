@@ -1,0 +1,11 @@
+time:  42541.380037945 - 42541.302872115
+time:  0.07806727400020463
+2024-05-07 18:27:23,554 - INFO - middlewares - middlewares.py - time:  0.010049003001768142
+2024-05-07 18:27:28,168 - INFO - middlewares - middlewares.py - time:  0.10343870799988508
+2024-05-07 18:27:30,610 - INFO - middlewares - middlewares.py - time:  0.02405042600003071
+2024-05-07 18:40:27,318 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-05-07 18:40:46,284 - INFO - middlewares - middlewares.py - time:  0.01879962899693055
+2024-05-07 18:40:46,284 - WARNING - log - log.py - Not Found: /all
+2024-05-07 18:40:46,285 - WARNING - basehttp - basehttp.py - "GET /all HTTP/1.1" 404 2084
+2024-05-07 18:41:51,434 - INFO - middlewares - middlewares.py - time:  0.004794624997884966
+2024-05-07 18:41:51,436 - INFO - basehttp - basehttp.py - "GET / HTTP/1.1" 200 11044
