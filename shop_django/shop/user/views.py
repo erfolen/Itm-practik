@@ -11,13 +11,14 @@ def login(request):
 def registration(request):
     context = [
     ]
-    return render(request, 'user/login.html', context)
+    return render(request, 'user/registration.html', context)
 
 
 def profile(request):
     context = [
     ]
-    return render(request, 'user/login.html', context)
+    return render(request, 'user/profile.html', context)
+
 
 def logout(request):
     pass

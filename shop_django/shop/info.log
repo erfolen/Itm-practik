@@ -9,3 +9,61 @@ time:  0.07806727400020463
 2024-05-07 18:40:46,285 - WARNING - basehttp - basehttp.py - "GET /all HTTP/1.1" 404 2084
 2024-05-07 18:41:51,434 - INFO - middlewares - middlewares.py - time:  0.004794624997884966
 2024-05-07 18:41:51,436 - INFO - basehttp - basehttp.py - "GET / HTTP/1.1" 200 11044
+2024-05-29 15:06:08,741 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-05-29 15:10:36,483 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-05-29 15:14:21,088 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-05-29 15:19:13,627 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-05-30 18:33:00,809 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-05-30 19:06:51,576 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-05-30 19:22:48,617 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-05-30 19:26:49,380 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-05-30 19:28:03,726 - INFO - autoreload - autoreload.py - /home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/shop/settings.py changed, reloading.
+2024-05-30 19:28:04,361 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-05-30 19:29:10,282 - INFO - autoreload - autoreload.py - /home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/shop/settings.py changed, reloading.
+2024-05-30 19:29:10,922 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-05-30 19:32:07,966 - INFO - autoreload - autoreload.py - /home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/user/urls.py changed, reloading.
+2024-05-30 19:32:08,488 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-05-30 19:32:48,962 - INFO - autoreload - autoreload.py - /home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/user/urls.py changed, reloading.
+2024-05-30 19:32:49,506 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-05-30 19:33:42,598 - INFO - autoreload - autoreload.py - /home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/user/urls.py changed, reloading.
+2024-05-30 19:33:43,105 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-05-30 19:33:54,060 - INFO - autoreload - autoreload.py - /home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/user/urls.py changed, reloading.
+2024-05-30 19:33:54,598 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-05-30 19:33:58,004 - INFO - middlewares - middlewares.py - time:  0.042951398994773626
+2024-05-30 19:33:58,005 - WARNING - log - log.py - Not Found: /
+2024-05-30 19:33:58,005 - WARNING - basehttp - basehttp.py - "GET / HTTP/1.1" 404 2162
+2024-05-30 19:33:58,146 - INFO - middlewares - middlewares.py - time:  0.010374902994954027
+2024-05-30 19:33:58,148 - WARNING - log - log.py - Not Found: /favicon.ico
+2024-05-30 19:33:58,149 - WARNING - basehttp - basehttp.py - "GET /favicon.ico HTTP/1.1" 404 2213
+2024-05-30 19:34:04,382 - INFO - middlewares - middlewares.py - time:  0.06293441900925245
+2024-05-30 19:34:04,382 - INFO - basehttp - basehttp.py - "GET /admin/ HTTP/1.1" 302 0
+2024-05-30 19:34:04,427 - INFO - middlewares - middlewares.py - time:  0.04074360699451063
+2024-05-30 19:34:04,428 - INFO - basehttp - basehttp.py - "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4264
+2024-05-30 19:34:04,590 - INFO - basehttp - basehttp.py - "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+2024-05-30 19:34:04,592 - INFO - basehttp - basehttp.py - "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+2024-05-30 19:34:04,598 - INFO - basehttp - basehttp.py - "GET /static/admin/css/login.css HTTP/1.1" 304 0
+2024-05-30 19:34:04,601 - INFO - basehttp - basehttp.py - "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+2024-05-30 19:34:04,602 - INFO - basehttp - basehttp.py - "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+2024-05-30 19:34:04,603 - INFO - basehttp - basehttp.py - "GET /static/admin/css/base.css HTTP/1.1" 200 21310
+2024-05-30 19:34:04,605 - INFO - basehttp - basehttp.py - "GET /static/admin/css/responsive.css HTTP/1.1" 200 18559
+2024-05-30 19:34:06,974 - INFO - middlewares - middlewares.py - time:  0.7549655259936117
+2024-05-30 19:34:06,979 - INFO - basehttp - basehttp.py - "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+2024-05-30 19:34:07,027 - INFO - middlewares - middlewares.py - time:  0.040949971007648855
+2024-05-30 19:34:07,027 - INFO - basehttp - basehttp.py - "GET /admin/ HTTP/1.1" 200 7494
+2024-05-30 19:34:07,093 - INFO - basehttp - basehttp.py - "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+2024-05-30 19:34:07,148 - INFO - basehttp - basehttp.py - "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+2024-05-30 19:34:07,148 - INFO - basehttp - basehttp.py - "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+2024-05-30 19:34:48,301 - INFO - autoreload - autoreload.py - /home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/shop/urls.py changed, reloading.
+2024-05-30 19:34:48,855 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-05-30 19:36:20,145 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-05-30 19:36:30,706 - INFO - middlewares - middlewares.py - time:  0.09853691099851858
+2024-05-30 19:36:30,710 - INFO - basehttp - basehttp.py - "GET /admin/ HTTP/1.1" 200 7494
+2024-05-30 19:37:36,252 - INFO - autoreload - autoreload.py - /home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/shop/urls.py changed, reloading.
+2024-05-30 19:37:37,163 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-05-30 19:38:46,710 - INFO - autoreload - autoreload.py - /home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/user/urls.py changed, reloading.
+2024-05-30 19:38:47,287 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-05-30 19:38:52,030 - INFO - middlewares - middlewares.py - time:  0.028719713009195402
+2024-05-30 19:38:52,031 - WARNING - log - log.py - Not Found: /
+2024-05-30 19:38:52,031 - WARNING - basehttp - basehttp.py - "GET / HTTP/1.1" 404 2162
+2024-05-30 19:38:58,969 - INFO - middlewares - middlewares.py - time:  0.08029781900404487
+2024-05-30 19:38:58,970 - INFO - basehttp - basehttp.py - "GET /admin/ HTTP/1.1" 200 7494

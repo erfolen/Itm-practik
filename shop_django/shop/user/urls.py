@@ -1,9 +1,11 @@
-from shop.urls import path
+from django.urls import path
 from user import views
 
-urlpatterns: list [
-    path('login', views.login, name='login'),
-    path('registration', views.registration, name='registration'),
-    path('profile', views.profile, name='profile'),
-    path('logout', views.logout, name='logout'),
+app_name = 'users'
+
+urlpatterns = [
+    path('login/', views.login, name='login'),
+    path('registration/', views.registration, name='registration'),
+    path('profile/', views.profile, name='profile'),
+    path('logout/', views.logout, name='logout'),
 ]
