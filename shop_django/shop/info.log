@@ -67,3 +67,104 @@ time:  0.07806727400020463
 2024-05-30 19:38:52,031 - WARNING - basehttp - basehttp.py - "GET / HTTP/1.1" 404 2162
 2024-05-30 19:38:58,969 - INFO - middlewares - middlewares.py - time:  0.08029781900404487
 2024-05-30 19:38:58,970 - INFO - basehttp - basehttp.py - "GET /admin/ HTTP/1.1" 200 7494
+2024-06-01 19:33:47,165 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-01 19:33:50,099 - INFO - middlewares - middlewares.py - time:  0.04672972299886169
+2024-06-01 19:33:50,100 - WARNING - log - log.py - Not Found: /
+2024-06-01 19:33:50,103 - WARNING - basehttp - basehttp.py - "GET / HTTP/1.1" 404 2691
+2024-06-01 19:33:50,246 - INFO - middlewares - middlewares.py - time:  0.013093870000375318
+2024-06-01 19:33:50,246 - WARNING - log - log.py - Not Found: /favicon.ico
+2024-06-01 19:33:50,247 - WARNING - basehttp - basehttp.py - "GET /favicon.ico HTTP/1.1" 404 2742
+2024-06-01 19:34:23,238 - INFO - middlewares - middlewares.py - time:  0.014791291001529316
+2024-06-01 19:34:23,239 - WARNING - log - log.py - Not Found: /api/v1/drf-auth/
+2024-06-01 19:34:23,244 - WARNING - basehttp - basehttp.py - "GET /api/v1/drf-auth/ HTTP/1.1" 404 3008
+2024-06-01 19:34:35,856 - INFO - middlewares - middlewares.py - time:  0.03433890300038911
+2024-06-01 19:34:35,857 - WARNING - log - log.py - Not Found: /api/v1/drf-auth/login/
+2024-06-01 19:34:35,858 - WARNING - basehttp - basehttp.py - "GET /api/v1/drf-auth/login/ HTTP/1.1" 404 3026
+2024-06-01 19:35:15,830 - INFO - autoreload - autoreload.py - /home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/shop/urls.py changed, reloading.
+2024-06-01 19:35:16,556 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-01 19:35:18,779 - INFO - middlewares - middlewares.py - time:  0.04638324700135854
+2024-06-01 19:35:18,780 - INFO - basehttp - basehttp.py - "GET /api/v1/drf-auth/login/ HTTP/1.1" 200 2734
+2024-06-01 19:35:18,844 - INFO - basehttp - basehttp.py - "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+2024-06-01 19:35:18,845 - INFO - basehttp - basehttp.py - "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+2024-06-01 19:35:18,847 - INFO - basehttp - basehttp.py - "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3426
+2024-06-01 19:35:18,848 - INFO - basehttp - basehttp.py - "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+2024-06-01 19:35:18,874 - INFO - basehttp - basehttp.py - "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+2024-06-01 19:35:22,558 - INFO - middlewares - middlewares.py - time:  0.7836613770014083
+2024-06-01 19:35:22,563 - INFO - basehttp - basehttp.py - "POST /api/v1/drf-auth/login/ HTTP/1.1" 302 0
+2024-06-01 19:35:22,585 - INFO - middlewares - middlewares.py - time:  0.017051165999873774
+2024-06-01 19:35:22,586 - WARNING - log - log.py - Not Found: /accounts/profile/
+2024-06-01 19:35:22,586 - WARNING - basehttp - basehttp.py - "GET /accounts/profile/ HTTP/1.1" 404 2761
+2024-06-01 19:35:40,745 - INFO - middlewares - middlewares.py - time:  0.07808646400008001
+2024-06-01 19:35:40,747 - INFO - basehttp - basehttp.py - "GET /admin/ HTTP/1.1" 200 7494
+2024-06-01 19:35:45,200 - INFO - middlewares - middlewares.py - time:  0.15280601700033003
+2024-06-01 19:35:45,202 - INFO - basehttp - basehttp.py - "GET /admin/auth/user/ HTTP/1.1" 200 12508
+2024-06-01 19:35:45,230 - INFO - basehttp - basehttp.py - "GET /static/admin/css/changelists.css HTTP/1.1" 200 6566
+2024-06-01 19:35:45,245 - INFO - basehttp - basehttp.py - "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+2024-06-01 19:35:45,246 - INFO - basehttp - basehttp.py - "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+2024-06-01 19:35:45,277 - INFO - middlewares - middlewares.py - time:  0.033633727000051294
+2024-06-01 19:35:45,280 - INFO - basehttp - basehttp.py - "GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+2024-06-01 19:35:45,283 - INFO - basehttp - basehttp.py - "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+2024-06-01 19:35:45,285 - INFO - basehttp - basehttp.py - "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+2024-06-01 19:35:45,287 - INFO - basehttp - basehttp.py - "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+2024-06-01 19:35:45,295 - INFO - basehttp - basehttp.py - "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8943
+2024-06-01 19:35:45,298 - INFO - basehttp - basehttp.py - "GET /static/admin/js/core.js HTTP/1.1" 200 5682
+2024-06-01 19:35:45,310 - INFO - basehttp - basehttp.py - "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+2024-06-01 19:35:45,314 - INFO - basehttp - basehttp.py - "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+2024-06-01 19:35:45,317 - INFO - basehttp - basehttp.py - "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+2024-06-01 19:35:45,366 - INFO - basehttp - basehttp.py - "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+2024-06-01 19:35:45,382 - INFO - basehttp - basehttp.py - "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+2024-06-01 19:35:45,385 - INFO - basehttp - basehttp.py - "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+2024-06-01 19:35:54,266 - INFO - middlewares - middlewares.py - time:  0.10978827599865326
+2024-06-01 19:35:54,267 - INFO - basehttp - basehttp.py - "GET /admin/auth/user/add/ HTTP/1.1" 200 12204
+2024-06-01 19:35:54,293 - INFO - basehttp - basehttp.py - "GET /static/admin/css/forms.css HTTP/1.1" 200 9090
+2024-06-01 19:35:54,304 - INFO - basehttp - basehttp.py - "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+2024-06-01 19:35:54,314 - INFO - middlewares - middlewares.py - time:  0.018777191999106435
+2024-06-01 19:35:54,315 - INFO - basehttp - basehttp.py - "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+2024-06-01 19:35:54,325 - INFO - basehttp - basehttp.py - "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+2024-06-01 19:35:54,342 - INFO - basehttp - basehttp.py - "GET /static/admin/css/widgets.css HTTP/1.1" 200 11921
+2024-06-01 19:36:15,057 - INFO - middlewares - middlewares.py - time:  0.04156344200055173
+2024-06-01 19:36:15,059 - INFO - basehttp - basehttp.py - "POST /admin/auth/user/add/ HTTP/1.1" 200 12507
+2024-06-01 19:36:15,101 - INFO - middlewares - middlewares.py - time:  0.013513371999579249
+2024-06-01 19:36:15,102 - INFO - basehttp - basehttp.py - "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+2024-06-01 19:36:48,800 - INFO - middlewares - middlewares.py - time:  0.7530191830010153
+2024-06-01 19:36:48,801 - INFO - basehttp - basehttp.py - "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+2024-06-01 19:36:48,888 - INFO - middlewares - middlewares.py - time:  0.08234836899828224
+2024-06-01 19:36:48,888 - INFO - basehttp - basehttp.py - "GET /admin/auth/user/2/change/ HTTP/1.1" 200 24149
+2024-06-01 19:36:48,972 - INFO - basehttp - basehttp.py - "GET /static/admin/js/calendar.js HTTP/1.1" 200 8466
+2024-06-01 19:36:48,975 - INFO - basehttp - basehttp.py - "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4530
+2024-06-01 19:36:48,978 - INFO - basehttp - basehttp.py - "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+2024-06-01 19:36:48,978 - INFO - basehttp - basehttp.py - "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 15292
+2024-06-01 19:36:48,984 - INFO - middlewares - middlewares.py - time:  0.02331856599994353
+2024-06-01 19:36:48,986 - INFO - basehttp - basehttp.py - "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+2024-06-01 19:36:49,129 - INFO - basehttp - basehttp.py - "GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+2024-06-01 19:36:49,137 - INFO - basehttp - basehttp.py - "GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+2024-06-01 19:36:49,140 - INFO - basehttp - basehttp.py - "GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 655
+2024-06-01 19:36:49,144 - INFO - basehttp - basehttp.py - "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+2024-06-01 19:36:49,146 - INFO - basehttp - basehttp.py - "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+2024-06-01 19:36:52,206 - INFO - middlewares - middlewares.py - time:  0.09514841599957435
+2024-06-01 19:36:52,207 - INFO - basehttp - basehttp.py - "GET /admin/auth/user/ HTTP/1.1" 200 12890
+2024-06-01 19:36:52,241 - INFO - basehttp - basehttp.py - "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+2024-06-01 19:36:52,258 - INFO - middlewares - middlewares.py - time:  0.021394200000941055
+2024-06-01 19:36:52,259 - INFO - basehttp - basehttp.py - "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+2024-06-01 19:37:07,322 - INFO - middlewares - middlewares.py - time:  0.08509904199854645
+2024-06-01 19:37:07,323 - INFO - basehttp - basehttp.py - "GET /admin/auth/user/ HTTP/1.1" 200 12890
+2024-06-01 19:37:07,365 - INFO - middlewares - middlewares.py - time:  0.016281661999528296
+2024-06-01 19:37:07,365 - INFO - basehttp - basehttp.py - "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+2024-06-01 19:37:10,585 - INFO - middlewares - middlewares.py - time:  0.07367084799989243
+2024-06-01 19:37:10,586 - INFO - basehttp - basehttp.py - "GET /admin/auth/user/add/ HTTP/1.1" 200 12204
+2024-06-01 19:37:10,628 - INFO - middlewares - middlewares.py - time:  0.01470157299991115
+2024-06-01 19:37:10,628 - INFO - basehttp - basehttp.py - "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+2024-06-01 19:37:22,052 - INFO - middlewares - middlewares.py - time:  0.04070514800150704
+2024-06-01 19:37:22,053 - INFO - basehttp - basehttp.py - "GET /admin/auth/user/ HTTP/1.1" 200 12890
+2024-06-01 19:37:22,100 - INFO - middlewares - middlewares.py - time:  0.019945027999710874
+2024-06-01 19:37:22,101 - INFO - basehttp - basehttp.py - "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+2024-06-01 19:38:10,212 - INFO - middlewares - middlewares.py - time:  0.05209137200108671
+2024-06-01 19:38:10,213 - INFO - basehttp - basehttp.py - "GET /admin/main/products/ HTTP/1.1" 200 8516
+2024-06-01 19:38:10,268 - INFO - middlewares - middlewares.py - time:  0.015828510999199352
+2024-06-01 19:38:10,269 - INFO - basehttp - basehttp.py - "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+2024-06-01 19:38:11,937 - INFO - middlewares - middlewares.py - time:  0.12037196699930064
+2024-06-01 19:38:11,938 - INFO - basehttp - basehttp.py - "GET /admin/main/products/add/ HTTP/1.1" 200 15770
+2024-06-01 19:38:11,979 - INFO - basehttp - basehttp.py - "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+2024-06-01 19:38:11,981 - INFO - basehttp - basehttp.py - "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+2024-06-01 19:38:11,994 - INFO - middlewares - middlewares.py - time:  0.020797430999664357
+2024-06-01 19:38:11,998 - INFO - basehttp - basehttp.py - "GET /admin/jsi18n/ HTTP/1.1" 200 16066
