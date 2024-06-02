@@ -14,6 +14,5 @@ class ContentMixin:
     image = models.ImageField(upload_to='shop_images', verbose_name='Фото', blank=True, null=True)
     url_slag = models.SlugField(max_length=200, verbose_name='URL', blank=True, null=True)
 
-    def __str__(self):
-        return self.name
-
+    class Meta:
+        abstract = True
