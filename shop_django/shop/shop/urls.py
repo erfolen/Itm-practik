@@ -25,5 +25,6 @@ urlpatterns = [
     path('api/token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
     path('api/token/verify/', TokenVerifyView.as_view(), name='token_verify'),
     path('api/v1/drf-auth/', include('rest_framework.urls')),
-    path('api/v1/products/', include('main.urls'), name='products')
+    path('api/v1/products/', include('main.urls'), name='products'),
+    path('api/v1/cart/', include('cart.urls'), name='cart')
 ]

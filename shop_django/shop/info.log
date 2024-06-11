@@ -840,3 +840,59 @@ AssertionError: Expected view ProductDetailView to be called with a URL keyword 
 2024-06-11 17:45:44,228 - INFO - basehttp - basehttp.py - "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
 2024-06-11 17:45:44,239 - INFO - basehttp - basehttp.py - "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
 2024-06-11 17:48:10,142 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-11 17:57:30,304 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-11 17:57:39,357 - INFO - middlewares - middlewares.py - time:  0.06113689199992223
+2024-06-11 17:57:39,358 - INFO - basehttp - basehttp.py - "GET /api/v1/products/ HTTP/1.1" 200 7059
+2024-06-11 17:57:39,402 - INFO - basehttp - basehttp.py - "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+2024-06-11 17:57:39,405 - INFO - basehttp - basehttp.py - "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+2024-06-11 17:57:39,410 - INFO - basehttp - basehttp.py - "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+2024-06-11 17:57:39,411 - INFO - basehttp - basehttp.py - "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+2024-06-11 17:57:39,417 - INFO - basehttp - basehttp.py - "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+2024-06-11 17:57:39,418 - INFO - basehttp - basehttp.py - "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+2024-06-11 17:57:39,420 - INFO - basehttp - basehttp.py - "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+2024-06-11 17:57:39,422 - INFO - basehttp - basehttp.py - "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+2024-06-11 17:57:39,426 - INFO - basehttp - basehttp.py - "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+2024-06-11 17:57:39,427 - INFO - basehttp - basehttp.py - "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 304 0
+2024-06-11 17:57:39,431 - INFO - basehttp - basehttp.py - "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 304 0
+2024-06-11 17:57:39,443 - INFO - basehttp - basehttp.py - "GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
+2024-06-11 17:57:48,467 - INFO - middlewares - middlewares.py - time:  0.029033595998043893
+2024-06-11 17:57:48,468 - INFO - basehttp - basehttp.py - "GET /api/v1/products/1/ HTTP/1.1" 200 6312
+2024-06-11 20:13:02,723 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-11 20:13:35,722 - INFO - autoreload - autoreload.py - /home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/cart/urls.py changed, reloading.
+2024-06-11 20:13:36,589 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-11 20:14:19,177 - INFO - autoreload - autoreload.py - /home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/cart/views.py changed, reloading.
+2024-06-11 20:14:20,125 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-11 20:42:40,556 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-11 20:44:12,012 - INFO - middlewares - middlewares.py - time:  0.04296030499972403
+2024-06-11 20:44:12,013 - WARNING - log - log.py - Unauthorized: /api/v1/cart/add/
+2024-06-11 20:44:12,014 - WARNING - basehttp - basehttp.py - "GET /api/v1/cart/add/ HTTP/1.1" 401 3972
+2024-06-11 20:44:19,660 - INFO - middlewares - middlewares.py - time:  0.026584004001051653
+2024-06-11 20:44:19,670 - INFO - basehttp - basehttp.py - "GET /api/v1/drf-auth/login/?next=/api/v1/cart/add/ HTTP/1.1" 200 2751
+2024-06-11 20:44:21,937 - INFO - middlewares - middlewares.py - time:  0.7759912199981045
+2024-06-11 20:44:21,943 - INFO - basehttp - basehttp.py - "POST /api/v1/drf-auth/login/ HTTP/1.1" 302 0
+2024-06-11 20:44:21,953 - INFO - middlewares - middlewares.py - time:  0.005185298003198113
+2024-06-11 20:44:21,954 - WARNING - log - log.py - Unauthorized: /api/v1/cart/add/
+2024-06-11 20:44:21,955 - WARNING - basehttp - basehttp.py - "GET /api/v1/cart/add/ HTTP/1.1" 401 3972
+2024-06-11 20:44:24,932 - INFO - middlewares - middlewares.py - time:  0.03656244500234607
+2024-06-11 20:44:24,936 - WARNING - log - log.py - Unauthorized: /api/v1/cart/add/
+2024-06-11 20:44:24,951 - WARNING - basehttp - basehttp.py - "GET /api/v1/cart/add/ HTTP/1.1" 401 3972
+2024-06-11 20:44:33,021 - INFO - middlewares - middlewares.py - time:  0.008434395000222139
+2024-06-11 20:44:33,022 - WARNING - log - log.py - Unauthorized: /api/v1/cart/add/
+2024-06-11 20:44:33,023 - WARNING - basehttp - basehttp.py - "GET /api/v1/cart/add/ HTTP/1.1" 401 3972
+2024-06-11 20:44:54,690 - INFO - middlewares - middlewares.py - time:  0.10311462699974072
+2024-06-11 20:44:54,691 - INFO - basehttp - basehttp.py - "GET /admin/main/categories/2/change/ HTTP/1.1" 200 15636
+2024-06-11 20:44:54,743 - INFO - middlewares - middlewares.py - time:  0.018305973997485125
+2024-06-11 20:44:54,744 - INFO - basehttp - basehttp.py - "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+2024-06-11 20:45:02,214 - INFO - middlewares - middlewares.py - time:  0.03510952400029055
+2024-06-11 20:45:02,215 - WARNING - log - log.py - Unauthorized: /api/v1/cart/add/
+2024-06-11 20:45:02,216 - WARNING - basehttp - basehttp.py - "GET /api/v1/cart/add/ HTTP/1.1" 401 3972
+2024-06-11 20:45:08,212 - INFO - middlewares - middlewares.py - time:  0.03143403500143904
+2024-06-11 20:45:08,215 - WARNING - log - log.py - Unauthorized: /api/v1/cart/add/
+2024-06-11 20:45:08,224 - WARNING - basehttp - basehttp.py - "GET /api/v1/cart/add/ HTTP/1.1" 401 3972
+2024-06-11 20:45:20,013 - INFO - middlewares - middlewares.py - time:  0.022229580998100573
+2024-06-11 20:45:20,017 - INFO - basehttp - basehttp.py - "GET /api/v1/drf-auth/login/?next=/api/v1/cart/add/ HTTP/1.1" 200 2751
+2024-06-11 20:45:22,471 - INFO - middlewares - middlewares.py - time:  0.7306181479980296
+2024-06-11 20:45:22,474 - INFO - basehttp - basehttp.py - "POST /api/v1/drf-auth/login/ HTTP/1.1" 302 0
+2024-06-11 20:45:22,485 - INFO - middlewares - middlewares.py - time:  0.007021044999419246
+2024-06-11 20:45:22,486 - WARNING - log - log.py - Unauthorized: /api/v1/cart/add/
+2024-06-11 20:45:22,487 - WARNING - basehttp - basehttp.py - "GET /api/v1/cart/add/ HTTP/1.1" 401 3972
