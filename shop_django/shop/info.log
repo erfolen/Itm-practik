@@ -380,3 +380,463 @@ TypeError: __str__ returned non-string (type CharField)
 2024-06-02 10:19:40,057 - INFO - basehttp - basehttp.py - "GET /admin/main/products/add/ HTTP/1.1" 200 21833
 2024-06-02 10:19:40,119 - INFO - middlewares - middlewares.py - time:  0.025760765998711577
 2024-06-02 10:19:40,119 - INFO - basehttp - basehttp.py - "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+2024-06-03 18:54:59,959 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-03 18:55:03,965 - INFO - middlewares - middlewares.py - time:  0.053380440000182716
+2024-06-03 18:55:03,965 - WARNING - log - log.py - Not Found: /
+2024-06-03 18:55:03,966 - WARNING - basehttp - basehttp.py - "GET / HTTP/1.1" 404 2808
+2024-06-03 18:55:04,185 - INFO - middlewares - middlewares.py - time:  0.01141187000030186
+2024-06-03 18:55:04,185 - WARNING - log - log.py - Not Found: /favicon.ico
+2024-06-03 18:55:04,186 - WARNING - basehttp - basehttp.py - "GET /favicon.ico HTTP/1.1" 404 2859
+2024-06-03 18:55:08,241 - INFO - middlewares - middlewares.py - time:  0.09189787600007548
+2024-06-03 18:55:08,243 - INFO - basehttp - basehttp.py - "GET /admin/ HTTP/1.1" 200 7494
+2024-06-03 18:55:20,364 - INFO - middlewares - middlewares.py - time:  0.050590252998517826
+2024-06-03 18:55:20,365 - INFO - basehttp - basehttp.py - "GET /admin/main/categories/ HTTP/1.1" 200 8556
+2024-06-03 18:55:20,414 - INFO - middlewares - middlewares.py - time:  0.023523661000581342
+2024-06-03 18:55:20,415 - INFO - basehttp - basehttp.py - "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+2024-06-03 18:55:24,864 - INFO - middlewares - middlewares.py - time:  0.10377610000068671
+2024-06-03 18:55:24,865 - INFO - basehttp - basehttp.py - "GET /admin/main/categories/add/ HTTP/1.1" 200 15043
+2024-06-03 18:55:24,909 - INFO - middlewares - middlewares.py - time:  0.01659171199935372
+2024-06-03 18:55:24,909 - INFO - basehttp - basehttp.py - "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+2024-06-03 18:56:21,915 - INFO - middlewares - middlewares.py - time:  0.1509506779984804
+2024-06-03 18:56:21,919 - INFO - basehttp - basehttp.py - "GET /admin/main/products/add/ HTTP/1.1" 200 21833
+2024-06-03 18:56:22,018 - INFO - middlewares - middlewares.py - time:  0.025413909999770112
+2024-06-03 18:56:22,019 - INFO - basehttp - basehttp.py - "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+2024-06-03 18:56:24,804 - INFO - middlewares - middlewares.py - time:  0.04251125399969169
+2024-06-03 18:56:24,806 - INFO - basehttp - basehttp.py - "GET /admin/ HTTP/1.1" 200 7494
+2024-06-03 18:56:29,832 - INFO - middlewares - middlewares.py - time:  0.1377364870004385
+2024-06-03 18:56:29,834 - INFO - basehttp - basehttp.py - "GET /admin/main/products/add/ HTTP/1.1" 200 21833
+2024-06-03 18:56:29,886 - INFO - middlewares - middlewares.py - time:  0.018810254001436988
+2024-06-03 18:56:29,887 - INFO - basehttp - basehttp.py - "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+2024-06-03 18:56:32,464 - INFO - middlewares - middlewares.py - time:  0.05127101800098899
+2024-06-03 18:56:32,466 - INFO - basehttp - basehttp.py - "GET /admin/ HTTP/1.1" 200 7494
+2024-06-03 19:01:25,389 - INFO - middlewares - middlewares.py - time:  0.18798536400026933
+2024-06-03 19:01:25,390 - INFO - basehttp - basehttp.py - "POST /admin/main/categories/add/ HTTP/1.1" 302 0
+2024-06-03 19:01:25,436 - INFO - middlewares - middlewares.py - time:  0.041207548001693795
+2024-06-03 19:01:25,437 - INFO - basehttp - basehttp.py - "GET /admin/main/categories/ HTTP/1.1" 200 10079
+2024-06-03 19:01:25,517 - INFO - middlewares - middlewares.py - time:  0.013607354001578642
+2024-06-03 19:01:25,517 - INFO - basehttp - basehttp.py - "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+2024-06-03 19:01:42,155 - INFO - middlewares - middlewares.py - time:  0.09118046699950355
+2024-06-03 19:01:42,160 - INFO - basehttp - basehttp.py - "GET /admin/main/categories/add/ HTTP/1.1" 200 15043
+2024-06-03 19:01:42,235 - INFO - middlewares - middlewares.py - time:  0.01802687999952468
+2024-06-03 19:01:42,236 - INFO - basehttp - basehttp.py - "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+2024-06-03 19:04:17,304 - INFO - middlewares - middlewares.py - time:  0.043966481998722884
+2024-06-03 19:04:17,306 - INFO - basehttp - basehttp.py - "POST /admin/main/categories/add/ HTTP/1.1" 302 0
+2024-06-03 19:04:17,354 - INFO - middlewares - middlewares.py - time:  0.041548008000972914
+2024-06-03 19:04:17,355 - INFO - basehttp - basehttp.py - "GET /admin/main/categories/ HTTP/1.1" 200 10302
+2024-06-03 19:04:17,439 - INFO - middlewares - middlewares.py - time:  0.012981976000446593
+2024-06-03 19:04:17,439 - INFO - basehttp - basehttp.py - "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+2024-06-03 19:05:47,403 - INFO - autoreload - autoreload.py - /home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/main/models.py changed, reloading.
+2024-06-03 19:05:48,528 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-03 19:06:09,333 - INFO - autoreload - autoreload.py - /home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/main/models.py changed, reloading.
+2024-06-03 19:06:09,923 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-03 19:07:22,250 - INFO - autoreload - autoreload.py - /home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/main/models.py changed, reloading.
+2024-06-03 19:07:22,954 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-03 19:07:28,870 - INFO - middlewares - middlewares.py - time:  0.1471969710000849
+2024-06-03 19:07:28,871 - INFO - basehttp - basehttp.py - "GET /admin/main/categories/ HTTP/1.1" 200 10054
+2024-06-03 19:07:28,927 - INFO - middlewares - middlewares.py - time:  0.018695622000450385
+2024-06-03 19:07:28,928 - INFO - basehttp - basehttp.py - "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+2024-06-03 19:08:16,596 - INFO - middlewares - middlewares.py - time:  0.11460374300077092
+2024-06-03 19:08:16,597 - INFO - basehttp - basehttp.py - "GET /admin/main/categories/add/ HTTP/1.1" 200 15043
+2024-06-03 19:08:16,650 - INFO - middlewares - middlewares.py - time:  0.015404353998746956
+2024-06-03 19:08:16,650 - INFO - basehttp - basehttp.py - "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+2024-06-03 19:10:10,057 - INFO - middlewares - middlewares.py - time:  0.02546811100000923
+2024-06-03 19:10:10,058 - INFO - basehttp - basehttp.py - "POST /admin/main/categories/add/ HTTP/1.1" 302 0
+2024-06-03 19:10:10,101 - INFO - middlewares - middlewares.py - time:  0.03869139200105565
+2024-06-03 19:10:10,102 - INFO - basehttp - basehttp.py - "GET /admin/main/categories/ HTTP/1.1" 200 10516
+2024-06-03 19:10:10,184 - INFO - middlewares - middlewares.py - time:  0.01349672099968302
+2024-06-03 19:10:10,184 - INFO - basehttp - basehttp.py - "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+2024-06-03 19:10:16,921 - INFO - middlewares - middlewares.py - time:  0.10068457400120678
+2024-06-03 19:10:16,922 - INFO - basehttp - basehttp.py - "GET /admin/main/manufactures/add/ HTTP/1.1" 200 14441
+2024-06-03 19:10:16,982 - INFO - middlewares - middlewares.py - time:  0.013654934000442154
+2024-06-03 19:10:16,982 - INFO - basehttp - basehttp.py - "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+2024-06-03 19:12:23,799 - INFO - middlewares - middlewares.py - time:  0.04392947899941646
+2024-06-03 19:12:23,800 - INFO - basehttp - basehttp.py - "POST /admin/main/manufactures/add/ HTTP/1.1" 302 0
+2024-06-03 19:12:23,865 - INFO - middlewares - middlewares.py - time:  0.05605513899899961
+2024-06-03 19:12:23,866 - INFO - basehttp - basehttp.py - "GET /admin/main/manufactures/ HTTP/1.1" 200 10145
+2024-06-03 19:12:23,954 - INFO - middlewares - middlewares.py - time:  0.01586756300093839
+2024-06-03 19:12:23,954 - INFO - basehttp - basehttp.py - "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+2024-06-03 19:12:26,674 - INFO - middlewares - middlewares.py - time:  0.09176155499881133
+2024-06-03 19:12:26,675 - INFO - basehttp - basehttp.py - "GET /admin/main/manufactures/add/ HTTP/1.1" 200 14441
+2024-06-03 19:12:26,727 - INFO - middlewares - middlewares.py - time:  0.013298415000463137
+2024-06-03 19:12:26,728 - INFO - basehttp - basehttp.py - "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+2024-06-03 19:12:37,656 - INFO - middlewares - middlewares.py - time:  0.023212202000649995
+2024-06-03 19:12:37,657 - INFO - basehttp - basehttp.py - "POST /admin/main/manufactures/add/ HTTP/1.1" 302 0
+2024-06-03 19:12:37,698 - INFO - middlewares - middlewares.py - time:  0.03637773799891875
+2024-06-03 19:12:37,699 - INFO - basehttp - basehttp.py - "GET /admin/main/manufactures/ HTTP/1.1" 200 10367
+2024-06-03 19:12:37,818 - INFO - middlewares - middlewares.py - time:  0.014946699999200064
+2024-06-03 19:12:37,819 - INFO - basehttp - basehttp.py - "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+2024-06-03 19:12:40,233 - INFO - middlewares - middlewares.py - time:  0.13200383200091892
+2024-06-03 19:12:40,234 - INFO - basehttp - basehttp.py - "GET /admin/main/products/ HTTP/1.1" 200 10876
+2024-06-03 19:12:40,301 - INFO - middlewares - middlewares.py - time:  0.01504646099965612
+2024-06-03 19:12:40,301 - INFO - basehttp - basehttp.py - "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+2024-06-03 19:13:07,714 - INFO - middlewares - middlewares.py - time:  0.10326541600079508
+2024-06-03 19:13:07,715 - INFO - basehttp - basehttp.py - "GET /admin/main/products/add/ HTTP/1.1" 200 22076
+2024-06-03 19:13:07,761 - INFO - middlewares - middlewares.py - time:  0.01764378799998667
+2024-06-03 19:13:07,761 - INFO - basehttp - basehttp.py - "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+2024-06-03 19:14:20,744 - INFO - middlewares - middlewares.py - time:  0.05829186600021785
+2024-06-03 19:14:20,744 - INFO - basehttp - basehttp.py - "POST /admin/main/products/add/ HTTP/1.1" 200 22530
+2024-06-03 19:14:20,798 - INFO - middlewares - middlewares.py - time:  0.013484254999639234
+2024-06-03 19:14:20,799 - INFO - basehttp - basehttp.py - "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+2024-06-03 19:14:43,606 - INFO - middlewares - middlewares.py - time:  0.03786180700080877
+2024-06-03 19:14:43,607 - INFO - basehttp - basehttp.py - "POST /admin/main/products/add/ HTTP/1.1" 302 0
+2024-06-03 19:14:43,670 - INFO - middlewares - middlewares.py - time:  0.05797203200017975
+2024-06-03 19:14:43,671 - INFO - basehttp - basehttp.py - "GET /admin/main/products/ HTTP/1.1" 200 18522
+2024-06-03 19:14:43,753 - INFO - middlewares - middlewares.py - time:  0.017179704000227503
+2024-06-03 19:14:43,754 - INFO - basehttp - basehttp.py - "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+2024-06-03 19:15:49,198 - INFO - middlewares - middlewares.py - time:  0.12611426700095762
+2024-06-03 19:15:49,199 - INFO - basehttp - basehttp.py - "GET /admin/main/products/add/ HTTP/1.1" 200 22076
+2024-06-03 19:15:49,263 - INFO - middlewares - middlewares.py - time:  0.013212330000897055
+2024-06-03 19:15:49,263 - INFO - basehttp - basehttp.py - "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+2024-06-03 19:17:16,837 - INFO - middlewares - middlewares.py - time:  0.08575113100050658
+2024-06-03 19:17:16,839 - INFO - basehttp - basehttp.py - "POST /admin/main/products/add/ HTTP/1.1" 302 0
+2024-06-03 19:17:16,948 - INFO - middlewares - middlewares.py - time:  0.08947837999949115
+2024-06-03 19:17:16,949 - INFO - basehttp - basehttp.py - "GET /admin/main/products/ HTTP/1.1" 200 23391
+2024-06-03 19:17:17,093 - INFO - middlewares - middlewares.py - time:  0.017132001999925706
+2024-06-03 19:17:17,094 - INFO - basehttp - basehttp.py - "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+2024-06-03 19:17:20,719 - INFO - middlewares - middlewares.py - time:  0.05968775200017262
+2024-06-03 19:17:20,720 - INFO - basehttp - basehttp.py - "POST /admin/main/products/ HTTP/1.1" 302 0
+2024-06-03 19:17:20,798 - INFO - middlewares - middlewares.py - time:  0.07324569100092049
+2024-06-03 19:17:20,799 - INFO - basehttp - basehttp.py - "GET /admin/main/products/ HTTP/1.1" 200 23119
+2024-06-03 19:17:20,885 - INFO - middlewares - middlewares.py - time:  0.012763966999045806
+2024-06-03 19:17:20,886 - INFO - basehttp - basehttp.py - "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+2024-06-03 19:17:37,366 - INFO - middlewares - middlewares.py - time:  0.09950356000081229
+2024-06-03 19:17:37,367 - INFO - basehttp - basehttp.py - "GET /admin/auth/user/ HTTP/1.1" 200 12525
+2024-06-03 19:17:37,414 - INFO - middlewares - middlewares.py - time:  0.018279621999681694
+2024-06-03 19:17:37,414 - INFO - basehttp - basehttp.py - "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+2024-06-03 19:17:40,054 - INFO - middlewares - middlewares.py - time:  0.11096861899932264
+2024-06-03 19:17:40,060 - INFO - basehttp - basehttp.py - "GET /admin/auth/user/add/ HTTP/1.1" 200 12204
+2024-06-03 19:17:40,138 - INFO - middlewares - middlewares.py - time:  0.015583783000693074
+2024-06-03 19:17:40,138 - INFO - basehttp - basehttp.py - "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+2024-06-03 19:18:20,488 - INFO - middlewares - middlewares.py - time:  0.7874005370013037
+2024-06-03 19:18:20,491 - INFO - basehttp - basehttp.py - "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+2024-06-03 19:18:20,568 - INFO - middlewares - middlewares.py - time:  0.07437793400094961
+2024-06-03 19:18:20,569 - INFO - basehttp - basehttp.py - "GET /admin/auth/user/2/change/ HTTP/1.1" 200 24159
+2024-06-03 19:18:20,657 - INFO - middlewares - middlewares.py - time:  0.017685306000203127
+2024-06-03 19:18:20,658 - INFO - basehttp - basehttp.py - "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+2024-06-03 19:18:27,091 - INFO - middlewares - middlewares.py - time:  0.17424070500055677
+2024-06-03 19:18:27,113 - INFO - basehttp - basehttp.py - "GET /admin/auth/user/ HTTP/1.1" 200 12909
+2024-06-03 19:18:27,189 - INFO - middlewares - middlewares.py - time:  0.023599287000251934
+2024-06-03 19:18:27,201 - INFO - basehttp - basehttp.py - "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+2024-06-03 19:18:32,482 - INFO - middlewares - middlewares.py - time:  0.09795129899976018
+2024-06-03 19:18:32,484 - INFO - basehttp - basehttp.py - "GET /admin/auth/user/add/ HTTP/1.1" 200 12204
+2024-06-03 19:18:32,528 - INFO - middlewares - middlewares.py - time:  0.014382962001036503
+2024-06-03 19:18:32,529 - INFO - basehttp - basehttp.py - "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+2024-06-03 19:18:52,700 - INFO - middlewares - middlewares.py - time:  0.7135576360014966
+2024-06-03 19:18:52,700 - INFO - basehttp - basehttp.py - "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+2024-06-03 19:18:52,768 - INFO - middlewares - middlewares.py - time:  0.06320263800080284
+2024-06-03 19:18:52,769 - INFO - basehttp - basehttp.py - "GET /admin/auth/user/3/change/ HTTP/1.1" 200 24159
+2024-06-03 19:18:52,865 - INFO - middlewares - middlewares.py - time:  0.016296312998747453
+2024-06-03 19:18:52,866 - INFO - basehttp - basehttp.py - "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+2024-06-03 19:19:22,593 - INFO - middlewares - middlewares.py - time:  0.05793676999928721
+2024-06-03 19:19:22,595 - INFO - basehttp - basehttp.py - "GET /admin/auth/user/ HTTP/1.1" 200 13293
+2024-06-03 19:19:22,666 - INFO - middlewares - middlewares.py - time:  0.019308109000121476
+2024-06-03 19:19:22,670 - INFO - basehttp - basehttp.py - "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+2024-06-03 19:27:12,035 - INFO - middlewares - middlewares.py - time:  0.0547962609998649
+2024-06-03 19:27:12,044 - INFO - basehttp - basehttp.py - "GET /admin/ HTTP/1.1" 200 10384
+2024-06-03 19:27:52,308 - ERROR - log - log.py - Internal Server Error: /api/v1/products/
+Traceback (most recent call last):
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/generics.py", line 286, in get
+    return self.retrieve(request, *args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/mixins.py", line 54, in retrieve
+    instance = self.get_object()
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/generics.py", line 92, in get_object
+    assert lookup_url_kwarg in self.kwargs, (
+AssertionError: Expected view ProductDetailView to be called with a URL keyword argument named "pk". Fix your URL conf, or set the `.lookup_field` attribute on the view correctly.
+2024-06-03 19:27:52,311 - INFO - middlewares - middlewares.py - time:  0.11803847900046094
+2024-06-03 19:27:52,313 - ERROR - basehttp - basehttp.py - "GET /api/v1/products/ HTTP/1.1" 500 110445
+2024-06-03 19:29:14,072 - INFO - middlewares - middlewares.py - time:  0.01745383799971023
+2024-06-03 19:29:14,074 - INFO - basehttp - basehttp.py - "GET /api/v1/products/1 HTTP/1.1" 301 0
+2024-06-03 19:29:14,166 - INFO - middlewares - middlewares.py - time:  0.08805704699989292
+2024-06-03 19:29:14,167 - INFO - basehttp - basehttp.py - "GET /api/v1/products/1/ HTTP/1.1" 200 6314
+2024-06-03 19:29:14,226 - INFO - basehttp - basehttp.py - "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1793
+2024-06-03 19:29:14,231 - INFO - basehttp - basehttp.py - "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3796
+2024-06-03 19:29:14,232 - INFO - basehttp - basehttp.py - "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+2024-06-03 19:29:14,236 - INFO - basehttp - basehttp.py - "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+2024-06-03 19:29:14,236 - INFO - basehttp - basehttp.py - "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+2024-06-03 19:29:14,248 - INFO - basehttp - basehttp.py - "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+2024-06-03 19:29:14,249 - INFO - basehttp - basehttp.py - "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+2024-06-03 19:29:14,242 - INFO - basehttp - basehttp.py - "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 200 87533
+2024-06-03 19:29:14,241 - INFO - basehttp - basehttp.py - "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+2024-06-03 19:29:14,240 - INFO - basehttp - basehttp.py - "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+2024-06-03 19:29:14,257 - INFO - basehttp - basehttp.py - "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 200 59
+2024-06-03 19:29:14,306 - INFO - basehttp - basehttp.py - "GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
+2024-06-03 19:29:30,270 - INFO - middlewares - middlewares.py - time:  0.06348116899971501
+2024-06-03 19:29:30,271 - INFO - basehttp - basehttp.py - "GET /api/v1/products/2/ HTTP/1.1" 200 6154
+2024-06-03 19:29:36,667 - ERROR - log - log.py - Internal Server Error: /api/v1/products/
+Traceback (most recent call last):
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/generics.py", line 286, in get
+    return self.retrieve(request, *args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/mixins.py", line 54, in retrieve
+    instance = self.get_object()
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/generics.py", line 92, in get_object
+    assert lookup_url_kwarg in self.kwargs, (
+AssertionError: Expected view ProductDetailView to be called with a URL keyword argument named "pk". Fix your URL conf, or set the `.lookup_field` attribute on the view correctly.
+2024-06-03 19:29:36,668 - INFO - middlewares - middlewares.py - time:  0.08073306599908392
+2024-06-03 19:29:36,669 - ERROR - basehttp - basehttp.py - "GET /api/v1/products/ HTTP/1.1" 500 110445
+2024-06-03 19:29:41,784 - INFO - middlewares - middlewares.py - time:  0.044136564998552785
+2024-06-03 19:29:41,785 - INFO - basehttp - basehttp.py - "GET /api/v1/products HTTP/1.1" 301 0
+2024-06-03 19:29:41,852 - ERROR - log - log.py - Internal Server Error: /api/v1/products/
+Traceback (most recent call last):
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/generics.py", line 286, in get
+    return self.retrieve(request, *args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/mixins.py", line 54, in retrieve
+    instance = self.get_object()
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/generics.py", line 92, in get_object
+    assert lookup_url_kwarg in self.kwargs, (
+AssertionError: Expected view ProductDetailView to be called with a URL keyword argument named "pk". Fix your URL conf, or set the `.lookup_field` attribute on the view correctly.
+2024-06-03 19:29:41,853 - INFO - middlewares - middlewares.py - time:  0.06277696600045601
+2024-06-03 19:29:41,854 - ERROR - basehttp - basehttp.py - "GET /api/v1/products/ HTTP/1.1" 500 110445
+2024-06-03 19:29:59,011 - INFO - autoreload - autoreload.py - /home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/main/urls.py changed, reloading.
+2024-06-03 19:29:59,821 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-03 19:30:13,132 - INFO - autoreload - autoreload.py - /home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/main/urls.py changed, reloading.
+2024-06-03 19:30:13,789 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-03 19:30:18,187 - ERROR - log - log.py - Internal Server Error: /api/v1/products/all/
+Traceback (most recent call last):
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/generics.py", line 286, in get
+    return self.retrieve(request, *args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/mixins.py", line 54, in retrieve
+    instance = self.get_object()
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/generics.py", line 92, in get_object
+    assert lookup_url_kwarg in self.kwargs, (
+AssertionError: Expected view ProductDetailView to be called with a URL keyword argument named "pk". Fix your URL conf, or set the `.lookup_field` attribute on the view correctly.
+2024-06-03 19:30:18,189 - INFO - middlewares - middlewares.py - time:  0.07746668199979467
+2024-06-03 19:30:18,190 - ERROR - basehttp - basehttp.py - "GET /api/v1/products/all/ HTTP/1.1" 500 110513
+2024-06-03 19:30:29,813 - INFO - middlewares - middlewares.py - time:  0.08408034000058251
+2024-06-03 19:30:29,813 - INFO - basehttp - basehttp.py - "GET /api/v1/products/2/ HTTP/1.1" 200 6039
+2024-06-03 19:30:41,801 - INFO - middlewares - middlewares.py - time:  0.013475674000801519
+2024-06-03 19:30:41,803 - INFO - basehttp - basehttp.py - "GET /api/v1/products/all HTTP/1.1" 301 0
+2024-06-03 19:30:41,875 - ERROR - log - log.py - Internal Server Error: /api/v1/products/all/
+Traceback (most recent call last):
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/generics.py", line 286, in get
+    return self.retrieve(request, *args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/mixins.py", line 54, in retrieve
+    instance = self.get_object()
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/generics.py", line 92, in get_object
+    assert lookup_url_kwarg in self.kwargs, (
+AssertionError: Expected view ProductDetailView to be called with a URL keyword argument named "pk". Fix your URL conf, or set the `.lookup_field` attribute on the view correctly.
+2024-06-03 19:30:41,875 - INFO - middlewares - middlewares.py - time:  0.06349493699963205
+2024-06-03 19:30:41,876 - ERROR - basehttp - basehttp.py - "GET /api/v1/products/all/ HTTP/1.1" 500 110513
+2024-06-03 19:31:40,622 - INFO - autoreload - autoreload.py - /home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/main/urls.py changed, reloading.
+2024-06-03 19:31:41,420 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-03 19:32:14,970 - INFO - autoreload - autoreload.py - /home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/main/urls.py changed, reloading.
+2024-06-03 19:32:15,589 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-03 19:32:19,838 - INFO - middlewares - middlewares.py - time:  0.023096917997463606
+2024-06-03 19:32:19,838 - WARNING - log - log.py - Not Found: /api/v1/products/all/
+2024-06-03 19:32:19,839 - WARNING - basehttp - basehttp.py - "GET /api/v1/products/all/ HTTP/1.1" 404 3156
+2024-06-03 19:32:26,526 - INFO - middlewares - middlewares.py - time:  0.08636259799823165
+2024-06-03 19:32:26,527 - INFO - basehttp - basehttp.py - "GET /api/v1/products/ HTTP/1.1" 200 7059
+2024-06-04 20:26:16,593 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-04 20:26:19,240 - INFO - middlewares - middlewares.py - time:  0.03477001999999629
+2024-06-04 20:26:19,241 - WARNING - log - log.py - Not Found: /
+2024-06-04 20:26:19,241 - WARNING - basehttp - basehttp.py - "GET / HTTP/1.1" 404 2808
+2024-06-04 20:26:19,372 - INFO - middlewares - middlewares.py - time:  0.009706066000035207
+2024-06-04 20:26:19,372 - WARNING - log - log.py - Not Found: /favicon.ico
+2024-06-04 20:26:19,373 - WARNING - basehttp - basehttp.py - "GET /favicon.ico HTTP/1.1" 404 2859
+2024-06-04 20:26:23,269 - INFO - middlewares - middlewares.py - time:  0.04607262900026399
+2024-06-04 20:26:23,270 - INFO - basehttp - basehttp.py - "GET /admin/ HTTP/1.1" 302 0
+2024-06-04 20:26:23,333 - INFO - middlewares - middlewares.py - time:  0.05315039400011301
+2024-06-04 20:26:23,334 - INFO - basehttp - basehttp.py - "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4264
+2024-06-04 20:26:23,400 - INFO - basehttp - basehttp.py - "GET /static/admin/css/base.css HTTP/1.1" 304 0
+2024-06-04 20:26:23,404 - INFO - basehttp - basehttp.py - "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+2024-06-04 20:26:23,408 - INFO - basehttp - basehttp.py - "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+2024-06-04 20:26:23,414 - INFO - basehttp - basehttp.py - "GET /static/admin/css/login.css HTTP/1.1" 304 0
+2024-06-04 20:26:23,424 - INFO - basehttp - basehttp.py - "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+2024-06-04 20:26:23,449 - INFO - basehttp - basehttp.py - "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+2024-06-04 20:26:23,457 - INFO - basehttp - basehttp.py - "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+2024-06-04 20:26:27,383 - INFO - middlewares - middlewares.py - time:  0.8495839830002296
+2024-06-04 20:26:27,383 - INFO - basehttp - basehttp.py - "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4531
+2024-06-04 20:28:45,701 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-04 20:28:48,057 - INFO - middlewares - middlewares.py - time:  0.03996880199974839
+2024-06-04 20:28:48,059 - WARNING - log - log.py - Not Found: /
+2024-06-04 20:28:48,059 - WARNING - basehttp - basehttp.py - "GET / HTTP/1.1" 404 2808
+2024-06-04 20:28:51,452 - INFO - middlewares - middlewares.py - time:  0.04642612099996768
+2024-06-04 20:28:51,453 - INFO - basehttp - basehttp.py - "GET /admin/ HTTP/1.1" 302 0
+2024-06-04 20:28:51,499 - INFO - middlewares - middlewares.py - time:  0.03882515300028899
+2024-06-04 20:28:51,500 - INFO - basehttp - basehttp.py - "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4264
+2024-06-04 20:28:55,799 - INFO - middlewares - middlewares.py - time:  0.7073049579998951
+2024-06-04 20:28:55,802 - INFO - basehttp - basehttp.py - "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+2024-06-04 20:28:55,842 - INFO - middlewares - middlewares.py - time:  0.03551889399977881
+2024-06-04 20:28:55,842 - INFO - basehttp - basehttp.py - "GET /admin/ HTTP/1.1" 200 9856
+2024-06-04 20:28:55,910 - INFO - basehttp - basehttp.py - "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+2024-06-04 20:28:55,961 - INFO - basehttp - basehttp.py - "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+2024-06-04 20:28:55,961 - INFO - basehttp - basehttp.py - "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+2024-06-04 20:28:58,832 - INFO - middlewares - middlewares.py - time:  0.108319518999906
+2024-06-04 20:28:58,833 - INFO - basehttp - basehttp.py - "GET /admin/auth/group/ HTTP/1.1" 200 8547
+2024-06-04 20:28:58,902 - INFO - middlewares - middlewares.py - time:  0.028661973999987822
+2024-06-04 20:28:58,908 - INFO - basehttp - basehttp.py - "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+2024-06-04 20:28:58,913 - INFO - basehttp - basehttp.py - "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+2024-06-04 20:28:58,915 - INFO - basehttp - basehttp.py - "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+2024-06-04 20:29:00,686 - INFO - middlewares - middlewares.py - time:  0.02334478099965054
+2024-06-04 20:29:00,687 - INFO - basehttp - basehttp.py - "GET /admin/auth/ HTTP/1.1" 200 5453
+2024-06-04 20:29:06,209 - INFO - middlewares - middlewares.py - time:  0.040016123999976116
+2024-06-04 20:29:06,210 - WARNING - log - log.py - Not Found: /
+2024-06-04 20:29:06,213 - WARNING - basehttp - basehttp.py - "GET / HTTP/1.1" 404 2808
+2024-06-04 20:29:09,886 - INFO - middlewares - middlewares.py - time:  0.046824979999655625
+2024-06-04 20:29:09,887 - INFO - basehttp - basehttp.py - "GET /admin/ HTTP/1.1" 200 9856
+2024-06-04 20:29:17,332 - INFO - middlewares - middlewares.py - time:  0.16951302999996187
+2024-06-04 20:29:17,333 - INFO - basehttp - basehttp.py - "GET /admin/main/products/ HTTP/1.1" 200 22809
+2024-06-04 20:29:17,384 - INFO - middlewares - middlewares.py - time:  0.01741779099984342
+2024-06-04 20:29:17,385 - INFO - basehttp - basehttp.py - "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+2024-06-04 20:29:19,326 - INFO - middlewares - middlewares.py - time:  0.033801658999891515
+2024-06-04 20:29:19,327 - INFO - basehttp - basehttp.py - "GET /admin/main/manufactures/ HTTP/1.1" 200 9815
+2024-06-04 20:29:19,362 - INFO - middlewares - middlewares.py - time:  0.01325754199979201
+2024-06-04 20:29:19,363 - INFO - basehttp - basehttp.py - "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+2024-06-04 20:29:22,777 - INFO - middlewares - middlewares.py - time:  0.13318487500009724
+2024-06-04 20:29:22,778 - INFO - basehttp - basehttp.py - "GET /admin/main/manufactures/add/ HTTP/1.1" 200 14131
+2024-06-04 20:29:22,833 - INFO - middlewares - middlewares.py - time:  0.017634541999996145
+2024-06-04 20:29:22,833 - INFO - basehttp - basehttp.py - "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+2024-06-04 20:29:27,916 - INFO - middlewares - middlewares.py - time:  0.052784765000069456
+2024-06-04 20:29:27,917 - INFO - basehttp - basehttp.py - "GET /admin/main/categories/ HTTP/1.1" 200 9969
+2024-06-04 20:29:27,964 - INFO - middlewares - middlewares.py - time:  0.01781058899996424
+2024-06-04 20:29:27,965 - INFO - basehttp - basehttp.py - "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+2024-06-04 20:29:31,298 - INFO - middlewares - middlewares.py - time:  0.08790937300000223
+2024-06-04 20:29:31,298 - INFO - basehttp - basehttp.py - "GET /admin/main/products/ HTTP/1.1" 200 22809
+2024-06-04 20:29:31,343 - INFO - middlewares - middlewares.py - time:  0.016394425999806117
+2024-06-04 20:29:31,344 - INFO - basehttp - basehttp.py - "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+2024-06-04 20:29:35,673 - INFO - middlewares - middlewares.py - time:  0.02671982600031697
+2024-06-04 20:29:35,674 - INFO - basehttp - basehttp.py - "GET /admin/auth/ HTTP/1.1" 200 5453
+2024-06-04 20:29:40,756 - INFO - middlewares - middlewares.py - time:  0.08347719400035203
+2024-06-04 20:29:40,758 - INFO - basehttp - basehttp.py - "GET /admin/auth/ HTTP/1.1" 200 5453
+2024-06-04 20:29:47,999 - INFO - middlewares - middlewares.py - time:  0.10102713799960839
+2024-06-04 20:29:47,999 - INFO - basehttp - basehttp.py - "GET /admin/ HTTP/1.1" 200 9856
+2024-06-04 20:37:23,391 - INFO - middlewares - middlewares.py - time:  0.08036343200001284
+2024-06-04 20:37:23,391 - INFO - basehttp - basehttp.py - "GET /admin/main/products/ HTTP/1.1" 200 22809
+2024-06-04 20:37:23,445 - INFO - middlewares - middlewares.py - time:  0.016442595999251353
+2024-06-04 20:37:23,446 - INFO - basehttp - basehttp.py - "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+2024-06-04 20:37:26,690 - INFO - middlewares - middlewares.py - time:  0.14152430000012828
+2024-06-04 20:37:26,691 - INFO - basehttp - basehttp.py - "GET /admin/main/products/add/ HTTP/1.1" 200 21766
+2024-06-04 20:37:26,747 - INFO - middlewares - middlewares.py - time:  0.016216762000112794
+2024-06-04 20:37:26,748 - INFO - basehttp - basehttp.py - "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+2024-06-10 19:51:39,453 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-10 19:54:09,988 - INFO - autoreload - autoreload.py - /home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/main/admin.py changed, reloading.
+2024-06-10 19:54:10,658 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-10 19:55:03,707 - INFO - autoreload - autoreload.py - /home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/main/admin.py changed, reloading.
+2024-06-10 19:55:04,227 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-10 19:56:00,520 - INFO - autoreload - autoreload.py - /home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/main/admin.py changed, reloading.
+2024-06-10 19:56:01,257 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-11 17:25:59,753 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-11 17:40:55,108 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-11 17:42:24,032 - INFO - autoreload - autoreload.py - /home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/main/admin.py changed, reloading.
+2024-06-11 17:42:24,658 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-11 17:45:29,325 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-11 17:45:32,270 - INFO - middlewares - middlewares.py - time:  0.05214690399952815
+2024-06-11 17:45:32,272 - WARNING - log - log.py - Not Found: /
+2024-06-11 17:45:32,273 - WARNING - basehttp - basehttp.py - "GET / HTTP/1.1" 404 2808
+2024-06-11 17:45:32,458 - INFO - middlewares - middlewares.py - time:  0.008495450001646532
+2024-06-11 17:45:32,459 - WARNING - log - log.py - Not Found: /favicon.ico
+2024-06-11 17:45:32,459 - WARNING - basehttp - basehttp.py - "GET /favicon.ico HTTP/1.1" 404 2859
+2024-06-11 17:45:37,219 - INFO - middlewares - middlewares.py - time:  0.11086612700091791
+2024-06-11 17:45:37,220 - INFO - basehttp - basehttp.py - "GET /admin/ HTTP/1.1" 200 9856
+2024-06-11 17:45:37,267 - INFO - basehttp - basehttp.py - "GET /static/admin/css/base.css HTTP/1.1" 304 0
+2024-06-11 17:45:37,281 - INFO - basehttp - basehttp.py - "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+2024-06-11 17:45:37,285 - INFO - basehttp - basehttp.py - "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+2024-06-11 17:45:37,292 - INFO - basehttp - basehttp.py - "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+2024-06-11 17:45:37,303 - INFO - basehttp - basehttp.py - "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+2024-06-11 17:45:37,308 - INFO - basehttp - basehttp.py - "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+2024-06-11 17:45:37,329 - INFO - basehttp - basehttp.py - "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+2024-06-11 17:45:37,385 - INFO - basehttp - basehttp.py - "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+2024-06-11 17:45:37,386 - INFO - basehttp - basehttp.py - "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+2024-06-11 17:45:41,375 - INFO - middlewares - middlewares.py - time:  0.14633611099998234
+2024-06-11 17:45:41,376 - INFO - basehttp - basehttp.py - "GET /admin/main/categories/ HTTP/1.1" 200 9969
+2024-06-11 17:45:41,425 - INFO - basehttp - basehttp.py - "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+2024-06-11 17:45:41,436 - INFO - basehttp - basehttp.py - "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+2024-06-11 17:45:41,439 - INFO - basehttp - basehttp.py - "GET /static/admin/js/core.js HTTP/1.1" 304 0
+2024-06-11 17:45:41,440 - INFO - basehttp - basehttp.py - "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+2024-06-11 17:45:41,441 - INFO - basehttp - basehttp.py - "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+2024-06-11 17:45:41,450 - INFO - basehttp - basehttp.py - "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+2024-06-11 17:45:41,454 - INFO - middlewares - middlewares.py - time:  0.03386626299834461
+2024-06-11 17:45:41,456 - INFO - basehttp - basehttp.py - "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+2024-06-11 17:45:41,459 - INFO - basehttp - basehttp.py - "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+2024-06-11 17:45:41,460 - INFO - basehttp - basehttp.py - "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+2024-06-11 17:45:41,460 - INFO - basehttp - basehttp.py - "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+2024-06-11 17:45:41,516 - INFO - basehttp - basehttp.py - "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+2024-06-11 17:45:41,544 - INFO - basehttp - basehttp.py - "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+2024-06-11 17:45:44,164 - INFO - middlewares - middlewares.py - time:  0.1422969919985917
+2024-06-11 17:45:44,165 - INFO - basehttp - basehttp.py - "GET /admin/main/categories/2/change/ HTTP/1.1" 200 15636
+2024-06-11 17:45:44,193 - INFO - basehttp - basehttp.py - "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+2024-06-11 17:45:44,205 - INFO - basehttp - basehttp.py - "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+2024-06-11 17:45:44,218 - INFO - middlewares - middlewares.py - time:  0.01737242100352887
+2024-06-11 17:45:44,219 - INFO - basehttp - basehttp.py - "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+2024-06-11 17:45:44,228 - INFO - basehttp - basehttp.py - "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+2024-06-11 17:45:44,239 - INFO - basehttp - basehttp.py - "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+2024-06-11 17:48:10,142 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader

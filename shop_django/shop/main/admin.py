@@ -1,6 +1,5 @@
 from django.contrib import admin
 from main.models import Categories, Manufactures, Products
-from main.utils import ContentMixin
 
 admin.site.register(Categories)
 admin.site.register(Manufactures)
@@ -10,8 +9,8 @@ admin.site.register(Manufactures)
 @admin.register(Products)
 class ProductsAdmin(admin.ModelAdmin):
     # Отображение полей в списке объектов модели
-    list_display = ["name", "article", "price", "discount", "quantity", "category", "manufacture", "status", "created",
-                    "update"]
+    list_display = ["name", "article", "price", "discount", "quantity", "category", "manufacture", "status",
+                    "created", "update"]
 
     # Поля, доступные для редактирования прямо в списке объектов модели
     list_editable = ["price", "discount", "quantity", "category", "manufacture", "status"]
@@ -20,7 +19,7 @@ class ProductsAdmin(admin.ModelAdmin):
     search_fields = ["name", "description", "article"]
 
     # Поля, по которым можно фильтровать список объектов модели
-    list_filter = ["category", "manufacture", "status", "created", "update"]
+    list_filter = ["category", "manufacture", "status"]
 
     # Порядок и группы отображения полей в форме редактирования/создания объекта
     fields = [
