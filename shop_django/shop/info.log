@@ -896,3 +896,591 @@ AssertionError: Expected view ProductDetailView to be called with a URL keyword 
 2024-06-11 20:45:22,485 - INFO - middlewares - middlewares.py - time:  0.007021044999419246
 2024-06-11 20:45:22,486 - WARNING - log - log.py - Unauthorized: /api/v1/cart/add/
 2024-06-11 20:45:22,487 - WARNING - basehttp - basehttp.py - "GET /api/v1/cart/add/ HTTP/1.1" 401 3972
+2024-06-13 18:09:25,310 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-13 18:18:41,097 - INFO - middlewares - middlewares.py - time:  0.036565787000199634
+2024-06-13 18:18:41,098 - WARNING - log - log.py - Unauthorized: /api/v1/cart/add/
+2024-06-13 18:18:41,099 - WARNING - basehttp - basehttp.py - "GET /api/v1/cart/add/ HTTP/1.1" 401 3972
+2024-06-13 18:18:41,132 - INFO - basehttp - basehttp.py - "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+2024-06-13 18:18:41,135 - INFO - basehttp - basehttp.py - "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+2024-06-13 18:18:41,143 - INFO - basehttp - basehttp.py - "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+2024-06-13 18:18:41,144 - INFO - basehttp - basehttp.py - "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+2024-06-13 18:18:41,153 - INFO - basehttp - basehttp.py - "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+2024-06-13 18:18:41,155 - INFO - basehttp - basehttp.py - "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 304 0
+2024-06-13 18:18:41,155 - INFO - basehttp - basehttp.py - "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+2024-06-13 18:18:41,156 - INFO - basehttp - basehttp.py - "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+2024-06-13 18:18:41,164 - INFO - basehttp - basehttp.py - "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+2024-06-13 18:18:41,165 - INFO - basehttp - basehttp.py - "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+2024-06-13 18:18:41,167 - INFO - basehttp - basehttp.py - "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 304 0
+2024-06-13 18:18:41,202 - INFO - basehttp - basehttp.py - "GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
+2024-06-13 18:18:41,395 - INFO - middlewares - middlewares.py - time:  0.021348505999867484
+2024-06-13 18:18:41,395 - WARNING - log - log.py - Not Found: /favicon.ico
+2024-06-13 18:18:41,396 - WARNING - basehttp - basehttp.py - "GET /favicon.ico HTTP/1.1" 404 2971
+2024-06-13 18:18:53,926 - INFO - middlewares - middlewares.py - time:  0.15654415600010907
+2024-06-13 18:18:53,926 - INFO - basehttp - basehttp.py - "GET /admin/main/categories/2/change/ HTTP/1.1" 200 15636
+2024-06-13 18:18:54,008 - INFO - middlewares - middlewares.py - time:  0.03792609900028765
+2024-06-13 18:18:54,009 - INFO - basehttp - basehttp.py - "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+2024-06-13 18:18:54,014 - INFO - basehttp - basehttp.py - "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+2024-06-13 18:19:04,426 - INFO - middlewares - middlewares.py - time:  0.011409704000016063
+2024-06-13 18:19:04,427 - WARNING - log - log.py - Unauthorized: /api/v1/cart/add/
+2024-06-13 18:19:04,431 - WARNING - basehttp - basehttp.py - "GET /api/v1/cart/add/ HTTP/1.1" 401 3972
+2024-06-13 18:19:09,938 - INFO - middlewares - middlewares.py - time:  0.010663518999990629
+2024-06-13 18:19:09,939 - WARNING - log - log.py - Unauthorized: /api/v1/cart/add/
+2024-06-13 18:19:09,940 - WARNING - basehttp - basehttp.py - "GET /api/v1/cart/add/ HTTP/1.1" 401 3972
+2024-06-13 18:25:50,906 - INFO - autoreload - autoreload.py - /home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/main/urls.py changed, reloading.
+2024-06-13 18:25:51,746 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-13 18:26:52,072 - INFO - autoreload - autoreload.py - /home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/cart/urls.py changed, reloading.
+2024-06-13 18:26:52,704 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-13 18:26:59,878 - INFO - middlewares - middlewares.py - time:  0.06237149199978376
+2024-06-13 18:26:59,880 - INFO - basehttp - basehttp.py - "GET /api/v1/products/ HTTP/1.1" 200 7059
+2024-06-13 18:27:22,206 - INFO - middlewares - middlewares.py - time:  0.025509598000098777
+2024-06-13 18:27:22,207 - INFO - basehttp - basehttp.py - "GET /api/v1/products/search/ HTTP/1.1" 200 7235
+2024-06-13 18:27:28,177 - INFO - middlewares - middlewares.py - time:  0.1203565220002929
+2024-06-13 18:27:28,178 - INFO - basehttp - basehttp.py - "GET /admin/ HTTP/1.1" 200 9856
+2024-06-13 18:27:33,244 - INFO - middlewares - middlewares.py - time:  0.029890341999816883
+2024-06-13 18:27:33,246 - INFO - basehttp - basehttp.py - "GET /api/v1/products/search/ HTTP/1.1" 200 7235
+2024-06-13 18:28:52,046 - ERROR - log - log.py - Internal Server Error: /api/v1/products/search/
+Traceback (most recent call last):
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 415, in initial
+    self.check_permissions(request)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 332, in check_permissions
+    if not permission.has_permission(request, self):
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/permissions.py", line 240, in has_permission
+    queryset = self._queryset(view)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/permissions.py", line 223, in _queryset
+    queryset = view.get_queryset()
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/main/views.py", line 23, in get_queryset
+    queryset = queryset.filter(name__incontains=name)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1546, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1577, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1492, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1313, in build_lookup
+    lhs = self.try_transform(lhs, lookup_name)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1357, in try_transform
+    raise FieldError(
+django.core.exceptions.FieldError: Unsupported lookup 'incontains' for CharField or join on the field not permitted, perhaps you meant icontains or contains?
+2024-06-13 18:28:52,050 - INFO - middlewares - middlewares.py - time:  0.09515904299951217
+2024-06-13 18:28:52,050 - ERROR - basehttp - basehttp.py - "GET /api/v1/products/search/?name=%D0%BA%D1%83%D1%85%D0%BD%D1%8F HTTP/1.1" 500 160680
+2024-06-13 18:29:11,242 - ERROR - log - log.py - Internal Server Error: /api/v1/products/search/
+Traceback (most recent call last):
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 415, in initial
+    self.check_permissions(request)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 332, in check_permissions
+    if not permission.has_permission(request, self):
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/permissions.py", line 240, in has_permission
+    queryset = self._queryset(view)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/permissions.py", line 223, in _queryset
+    queryset = view.get_queryset()
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/main/views.py", line 23, in get_queryset
+    queryset = queryset.filter(name__incontains=name)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1546, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1577, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1492, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1313, in build_lookup
+    lhs = self.try_transform(lhs, lookup_name)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1357, in try_transform
+    raise FieldError(
+django.core.exceptions.FieldError: Unsupported lookup 'incontains' for CharField or join on the field not permitted, perhaps you meant icontains or contains?
+2024-06-13 18:29:11,243 - INFO - middlewares - middlewares.py - time:  0.08359797799948865
+2024-06-13 18:29:11,245 - ERROR - basehttp - basehttp.py - "GET /api/v1/products/search/?name=%27%D0%BA%D1%83%D1%85%D0%BD%D1%8F%27 HTTP/1.1" 500 160896
+2024-06-13 18:30:21,330 - ERROR - log - log.py - Internal Server Error: /api/v1/products/search/
+Traceback (most recent call last):
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 415, in initial
+    self.check_permissions(request)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 332, in check_permissions
+    if not permission.has_permission(request, self):
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/permissions.py", line 240, in has_permission
+    queryset = self._queryset(view)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/permissions.py", line 223, in _queryset
+    queryset = view.get_queryset()
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/main/views.py", line 23, in get_queryset
+    queryset = queryset.filter(name__incontains=name)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1546, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1577, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1492, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1313, in build_lookup
+    lhs = self.try_transform(lhs, lookup_name)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1357, in try_transform
+    raise FieldError(
+django.core.exceptions.FieldError: Unsupported lookup 'incontains' for CharField or join on the field not permitted, perhaps you meant icontains or contains?
+2024-06-13 18:30:21,331 - INFO - middlewares - middlewares.py - time:  0.093551572999786
+2024-06-13 18:30:21,331 - ERROR - basehttp - basehttp.py - "GET /api/v1/products/search/?name= HTTP/1.1" 500 160150
+2024-06-13 18:30:55,966 - INFO - middlewares - middlewares.py - time:  0.02707549899969308
+2024-06-13 18:30:55,968 - INFO - basehttp - basehttp.py - "GET /api/v1/products/ HTTP/1.1" 200 7059
+2024-06-13 18:31:11,204 - ERROR - log - log.py - Internal Server Error: /api/v1/products/search/
+Traceback (most recent call last):
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 415, in initial
+    self.check_permissions(request)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 332, in check_permissions
+    if not permission.has_permission(request, self):
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/permissions.py", line 240, in has_permission
+    queryset = self._queryset(view)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/permissions.py", line 223, in _queryset
+    queryset = view.get_queryset()
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/main/views.py", line 23, in get_queryset
+    queryset = queryset.filter(name__incontains=name)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1546, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1577, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1492, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1313, in build_lookup
+    lhs = self.try_transform(lhs, lookup_name)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1357, in try_transform
+    raise FieldError(
+django.core.exceptions.FieldError: Unsupported lookup 'incontains' for CharField or join on the field not permitted, perhaps you meant icontains or contains?
+2024-06-13 18:31:11,205 - INFO - middlewares - middlewares.py - time:  0.12437451200003125
+2024-06-13 18:31:11,206 - ERROR - basehttp - basehttp.py - "GET /api/v1/products/search/?name=%D0%92%D1%81%D1%82%D1%80%D0%BE%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BD%D0%B0%D1%8F%20%D0%BA%D1%83%D1%85%D0%BD%D1%8F%20%D0%9A805 HTTP/1.1" 500 162928
+2024-06-13 18:44:05,951 - INFO - autoreload - autoreload.py - /home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/main/views.py changed, reloading.
+2024-06-13 18:44:06,762 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-13 18:44:29,536 - ERROR - log - log.py - Internal Server Error: /api/v1/products/search/
+Traceback (most recent call last):
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 415, in initial
+    self.check_permissions(request)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 332, in check_permissions
+    if not permission.has_permission(request, self):
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/permissions.py", line 240, in has_permission
+    queryset = self._queryset(view)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/permissions.py", line 223, in _queryset
+    queryset = view.get_queryset()
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/main/views.py", line 24, in get_queryset
+    queryset = queryset.filter(name__incontains=name)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1546, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1577, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1492, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1313, in build_lookup
+    lhs = self.try_transform(lhs, lookup_name)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1357, in try_transform
+    raise FieldError(
+django.core.exceptions.FieldError: Unsupported lookup 'incontains' for CharField or join on the field not permitted, perhaps you meant icontains or contains?
+2024-06-13 18:44:29,541 - INFO - middlewares - middlewares.py - time:  0.11533242499990592
+2024-06-13 18:44:29,542 - ERROR - basehttp - basehttp.py - "GET /api/v1/products/search/?name=%D0%92%D1%81%D1%82%D1%80%D0%BE%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BD%D0%B0%D1%8F%20%D0%BA%D1%83%D1%85%D0%BD%D1%8F%20%D0%9A805 HTTP/1.1" 500 163038
+2024-06-13 18:49:05,851 - INFO - autoreload - autoreload.py - /home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/main/views.py changed, reloading.
+2024-06-13 18:49:06,570 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-13 18:49:10,987 - ERROR - log - log.py - Internal Server Error: /api/v1/products/search/
+Traceback (most recent call last):
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 415, in initial
+    self.check_permissions(request)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 332, in check_permissions
+    if not permission.has_permission(request, self):
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/permissions.py", line 240, in has_permission
+    queryset = self._queryset(view)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/permissions.py", line 223, in _queryset
+    queryset = view.get_queryset()
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/main/views.py", line 24, in get_queryset
+    queryset = queryset.filter(name__incontains=name)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1546, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1577, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1492, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1313, in build_lookup
+    lhs = self.try_transform(lhs, lookup_name)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1357, in try_transform
+    raise FieldError(
+django.core.exceptions.FieldError: Unsupported lookup 'incontains' for CharField or join on the field not permitted, perhaps you meant icontains or contains?
+2024-06-13 18:49:10,990 - INFO - middlewares - middlewares.py - time:  0.08927858300012304
+2024-06-13 18:49:10,991 - ERROR - basehttp - basehttp.py - "GET /api/v1/products/search/?name=%D0%92%D1%81%D1%82%D1%80%D0%BE%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BD%D0%B0%D1%8F%20%D0%BA%D1%83%D1%85%D0%BD%D1%8F%20%D0%9A805 HTTP/1.1" 500 163055
+2024-06-13 18:56:47,314 - INFO - autoreload - autoreload.py - /home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/main/views.py changed, reloading.
+2024-06-13 18:56:47,956 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-13 19:10:41,645 - INFO - autoreload - autoreload.py - /home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/main/views.py changed, reloading.
+2024-06-13 19:10:42,956 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-13 19:10:54,245 - ERROR - log - log.py - Internal Server Error: /api/v1/products/search/
+Traceback (most recent call last):
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 415, in initial
+    self.check_permissions(request)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 332, in check_permissions
+    if not permission.has_permission(request, self):
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/permissions.py", line 240, in has_permission
+    queryset = self._queryset(view)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/permissions.py", line 223, in _queryset
+    queryset = view.get_queryset()
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/main/views.py", line 24, in get_queryset
+    queryset = queryset.filter(name_incontains=name)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1546, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1577, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1427, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1237, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1725, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'name_incontains' into field. Choices are: article, cartitem, category, category_id, created, description, discount, id, image, manufacture, manufacture_id, meta_description, meta_keywords, meta_title, name, price, quantity, sort_order, status, update, url_slag
+2024-06-13 19:10:54,247 - INFO - middlewares - middlewares.py - time:  0.09416547599994374
+2024-06-13 19:10:54,248 - ERROR - basehttp - basehttp.py - "GET /api/v1/products/search/?name=%D0%92%D1%81%D1%82%D1%80%D0%BE%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BD%D0%B0%D1%8F%20%D0%BA%D1%83%D1%85%D0%BD%D1%8F%20%D0%9A805 HTTP/1.1" 500 162711
+2024-06-13 19:11:42,145 - INFO - autoreload - autoreload.py - /home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/main/views.py changed, reloading.
+2024-06-13 19:11:42,836 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-13 19:11:44,475 - ERROR - log - log.py - Internal Server Error: /api/v1/products/search/
+Traceback (most recent call last):
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 415, in initial
+    self.check_permissions(request)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 332, in check_permissions
+    if not permission.has_permission(request, self):
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/permissions.py", line 240, in has_permission
+    queryset = self._queryset(view)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/permissions.py", line 223, in _queryset
+    queryset = view.get_queryset()
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/main/views.py", line 24, in get_queryset
+    queryset = queryset.filter(name__incontains=name)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1546, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1577, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1492, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1313, in build_lookup
+    lhs = self.try_transform(lhs, lookup_name)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1357, in try_transform
+    raise FieldError(
+django.core.exceptions.FieldError: Unsupported lookup 'incontains' for CharField or join on the field not permitted, perhaps you meant icontains or contains?
+2024-06-13 19:11:44,478 - INFO - middlewares - middlewares.py - time:  0.09876469299979362
+2024-06-13 19:11:44,479 - ERROR - basehttp - basehttp.py - "GET /api/v1/products/search/?name=%D0%92%D1%81%D1%82%D1%80%D0%BE%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BD%D0%B0%D1%8F%20%D0%BA%D1%83%D1%85%D0%BD%D1%8F%20%D0%9A805 HTTP/1.1" 500 163019
+2024-06-13 19:13:33,889 - INFO - autoreload - autoreload.py - /home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/main/views.py changed, reloading.
+2024-06-13 19:13:34,476 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-13 19:13:58,129 - INFO - autoreload - autoreload.py - /home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/main/views.py changed, reloading.
+2024-06-13 19:13:58,721 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-13 19:14:00,022 - INFO - middlewares - middlewares.py - time:  0.06079408200002945
+2024-06-13 19:14:00,023 - INFO - basehttp - basehttp.py - "GET /api/v1/products/search/?name=%D0%92%D1%81%D1%82%D1%80%D0%BE%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BD%D0%B0%D1%8F%20%D0%BA%D1%83%D1%85%D0%BD%D1%8F%20%D0%9A805 HTTP/1.1" 200 7217
+2024-06-13 19:14:38,131 - INFO - autoreload - autoreload.py - /home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/main/views.py changed, reloading.
+2024-06-13 19:14:38,704 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-13 19:14:49,649 - INFO - autoreload - autoreload.py - /home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/main/views.py changed, reloading.
+2024-06-13 19:14:50,278 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-13 19:15:02,069 - INFO - middlewares - middlewares.py - time:  0.08045521300027758
+2024-06-13 19:15:02,070 - INFO - basehttp - basehttp.py - "GET /api/v1/products/search/?name=%D0%BA%D1%83%D1%85%D0%BD%D1%8F HTTP/1.1" 200 6599
+2024-06-13 19:15:12,269 - INFO - middlewares - middlewares.py - time:  0.020683601000200724
+2024-06-13 19:15:12,274 - INFO - basehttp - basehttp.py - "GET /api/v1/products/search/?name=hh HTTP/1.1" 200 5475
+2024-06-13 19:17:57,261 - INFO - autoreload - autoreload.py - /home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/main/views.py changed, reloading.
+2024-06-13 19:17:57,828 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-13 19:19:21,681 - INFO - autoreload - autoreload.py - /home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/main/views.py changed, reloading.
+2024-06-13 19:19:22,456 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-13 19:19:52,186 - INFO - autoreload - autoreload.py - /home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/main/views.py changed, reloading.
+2024-06-13 19:19:52,863 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-13 19:19:56,345 - INFO - middlewares - middlewares.py - time:  0.08343660299942712
+2024-06-13 19:19:56,346 - INFO - basehttp - basehttp.py - "GET /api/v1/products/search/?name=hh HTTP/1.1" 200 7283
+2024-06-13 19:20:05,978 - INFO - middlewares - middlewares.py - time:  0.03297491000012087
+2024-06-13 19:20:05,979 - INFO - basehttp - basehttp.py - "GET /api/v1/products/search/?name=irfa HTTP/1.1" 200 7293
+2024-06-13 19:20:12,773 - INFO - middlewares - middlewares.py - time:  0.039320745999248174
+2024-06-13 19:20:12,774 - INFO - basehttp - basehttp.py - "GET /api/v1/products/search/?name=%D1%88%D0%BA%D0%B0%D1%84 HTTP/1.1" 200 6409
+2024-06-13 19:29:10,133 - INFO - autoreload - autoreload.py - /home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/main/views.py changed, reloading.
+2024-06-13 19:29:10,984 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-13 19:30:23,094 - INFO - autoreload - autoreload.py - /home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/main/views.py changed, reloading.
+2024-06-13 19:30:23,695 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-13 19:31:48,147 - INFO - autoreload - autoreload.py - /home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/main/views.py changed, reloading.
+2024-06-13 19:31:48,834 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-13 19:33:10,617 - INFO - autoreload - autoreload.py - /home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/main/views.py changed, reloading.
+2024-06-13 19:33:11,625 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-13 19:34:49,376 - INFO - autoreload - autoreload.py - /home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/main/views.py changed, reloading.
+2024-06-13 19:34:50,113 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-13 19:35:15,565 - INFO - middlewares - middlewares.py - time:  0.06120984699919063
+2024-06-13 19:35:15,566 - INFO - basehttp - basehttp.py - "GET /api/v1/products/search/?name= HTTP/1.1" 200 7273
+2024-06-13 19:35:54,720 - ERROR - log - log.py - Internal Server Error: /api/v1/products/search/
+Traceback (most recent call last):
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 415, in initial
+    self.check_permissions(request)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 332, in check_permissions
+    if not permission.has_permission(request, self):
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/permissions.py", line 240, in has_permission
+    queryset = self._queryset(view)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/permissions.py", line 223, in _queryset
+    queryset = view.get_queryset()
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/main/views.py", line 24, in get_queryset
+    if not queryset:
+UnboundLocalError: local variable 'queryset' referenced before assignment
+2024-06-13 19:35:54,721 - INFO - middlewares - middlewares.py - time:  0.06341236299977027
+2024-06-13 19:35:54,722 - ERROR - basehttp - basehttp.py - "GET /api/v1/products/search/?sorted_by=name HTTP/1.1" 500 118250
+2024-06-13 19:36:44,012 - ERROR - log - log.py - Internal Server Error: /api/v1/products/search/
+Traceback (most recent call last):
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 415, in initial
+    self.check_permissions(request)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 332, in check_permissions
+    if not permission.has_permission(request, self):
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/permissions.py", line 240, in has_permission
+    queryset = self._queryset(view)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/permissions.py", line 223, in _queryset
+    queryset = view.get_queryset()
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/main/views.py", line 24, in get_queryset
+    if not queryset:
+UnboundLocalError: local variable 'queryset' referenced before assignment
+2024-06-13 19:36:44,013 - INFO - middlewares - middlewares.py - time:  0.0618400000003021
+2024-06-13 19:36:44,014 - ERROR - basehttp - basehttp.py - "GET /api/v1/products/search/?sorted=name HTTP/1.1" 500 118205
+2024-06-13 19:38:08,323 - ERROR - log - log.py - Internal Server Error: /api/v1/products/search/
+Traceback (most recent call last):
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 415, in initial
+    self.check_permissions(request)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 332, in check_permissions
+    if not permission.has_permission(request, self):
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/permissions.py", line 240, in has_permission
+    queryset = self._queryset(view)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/permissions.py", line 223, in _queryset
+    queryset = view.get_queryset()
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/main/views.py", line 24, in get_queryset
+    if not queryset:
+UnboundLocalError: local variable 'queryset' referenced before assignment
+2024-06-13 19:38:08,324 - INFO - middlewares - middlewares.py - time:  0.057727928999156575
+2024-06-13 19:38:08,325 - ERROR - basehttp - basehttp.py - "GET /api/v1/products/search/?sorted=price HTTP/1.1" 500 118220
+2024-06-13 19:38:52,199 - INFO - middlewares - middlewares.py - time:  0.029640086999279447
+2024-06-13 19:38:52,200 - INFO - basehttp - basehttp.py - "GET /api/v1/products/sorted/?sorted=price HTTP/1.1" 200 7294
+2024-06-13 19:39:07,834 - INFO - middlewares - middlewares.py - time:  0.024969403000795865
+2024-06-13 19:39:07,835 - INFO - basehttp - basehttp.py - "GET /api/v1/products/sorted/?sorted=name HTTP/1.1" 200 7289
+2024-06-13 19:39:36,344 - INFO - middlewares - middlewares.py - time:  0.029988522999701672
+2024-06-13 19:39:36,345 - INFO - basehttp - basehttp.py - "GET /api/v1/products/sorted/?sorted=quantity HTTP/1.1" 200 7309
+2024-06-13 19:56:18,351 - INFO - autoreload - autoreload.py - /home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/main/views.py changed, reloading.
+2024-06-13 19:56:19,074 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-13 19:57:53,138 - INFO - autoreload - autoreload.py - /home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/main/views.py changed, reloading.
+2024-06-13 19:57:53,806 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-13 20:18:51,437 - INFO - autoreload - autoreload.py - /home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/main/views.py changed, reloading.
+2024-06-13 20:18:52,009 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-13 20:24:50,697 - INFO - autoreload - autoreload.py - /home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/main/views.py changed, reloading.
+2024-06-13 20:24:51,502 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-13 20:24:59,685 - INFO - middlewares - middlewares.py - time:  0.06786841100074525
+2024-06-13 20:24:59,686 - INFO - basehttp - basehttp.py - "GET /api/v1/products/sorted/?sorted=quantity HTTP/1.1" 200 7309
+2024-06-13 20:25:43,861 - INFO - middlewares - middlewares.py - time:  0.021693684000638314
+2024-06-13 20:25:43,862 - INFO - basehttp - basehttp.py - "GET /api/v1/products/sorted/?sorted=quantity&type_sorred=DESC HTTP/1.1" 200 7414
+2024-06-13 20:25:51,423 - INFO - middlewares - middlewares.py - time:  0.024891123999623233
+2024-06-13 20:25:51,424 - INFO - basehttp - basehttp.py - "GET /api/v1/products/sorted/?sorted=quantity HTTP/1.1" 200 7309
+2024-06-13 20:42:35,447 - INFO - autoreload - autoreload.py - /home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/main/views.py changed, reloading.
+2024-06-13 20:42:36,415 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-13 20:42:49,179 - INFO - middlewares - middlewares.py - time:  0.024229517999629024
+2024-06-13 20:42:49,179 - WARNING - log - log.py - Not Found: /api/v1/manufactures/
+2024-06-13 20:42:49,179 - WARNING - basehttp - basehttp.py - "GET /api/v1/manufactures/ HTTP/1.1" 404 2998
+2024-06-13 20:43:45,069 - INFO - middlewares - middlewares.py - time:  0.056674280000152066
+2024-06-13 20:43:45,069 - INFO - basehttp - basehttp.py - "GET /api/v1/products/manufactures/ HTTP/1.1" 200 6527

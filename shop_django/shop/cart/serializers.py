@@ -25,7 +25,7 @@ class AddCartSerializers(serializers.ModelSerializer):
 
     class Meta:
         model = CartItem
-        fields =['product', 'quantity']
+        fields = ['product', 'quantity']
 
     def validate_product_id(self, value):
         try:
@@ -39,7 +39,7 @@ class AddCartSerializers(serializers.ModelSerializer):
         product = Products.objects.get(id=validated_data['product_id'])
         quantity = validated_data['quantity']
 
-        #Проверка существует ли товар в корзине
+        # Проверка существует ли товар в корзине
         cart_item, created = CartItem.objects.get_or_create(
             cart=cart,
             product=product,
@@ -50,4 +50,6 @@ class AddCartSerializers(serializers.ModelSerializer):
             cart_item.quantity += quantity
             cart_item.save()
         return cart_item
+
+
 
