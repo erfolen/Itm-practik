@@ -25,7 +25,7 @@ class AddCartSerializers(serializers.ModelSerializer):
 
     class Meta:
         model = CartItem
-        fields = ['product', 'quantity']
+        fields = ['product_id', 'quantity']
 
     def validate_product_id(self, value):
         try:
@@ -43,7 +43,7 @@ class AddCartSerializers(serializers.ModelSerializer):
         cart_item, created = CartItem.objects.get_or_create(
             cart=cart,
             product=product,
-            defaults={'qautity': quantity}
+            defaults={'quantity': quantity}
         )
 
         if not created:

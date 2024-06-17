@@ -7,7 +7,7 @@ from .serializers import CartSerializers, AddCartSerializers, ProductSerializer
 
 
 class CartView(generics.RetrieveAPIView):
-    serializer_classes =CartSerializers
+    serializer_class = CartSerializers
     permission_classes = [IsAuthenticated]
 
     def get_object(self):
@@ -16,22 +16,20 @@ class CartView(generics.RetrieveAPIView):
 
 
 class AddCartItemView(generics.CreateAPIView):
-    serializer_classes = AddCartSerializers
+    serializer_class = AddCartSerializers
     permission_classes = [IsAuthenticated]
 
-    def get_serializer_contex(self):
-        context = super().get_serializer_contaxt()
-        cart, created = Cart.objects.get_or_created(user=self.request.user)
+    def get_serializer_context(self):
+        context = super().get_serializer_context()
+        cart, created = Cart.objects.get_or_create(user=self.request.user)
         context['cart'] = cart
         return context
 
     def create(self, request, *args, **kwargs):
-        serializer = self.get_serializer(data=request.data)
+        context = self.get_serializer_context()
+        serializer = self.get_serializer(data=request.data, context=context)
         serializer.is_valid(raise_exception=True)
         self.perform_create(serializer)
         headers = self.get_success_headers(serializer.data)
         return Response(serializer.data, status=status.HTTP_201_CREATED, headers=headers)
-
-
-
 
