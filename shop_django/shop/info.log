@@ -2395,3 +2395,37 @@ UnboundLocalError: local variable 'queryset' referenced before assignment
 2024-06-21 16:32:05,517 - INFO - middlewares - middlewares.py - time:  0.04419248300109757
 2024-06-21 16:32:05,518 - WARNING - log - log.py - Not Found: /
 2024-06-21 16:32:05,520 - WARNING - runserver - runserver.py - [33mHTTP GET / 404 [0.10, 127.0.0.1:44390][0m
+2024-06-21 17:15:00,380 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-21 17:16:14,118 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-21 17:20:51,881 - INFO - autoreload - autoreload.py - /home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/chat/admin.py changed, reloading.
+2024-06-21 17:20:54,388 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-21 17:24:12,769 - INFO - autoreload - autoreload.py - /home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/chat/urls.py changed, reloading.
+2024-06-21 17:24:14,029 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-21 17:25:40,350 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-21 17:29:10,863 - INFO - autoreload - autoreload.py - /home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/chat/urls.py changed, reloading.
+2024-06-21 17:29:13,166 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-21 17:30:43,749 - INFO - autoreload - autoreload.py - /home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/chat/urls.py changed, reloading.
+2024-06-21 17:30:44,720 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-21 17:31:40,393 - INFO - autoreload - autoreload.py - /home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/chat/urls.py changed, reloading.
+2024-06-21 17:31:41,434 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-21 17:34:02,106 - INFO - autoreload - autoreload.py - /home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/chat/urls.py changed, reloading.
+2024-06-21 17:34:03,109 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-21 17:34:15,360 - INFO - autoreload - autoreload.py - /home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/chat/urls.py changed, reloading.
+2024-06-21 17:34:16,349 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-21 17:34:39,255 - INFO - autoreload - autoreload.py - /home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/chat/urls.py changed, reloading.
+2024-06-21 17:34:40,247 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-21 17:35:45,765 - INFO - autoreload - autoreload.py - /home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/chat/urls.py changed, reloading.
+2024-06-21 17:35:46,719 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-21 17:35:50,316 - INFO - middlewares - middlewares.py - time:  0.03376105099596316
+2024-06-21 17:35:50,318 - WARNING - log - log.py - Not Found: /
+2024-06-21 17:35:50,319 - WARNING - runserver - runserver.py - [33mHTTP GET / 404 [0.06, 127.0.0.1:57656][0m
+2024-06-21 17:35:58,455 - INFO - middlewares - middlewares.py - time:  0.015867019996221643
+2024-06-21 17:35:58,457 - INFO - runserver - runserver.py - [32mHTTP GET /chat 301 [0.02, 127.0.0.1:57656][0m
+2024-06-21 17:35:58,467 - INFO - middlewares - middlewares.py - time:  0.004377516997919884
+2024-06-21 17:35:58,468 - INFO - runserver - runserver.py - [mHTTP GET /chat/ 200 [0.01, 127.0.0.1:57656][0m
+2024-06-21 17:36:11,906 - INFO - middlewares - middlewares.py - time:  0.03153480699984357
+2024-06-21 17:36:11,908 - WARNING - log - log.py - Not Found: /chat/lobbi/
+2024-06-21 17:36:11,909 - WARNING - runserver - runserver.py - [33mHTTP GET /chat/lobbi/ 404 [0.04, 127.0.0.1:57656][0m
+2024-06-21 17:39:33,196 - INFO - middlewares - middlewares.py - time:  0.008865470001182985
+2024-06-21 17:39:33,199 - INFO - runserver - runserver.py - [mHTTP GET /chat/ 200 [0.03, 127.0.0.1:50210][0m
+2024-06-21 17:54:21,751 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
