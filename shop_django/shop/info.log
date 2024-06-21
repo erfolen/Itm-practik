@@ -1484,3 +1484,914 @@ UnboundLocalError: local variable 'queryset' referenced before assignment
 2024-06-13 20:42:49,179 - WARNING - basehttp - basehttp.py - "GET /api/v1/manufactures/ HTTP/1.1" 404 2998
 2024-06-13 20:43:45,069 - INFO - middlewares - middlewares.py - time:  0.056674280000152066
 2024-06-13 20:43:45,069 - INFO - basehttp - basehttp.py - "GET /api/v1/products/manufactures/ HTTP/1.1" 200 6527
+2024-06-17 19:31:58,199 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-17 19:37:59,197 - INFO - middlewares - middlewares.py - time:  0.10410223999861046
+2024-06-17 19:37:59,198 - INFO - basehttp - basehttp.py - "GET /admin/ HTTP/1.1" 200 9856
+2024-06-17 19:37:59,400 - INFO - middlewares - middlewares.py - time:  0.01931774400145514
+2024-06-17 19:37:59,401 - WARNING - log - log.py - Not Found: /favicon.ico
+2024-06-17 19:37:59,401 - WARNING - basehttp - basehttp.py - "GET /favicon.ico HTTP/1.1" 404 2971
+2024-06-17 19:38:02,127 - INFO - middlewares - middlewares.py - time:  0.06745364900052664
+2024-06-17 19:38:02,128 - INFO - basehttp - basehttp.py - "GET /admin/auth/group/ HTTP/1.1" 200 8547
+2024-06-17 19:38:02,193 - INFO - middlewares - middlewares.py - time:  0.03166976400098065
+2024-06-17 19:38:02,193 - INFO - basehttp - basehttp.py - "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+2024-06-17 19:38:02,194 - INFO - basehttp - basehttp.py - "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+2024-06-17 19:38:06,407 - INFO - middlewares - middlewares.py - time:  0.07749021999916295
+2024-06-17 19:38:06,408 - INFO - basehttp - basehttp.py - "GET /admin/auth/group/add/ HTTP/1.1" 200 14150
+2024-06-17 19:38:06,444 - INFO - basehttp - basehttp.py - "GET /static/admin/js/SelectBox.js HTTP/1.1" 304 0
+2024-06-17 19:38:06,451 - INFO - basehttp - basehttp.py - "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 304 0
+2024-06-17 19:38:06,460 - INFO - middlewares - middlewares.py - time:  0.020497673998761456
+2024-06-17 19:38:06,461 - INFO - basehttp - basehttp.py - "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+2024-06-17 19:38:06,569 - INFO - basehttp - basehttp.py - "GET /static/admin/img/icon-unknown.svg HTTP/1.1" 304 0
+2024-06-17 19:38:06,575 - INFO - basehttp - basehttp.py - "GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 304 0
+2024-06-17 19:38:06,577 - INFO - basehttp - basehttp.py - "GET /static/admin/img/selector-icons.svg HTTP/1.1" 304 0
+2024-06-17 19:39:20,557 - INFO - middlewares - middlewares.py - time:  0.11358822200054419
+2024-06-17 19:39:20,560 - INFO - basehttp - basehttp.py - "POST /admin/auth/group/add/ HTTP/1.1" 302 0
+2024-06-17 19:39:20,624 - INFO - middlewares - middlewares.py - time:  0.05170360700140009
+2024-06-17 19:39:20,626 - INFO - basehttp - basehttp.py - "GET /admin/auth/group/ HTTP/1.1" 200 10012
+2024-06-17 19:39:20,713 - INFO - middlewares - middlewares.py - time:  0.015534252997895237
+2024-06-17 19:39:20,714 - INFO - basehttp - basehttp.py - "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+2024-06-17 19:39:20,780 - INFO - basehttp - basehttp.py - "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+2024-06-17 19:39:42,241 - INFO - middlewares - middlewares.py - time:  0.08325189600145677
+2024-06-17 19:39:42,243 - INFO - basehttp - basehttp.py - "GET /admin/auth/ HTTP/1.1" 200 5453
+2024-06-17 19:39:45,411 - INFO - middlewares - middlewares.py - time:  0.11792274199979147
+2024-06-17 19:39:45,412 - INFO - basehttp - basehttp.py - "GET /admin/auth/group/add/ HTTP/1.1" 200 14150
+2024-06-17 19:39:45,452 - INFO - middlewares - middlewares.py - time:  0.014883871997881215
+2024-06-17 19:39:45,453 - INFO - basehttp - basehttp.py - "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+2024-06-17 19:40:00,559 - INFO - middlewares - middlewares.py - time:  0.1168483989968081
+2024-06-17 19:40:00,560 - INFO - basehttp - basehttp.py - "GET /admin/auth/group/ HTTP/1.1" 200 9803
+2024-06-17 19:40:00,623 - INFO - middlewares - middlewares.py - time:  0.013570835002610693
+2024-06-17 19:40:00,624 - INFO - basehttp - basehttp.py - "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+2024-06-17 19:40:07,841 - INFO - middlewares - middlewares.py - time:  0.14468849699915154
+2024-06-17 19:40:07,842 - INFO - basehttp - basehttp.py - "GET /admin/auth/group/1/change/ HTTP/1.1" 200 14391
+2024-06-17 19:40:07,891 - INFO - middlewares - middlewares.py - time:  0.015255369999067625
+2024-06-17 19:40:07,891 - INFO - basehttp - basehttp.py - "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+2024-06-17 19:40:27,965 - INFO - middlewares - middlewares.py - time:  0.08917323800051236
+2024-06-17 19:40:27,971 - INFO - basehttp - basehttp.py - "GET /admin/auth/ HTTP/1.1" 200 5453
+2024-06-17 19:41:30,096 - INFO - middlewares - middlewares.py - time:  0.09194514300179435
+2024-06-17 19:41:30,099 - INFO - basehttp - basehttp.py - "GET /admin/ HTTP/1.1" 200 10143
+2024-06-17 19:41:32,651 - INFO - middlewares - middlewares.py - time:  0.10040576499886811
+2024-06-17 19:41:32,652 - INFO - basehttp - basehttp.py - "GET /admin/main/manufactures/ HTTP/1.1" 200 9815
+2024-06-17 19:41:32,712 - INFO - middlewares - middlewares.py - time:  0.01654087799761328
+2024-06-17 19:41:32,713 - INFO - basehttp - basehttp.py - "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+2024-06-17 19:41:34,528 - INFO - middlewares - middlewares.py - time:  0.048094460002175765
+2024-06-17 19:41:34,529 - INFO - basehttp - basehttp.py - "GET /admin/main/categories/ HTTP/1.1" 200 9969
+2024-06-17 19:41:34,574 - INFO - middlewares - middlewares.py - time:  0.014463104998867493
+2024-06-17 19:41:34,575 - INFO - basehttp - basehttp.py - "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+2024-06-17 19:41:36,269 - INFO - middlewares - middlewares.py - time:  0.16347116800170625
+2024-06-17 19:41:36,270 - INFO - basehttp - basehttp.py - "GET /admin/main/products/ HTTP/1.1" 200 22151
+2024-06-17 19:41:36,312 - INFO - basehttp - basehttp.py - "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 304 0
+2024-06-17 19:41:36,324 - INFO - middlewares - middlewares.py - time:  0.017548357998748543
+2024-06-17 19:41:36,326 - INFO - basehttp - basehttp.py - "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+2024-06-17 19:41:36,326 - INFO - basehttp - basehttp.py - "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+2024-06-17 19:41:38,930 - INFO - middlewares - middlewares.py - time:  0.0974049720025505
+2024-06-17 19:41:38,931 - INFO - basehttp - basehttp.py - "GET /admin/auth/group/ HTTP/1.1" 200 9803
+2024-06-17 19:41:38,974 - INFO - middlewares - middlewares.py - time:  0.01441102500029956
+2024-06-17 19:41:38,975 - INFO - basehttp - basehttp.py - "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+2024-06-17 19:44:34,253 - INFO - autoreload - autoreload.py - /home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/user/admin.py changed, reloading.
+2024-06-17 19:44:35,177 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-17 19:44:39,832 - INFO - middlewares - middlewares.py - time:  0.13834347300144145
+2024-06-17 19:44:39,833 - INFO - basehttp - basehttp.py - "GET /admin/auth/group/ HTTP/1.1" 200 10344
+2024-06-17 19:44:39,876 - INFO - middlewares - middlewares.py - time:  0.014766397001949372
+2024-06-17 19:44:39,877 - INFO - basehttp - basehttp.py - "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+2024-06-17 19:44:45,207 - INFO - middlewares - middlewares.py - time:  0.20490875999894342
+2024-06-17 19:44:45,207 - INFO - basehttp - basehttp.py - "GET /admin/user/user/add/ HTTP/1.1" 200 23573
+2024-06-17 19:44:45,249 - INFO - basehttp - basehttp.py - "GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+2024-06-17 19:44:45,260 - INFO - middlewares - middlewares.py - time:  0.018785803997161565
+2024-06-17 19:44:45,260 - INFO - basehttp - basehttp.py - "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+2024-06-17 19:44:45,261 - INFO - basehttp - basehttp.py - "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+2024-06-17 19:44:45,383 - INFO - basehttp - basehttp.py - "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 304 0
+2024-06-17 19:44:45,389 - INFO - basehttp - basehttp.py - "GET /static/admin/img/icon-clock.svg HTTP/1.1" 304 0
+2024-06-17 19:45:15,527 - INFO - middlewares - middlewares.py - time:  0.12383220300034736
+2024-06-17 19:45:15,528 - INFO - basehttp - basehttp.py - "POST /admin/user/user/add/ HTTP/1.1" 200 23798
+2024-06-17 19:45:15,575 - INFO - middlewares - middlewares.py - time:  0.015839812000194797
+2024-06-17 19:45:15,576 - INFO - basehttp - basehttp.py - "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+2024-06-17 19:45:29,289 - INFO - middlewares - middlewares.py - time:  0.12311410899928887
+2024-06-17 19:45:29,291 - INFO - basehttp - basehttp.py - "POST /admin/user/user/add/ HTTP/1.1" 302 0
+2024-06-17 19:45:29,351 - INFO - middlewares - middlewares.py - time:  0.054139761999977054
+2024-06-17 19:45:29,353 - INFO - basehttp - basehttp.py - "GET /admin/user/user/ HTTP/1.1" 200 10501
+2024-06-17 19:45:29,490 - INFO - middlewares - middlewares.py - time:  0.013987798000016483
+2024-06-17 19:45:29,491 - INFO - basehttp - basehttp.py - "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+2024-06-17 19:45:40,568 - INFO - middlewares - middlewares.py - time:  0.09595885900125722
+2024-06-17 19:45:40,570 - INFO - basehttp - basehttp.py - "GET /admin/auth/group/ HTTP/1.1" 200 10344
+2024-06-17 19:45:40,625 - INFO - middlewares - middlewares.py - time:  0.01482925299933413
+2024-06-17 19:45:40,625 - INFO - basehttp - basehttp.py - "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+2024-06-17 19:45:42,507 - INFO - middlewares - middlewares.py - time:  0.09806676600055653
+2024-06-17 19:45:42,508 - INFO - basehttp - basehttp.py - "GET /admin/auth/group/1/change/ HTTP/1.1" 200 14932
+2024-06-17 19:45:42,556 - INFO - middlewares - middlewares.py - time:  0.017107102001318708
+2024-06-17 19:45:42,557 - INFO - basehttp - basehttp.py - "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+2024-06-17 19:45:46,169 - INFO - middlewares - middlewares.py - time:  0.12807765600155108
+2024-06-17 19:45:46,171 - INFO - basehttp - basehttp.py - "GET /admin/user/user/ HTTP/1.1" 200 10278
+2024-06-17 19:45:46,216 - INFO - middlewares - middlewares.py - time:  0.016157127000042237
+2024-06-17 19:45:46,217 - INFO - basehttp - basehttp.py - "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+2024-06-17 19:45:48,149 - INFO - middlewares - middlewares.py - time:  0.268712367000262
+2024-06-17 19:45:48,152 - INFO - basehttp - basehttp.py - "GET /admin/user/user/2/change/ HTTP/1.1" 200 23830
+2024-06-17 19:45:48,207 - INFO - middlewares - middlewares.py - time:  0.014303920001111692
+2024-06-17 19:45:48,208 - INFO - basehttp - basehttp.py - "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+2024-06-17 19:47:14,710 - INFO - middlewares - middlewares.py - time:  0.06180059400139726
+2024-06-17 19:47:14,712 - INFO - basehttp - basehttp.py - "GET /admin/main/categories/2/change/ HTTP/1.1" 200 16177
+2024-06-17 19:47:14,781 - INFO - middlewares - middlewares.py - time:  0.01932976199896075
+2024-06-17 19:47:14,781 - INFO - basehttp - basehttp.py - "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+2024-06-17 19:47:27,367 - INFO - middlewares - middlewares.py - time:  0.04707966999922064
+2024-06-17 19:47:27,368 - WARNING - log - log.py - Method Not Allowed: /api/token/
+2024-06-17 19:47:27,368 - WARNING - basehttp - basehttp.py - "GET /api/token/ HTTP/1.1" 405 7688
+2024-06-17 19:47:27,406 - INFO - basehttp - basehttp.py - "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+2024-06-17 19:47:27,408 - INFO - basehttp - basehttp.py - "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+2024-06-17 19:47:27,408 - INFO - basehttp - basehttp.py - "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+2024-06-17 19:47:27,409 - INFO - basehttp - basehttp.py - "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+2024-06-17 19:47:27,412 - INFO - basehttp - basehttp.py - "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+2024-06-17 19:47:27,413 - INFO - basehttp - basehttp.py - "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 304 0
+2024-06-17 19:47:27,417 - INFO - basehttp - basehttp.py - "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+2024-06-17 19:47:27,421 - INFO - basehttp - basehttp.py - "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+2024-06-17 19:47:27,423 - INFO - basehttp - basehttp.py - "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+2024-06-17 19:47:27,432 - INFO - basehttp - basehttp.py - "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+2024-06-17 19:47:27,434 - INFO - basehttp - basehttp.py - "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 304 0
+2024-06-17 19:47:27,477 - INFO - basehttp - basehttp.py - "GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
+2024-06-17 19:47:42,566 - INFO - middlewares - middlewares.py - time:  0.7100974990025861
+2024-06-17 19:47:42,567 - WARNING - log - log.py - Unauthorized: /api/token/
+2024-06-17 19:47:42,567 - WARNING - basehttp - basehttp.py - "POST /api/token/ HTTP/1.1" 401 7617
+2024-06-17 19:47:53,568 - INFO - middlewares - middlewares.py - time:  1.078207915998064
+2024-06-17 19:47:53,569 - INFO - basehttp - basehttp.py - "POST /api/token/ HTTP/1.1" 200 8118
+2024-06-17 19:50:57,483 - INFO - middlewares - middlewares.py - time:  0.000746615001844475
+2024-06-17 19:50:57,485 - WARNING - log - log.py - Unauthorized: /api/v1/cart/
+2024-06-17 19:50:57,486 - WARNING - basehttp - basehttp.py - "GET /api/v1/cart/ HTTP/1.1" 401 82
+2024-06-17 19:51:21,793 - INFO - middlewares - middlewares.py - time:  0.007528211001044838
+2024-06-17 19:51:21,797 - WARNING - log - log.py - Unauthorized: /api/v1/cart/
+2024-06-17 19:51:21,801 - WARNING - basehttp - basehttp.py - "GET /api/v1/cart/ HTTP/1.1" 401 5119
+2024-06-17 19:53:55,827 - INFO - middlewares - middlewares.py - time:  0.03157390999695053
+2024-06-17 19:53:55,831 - INFO - basehttp - basehttp.py - "GET /api/v1/drf-auth/login/?next=/api/v1/cart/ HTTP/1.1" 200 2747
+2024-06-17 19:53:58,321 - INFO - middlewares - middlewares.py - time:  0.7381455079994339
+2024-06-17 19:53:58,326 - INFO - basehttp - basehttp.py - "POST /api/v1/drf-auth/login/ HTTP/1.1" 302 0
+2024-06-17 19:53:58,337 - INFO - middlewares - middlewares.py - time:  0.006785046000004513
+2024-06-17 19:53:58,338 - WARNING - log - log.py - Unauthorized: /api/v1/cart/
+2024-06-17 19:53:58,338 - WARNING - basehttp - basehttp.py - "GET /api/v1/cart/ HTTP/1.1" 401 5119
+2024-06-17 19:54:01,042 - INFO - middlewares - middlewares.py - time:  0.026249847000144655
+2024-06-17 19:54:01,046 - WARNING - log - log.py - Unauthorized: /api/v1/cart/
+2024-06-17 19:54:01,052 - WARNING - basehttp - basehttp.py - "GET /api/v1/cart/ HTTP/1.1" 401 5119
+2024-06-17 19:54:05,682 - INFO - middlewares - middlewares.py - time:  0.03940987999885692
+2024-06-17 19:54:05,684 - WARNING - log - log.py - Unauthorized: /api/v1/cart/
+2024-06-17 19:54:05,687 - WARNING - basehttp - basehttp.py - "GET /api/v1/cart/ HTTP/1.1" 401 5119
+2024-06-17 19:54:07,985 - INFO - middlewares - middlewares.py - time:  0.04101731499758898
+2024-06-17 19:54:07,986 - WARNING - log - log.py - Unauthorized: /api/v1/cart/
+2024-06-17 19:54:07,987 - WARNING - basehttp - basehttp.py - "GET /api/v1/cart/ HTTP/1.1" 401 5119
+2024-06-17 19:54:16,720 - INFO - middlewares - middlewares.py - time:  0.012159435002104146
+2024-06-17 19:54:16,728 - INFO - basehttp - basehttp.py - "GET /api/v1/drf-auth/login/?next=/api/v1/cart/ HTTP/1.1" 200 2747
+2024-06-17 19:54:18,790 - INFO - middlewares - middlewares.py - time:  0.7234269689979556
+2024-06-17 19:54:18,794 - INFO - basehttp - basehttp.py - "POST /api/v1/drf-auth/login/ HTTP/1.1" 302 0
+2024-06-17 19:54:18,803 - INFO - middlewares - middlewares.py - time:  0.005004992999602109
+2024-06-17 19:54:18,803 - WARNING - log - log.py - Unauthorized: /api/v1/cart/
+2024-06-17 19:54:18,804 - WARNING - basehttp - basehttp.py - "GET /api/v1/cart/ HTTP/1.1" 401 5119
+2024-06-17 19:55:15,882 - INFO - middlewares - middlewares.py - time:  0.04018882099990151
+2024-06-17 19:55:15,883 - INFO - basehttp - basehttp.py - "GET /api/v1/products/sorted/?sorted=quantity HTTP/1.1" 200 7309
+2024-06-17 19:57:38,443 - INFO - middlewares - middlewares.py - time:  0.04132475100050215
+2024-06-17 19:57:38,450 - WARNING - log - log.py - Method Not Allowed: /api/token/refresh/
+2024-06-17 19:57:38,454 - WARNING - basehttp - basehttp.py - "GET /api/token/refresh/ HTTP/1.1" 405 7511
+2024-06-17 19:57:54,419 - INFO - middlewares - middlewares.py - time:  0.06858187000034377
+2024-06-17 19:57:54,421 - INFO - basehttp - basehttp.py - "POST /api/token/refresh/ HTTP/1.1" 200 7673
+2024-06-17 19:58:46,763 - INFO - middlewares - middlewares.py - time:  0.0008225139972637407
+2024-06-17 19:58:46,764 - WARNING - log - log.py - Unauthorized: /api/v1/cart/
+2024-06-17 19:58:46,764 - WARNING - basehttp - basehttp.py - "GET /api/v1/cart/ HTTP/1.1" 401 82
+2024-06-17 20:00:13,762 - ERROR - log - log.py - Internal Server Error: /api/v1/cart/
+Traceback (most recent call last):
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/generics.py", line 212, in get
+    return self.retrieve(request, *args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/mixins.py", line 54, in retrieve
+    instance = self.get_object()
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/cart/views.py", line 14, in get_object
+    cart, created = Cart.objects_or_created(user=self.request.user)
+AttributeError: type object 'Cart' has no attribute 'objects_or_created'
+2024-06-17 20:00:13,766 - INFO - middlewares - middlewares.py - time:  0.24995763799961424
+2024-06-17 20:00:13,767 - ERROR - basehttp - basehttp.py - "GET /api/v1/cart/ HTTP/1.1" 500 106861
+2024-06-17 20:03:45,731 - INFO - middlewares - middlewares.py - time:  0.010897416999796405
+2024-06-17 20:03:45,771 - ERROR - log - log.py - Internal Server Error: /api/v1/cart/add
+Traceback (most recent call last):
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/middleware/common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/api/v1/cart/add/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2024-06-17 20:03:45,773 - ERROR - basehttp - basehttp.py - "POST /api/v1/cart/add HTTP/1.1" 500 77693
+2024-06-17 20:06:16,165 - INFO - middlewares - middlewares.py - time:  0.007287594999070279
+2024-06-17 20:06:16,166 - WARNING - log - log.py - Unauthorized: /api/v1/cart/add/
+2024-06-17 20:06:16,167 - WARNING - basehttp - basehttp.py - "POST /api/v1/cart/add/ HTTP/1.1" 401 183
+2024-06-17 20:06:48,022 - INFO - middlewares - middlewares.py - time:  0.02366994300246006
+2024-06-17 20:06:48,024 - INFO - basehttp - basehttp.py - "POST /api/token/refresh/ HTTP/1.1" 200 7673
+2024-06-17 20:07:22,313 - ERROR - log - log.py - Internal Server Error: /api/v1/cart/add/
+Traceback (most recent call last):
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/generics.py", line 194, in post
+    return self.create(request, *args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/cart/views.py", line 29, in create
+    serializer = self.get_serializer(data=request.data)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/generics.py", line 112, in get_serializer
+    serializer_class = self.get_serializer_class()
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/generics.py", line 126, in get_serializer_class
+    assert self.serializer_class is not None, (
+AssertionError: 'AddCartItemView' should either include a `serializer_class` attribute, or override the `get_serializer_class()` method.
+2024-06-17 20:07:22,313 - INFO - middlewares - middlewares.py - time:  0.0717687840005965
+2024-06-17 20:07:22,314 - ERROR - basehttp - basehttp.py - "POST /api/v1/cart/add/ HTTP/1.1" 500 112600
+2024-06-17 20:17:29,715 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-17 20:21:27,098 - INFO - middlewares - middlewares.py - time:  0.01543254299997443
+2024-06-17 20:21:27,099 - WARNING - log - log.py - Unauthorized: /api/v1/cart/add/
+2024-06-17 20:21:27,099 - WARNING - basehttp - basehttp.py - "POST /api/v1/cart/add/ HTTP/1.1" 401 183
+2024-06-17 20:30:30,076 - INFO - middlewares - middlewares.py - time:  0.03412666799999897
+2024-06-17 20:30:30,077 - WARNING - log - log.py - Not Found: /
+2024-06-17 20:30:30,077 - WARNING - basehttp - basehttp.py - "GET / HTTP/1.1" 404 2920
+2024-06-17 20:30:30,492 - INFO - middlewares - middlewares.py - time:  0.014495608000061111
+2024-06-17 20:30:30,494 - WARNING - log - log.py - Not Found: /favicon.ico
+2024-06-17 20:30:30,495 - WARNING - basehttp - basehttp.py - "GET /favicon.ico HTTP/1.1" 404 2971
+2024-06-17 20:30:42,040 - INFO - middlewares - middlewares.py - time:  0.25850873899992166
+2024-06-17 20:30:42,042 - INFO - basehttp - basehttp.py - "GET /admin/user/user/2/change/ HTTP/1.1" 200 23830
+2024-06-17 20:30:42,107 - INFO - middlewares - middlewares.py - time:  0.021252075000006698
+2024-06-17 20:30:42,108 - INFO - basehttp - basehttp.py - "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+2024-06-17 20:30:43,460 - INFO - middlewares - middlewares.py - time:  0.07808344299996861
+2024-06-17 20:30:43,461 - INFO - basehttp - basehttp.py - "GET /api/v1/products/manufactures/ HTTP/1.1" 200 6527
+2024-06-17 20:30:47,749 - INFO - middlewares - middlewares.py - time:  0.07813848499995402
+2024-06-17 20:30:47,751 - WARNING - log - log.py - Bad Request: /api/token/
+2024-06-17 20:30:47,751 - WARNING - basehttp - basehttp.py - "POST /api/token/ HTTP/1.1" 400 7979
+2024-06-17 20:30:51,054 - INFO - middlewares - middlewares.py - time:  0.8251598119999244
+2024-06-17 20:30:51,055 - INFO - basehttp - basehttp.py - "POST /api/token/ HTTP/1.1" 200 8118
+2024-06-17 20:30:51,342 - INFO - middlewares - middlewares.py - time:  0.02736682500005827
+2024-06-17 20:30:51,344 - WARNING - log - log.py - Unauthorized: /api/v1/cart/
+2024-06-17 20:30:51,356 - WARNING - basehttp - basehttp.py - "GET /api/v1/cart/ HTTP/1.1" 401 5119
+2024-06-17 20:31:20,091 - ERROR - log - log.py - Internal Server Error: /api/v1/cart/add/
+Traceback (most recent call last):
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/generics.py", line 194, in post
+    return self.create(request, *args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/cart/views.py", line 29, in create
+    serializer = self.get_serializer(data=request.data)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/generics.py", line 112, in get_serializer
+    serializer_class = self.get_serializer_class()
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/generics.py", line 126, in get_serializer_class
+    assert self.serializer_class is not None, (
+AssertionError: 'AddCartItemView' should either include a `serializer_class` attribute, or override the `get_serializer_class()` method.
+2024-06-17 20:31:20,096 - INFO - middlewares - middlewares.py - time:  0.2589532850000751
+2024-06-17 20:31:20,103 - ERROR - basehttp - basehttp.py - "POST /api/v1/cart/add/ HTTP/1.1" 500 112596
+2024-06-17 20:32:14,442 - INFO - middlewares - middlewares.py - time:  0.015546680999932505
+2024-06-17 20:32:14,442 - WARNING - log - log.py - Method Not Allowed: /api/v1/cart/
+2024-06-17 20:32:14,443 - WARNING - basehttp - basehttp.py - "POST /api/v1/cart/ HTTP/1.1" 405 55
+2024-06-17 20:32:26,454 - ERROR - log - log.py - Internal Server Error: /api/v1/cart/add/
+Traceback (most recent call last):
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/generics.py", line 194, in post
+    return self.create(request, *args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/cart/views.py", line 29, in create
+    serializer = self.get_serializer(data=request.data)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/generics.py", line 112, in get_serializer
+    serializer_class = self.get_serializer_class()
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/generics.py", line 126, in get_serializer_class
+    assert self.serializer_class is not None, (
+AssertionError: 'AddCartItemView' should either include a `serializer_class` attribute, or override the `get_serializer_class()` method.
+2024-06-17 20:32:26,456 - INFO - middlewares - middlewares.py - time:  0.07881197599999723
+2024-06-17 20:32:26,457 - ERROR - basehttp - basehttp.py - "POST /api/v1/cart/add/ HTTP/1.1" 500 112596
+2024-06-17 20:32:52,761 - ERROR - log - log.py - Internal Server Error: /api/v1/cart/add/
+Traceback (most recent call last):
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/generics.py", line 194, in post
+    return self.create(request, *args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/cart/views.py", line 29, in create
+    serializer = self.get_serializer(data=request.data)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/generics.py", line 112, in get_serializer
+    serializer_class = self.get_serializer_class()
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/generics.py", line 126, in get_serializer_class
+    assert self.serializer_class is not None, (
+AssertionError: 'AddCartItemView' should either include a `serializer_class` attribute, or override the `get_serializer_class()` method.
+2024-06-17 20:32:52,762 - INFO - middlewares - middlewares.py - time:  0.04863950600008593
+2024-06-17 20:32:52,762 - ERROR - basehttp - basehttp.py - "POST /api/v1/cart/add/ HTTP/1.1" 500 112596
+2024-06-17 20:41:16,472 - INFO - autoreload - autoreload.py - /home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/cart/views.py changed, reloading.
+2024-06-17 20:41:17,837 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-17 20:41:18,577 - INFO - middlewares - middlewares.py - time:  0.013688051000144696
+2024-06-17 20:41:18,578 - WARNING - log - log.py - Unauthorized: /api/v1/cart/add/
+2024-06-17 20:41:18,578 - WARNING - basehttp - basehttp.py - "POST /api/v1/cart/add/ HTTP/1.1" 401 183
+2024-06-17 20:42:11,155 - INFO - middlewares - middlewares.py - time:  0.01517459299998336
+2024-06-17 20:42:11,156 - WARNING - log - log.py - Not Found: /favicon.ico
+2024-06-17 20:42:11,156 - WARNING - basehttp - basehttp.py - "GET /favicon.ico HTTP/1.1" 404 2971
+2024-06-17 20:42:18,403 - INFO - middlewares - middlewares.py - time:  0.2609777889999805
+2024-06-17 20:42:18,404 - WARNING - log - log.py - Bad Request: /api/token/
+2024-06-17 20:42:18,409 - WARNING - basehttp - basehttp.py - "POST /api/token/ HTTP/1.1" 400 7979
+2024-06-17 20:42:20,692 - INFO - middlewares - middlewares.py - time:  0.3199873120001939
+2024-06-17 20:42:20,693 - INFO - basehttp - basehttp.py - "GET /admin/user/user/2/change/ HTTP/1.1" 200 23830
+2024-06-17 20:42:20,768 - INFO - middlewares - middlewares.py - time:  0.02224991800017051
+2024-06-17 20:42:20,769 - INFO - basehttp - basehttp.py - "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+2024-06-17 20:42:22,968 - INFO - middlewares - middlewares.py - time:  1.3185517839999648
+2024-06-17 20:42:23,002 - INFO - basehttp - basehttp.py - "POST /api/token/ HTTP/1.1" 200 8118
+2024-06-17 20:43:03,140 - ERROR - log - log.py - Internal Server Error: /api/v1/cart/add/
+Traceback (most recent call last):
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 415, in initial
+    self.check_permissions(request)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 332, in check_permissions
+    if not permission.has_permission(request, self):
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/permissions.py", line 240, in has_permission
+    queryset = self._queryset(view)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/permissions.py", line 223, in _queryset
+    queryset = view.get_queryset()
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/generics.py", line 67, in get_queryset
+    assert self.queryset is not None, (
+AssertionError: 'AddCartItemView' should either include a `queryset` attribute, or override the `get_queryset()` method.
+2024-06-17 20:43:03,142 - INFO - middlewares - middlewares.py - time:  0.06098176699993019
+2024-06-17 20:43:03,142 - ERROR - basehttp - basehttp.py - "POST /api/v1/cart/add/ HTTP/1.1" 500 116658
+2024-06-17 20:43:18,224 - ERROR - log - log.py - Internal Server Error: /api/v1/cart/
+Traceback (most recent call last):
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 415, in initial
+    self.check_permissions(request)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 332, in check_permissions
+    if not permission.has_permission(request, self):
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/permissions.py", line 240, in has_permission
+    queryset = self._queryset(view)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/permissions.py", line 223, in _queryset
+    queryset = view.get_queryset()
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/generics.py", line 67, in get_queryset
+    assert self.queryset is not None, (
+AssertionError: 'CartView' should either include a `queryset` attribute, or override the `get_queryset()` method.
+2024-06-17 20:43:18,224 - INFO - middlewares - middlewares.py - time:  0.1522851179997815
+2024-06-17 20:43:18,245 - ERROR - basehttp - basehttp.py - "GET /api/v1/cart/ HTTP/1.1" 500 117969
+2024-06-17 20:44:25,970 - INFO - autoreload - autoreload.py - /home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/cart/views.py changed, reloading.
+2024-06-17 20:44:26,582 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-17 21:04:33,791 - INFO - autoreload - autoreload.py - /home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/cart/views.py changed, reloading.
+2024-06-17 21:04:34,483 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-17 21:05:44,579 - INFO - autoreload - autoreload.py - /home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/cart/views.py changed, reloading.
+2024-06-17 21:05:45,153 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-17 21:06:10,768 - INFO - middlewares - middlewares.py - time:  0.011042949000056979
+2024-06-17 21:06:10,768 - WARNING - log - log.py - Unauthorized: /api/v1/cart/add/
+2024-06-17 21:06:10,769 - WARNING - basehttp - basehttp.py - "POST /api/v1/cart/add/ HTTP/1.1" 401 183
+2024-06-17 21:06:31,894 - INFO - middlewares - middlewares.py - time:  0.06460682199985968
+2024-06-17 21:06:31,894 - WARNING - log - log.py - Unauthorized: /api/token/refresh/
+2024-06-17 21:06:31,895 - WARNING - basehttp - basehttp.py - "POST /api/token/refresh/ HTTP/1.1" 401 7495
+2024-06-17 21:06:54,938 - INFO - middlewares - middlewares.py - time:  0.025491117000001395
+2024-06-17 21:06:54,942 - INFO - basehttp - basehttp.py - "POST /api/token/refresh/ HTTP/1.1" 200 7673
+2024-06-17 21:07:18,172 - ERROR - log - log.py - Internal Server Error: /api/v1/cart/add/
+Traceback (most recent call last):
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/generics.py", line 194, in post
+    return self.create(request, *args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/cart/views.py", line 30, in create
+    serializer.is_valid(raise_exception=True)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 223, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 442, in run_validation
+    value = self.to_internal_value(data)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 495, in to_internal_value
+    for field in fields:
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 378, in _writable_fields
+    for field in self.fields.values():
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/utils/functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 372, in fields
+    for key, value in self.get_fields().items():
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 1079, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 1175, in get_field_names
+    assert field_name in fields, (
+AssertionError: The field 'product_id' was declared on serializer AddCartSerializers, but has not been included in the 'fields' option.
+2024-06-17 21:07:18,174 - INFO - middlewares - middlewares.py - time:  0.07498663799970018
+2024-06-17 21:07:18,174 - ERROR - basehttp - basehttp.py - "POST /api/v1/cart/add/ HTTP/1.1" 500 143342
+2024-06-17 21:09:02,204 - INFO - autoreload - autoreload.py - /home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/cart/serializers.py changed, reloading.
+2024-06-17 21:09:02,787 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-17 21:09:07,718 - INFO - middlewares - middlewares.py - time:  0.018338414000027115
+2024-06-17 21:09:07,718 - WARNING - log - log.py - Bad Request: /api/v1/cart/add/
+2024-06-17 21:09:07,719 - WARNING - basehttp - basehttp.py - "POST /api/v1/cart/add/ HTTP/1.1" 400 53
+2024-06-17 21:09:33,135 - ERROR - log - log.py - Internal Server Error: /api/v1/cart/add/
+Traceback (most recent call last):
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/generics.py", line 194, in post
+    return self.create(request, *args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/cart/views.py", line 31, in create
+    self.perform_create(serializer)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/mixins.py", line 24, in perform_create
+    serializer.save()
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 208, in save
+    self.instance = self.create(validated_data)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/cart/serializers.py", line 38, in create
+    cart = self.context['cart']
+KeyError: 'cart'
+2024-06-17 21:09:33,136 - INFO - middlewares - middlewares.py - time:  0.07194043100025738
+2024-06-17 21:09:33,137 - ERROR - basehttp - basehttp.py - "POST /api/v1/cart/add/ HTTP/1.1" 500 117339
+2024-06-17 21:14:46,258 - INFO - autoreload - autoreload.py - /home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/cart/views.py changed, reloading.
+2024-06-17 21:14:47,050 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-17 21:17:13,166 - INFO - autoreload - autoreload.py - /home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/cart/views.py changed, reloading.
+2024-06-17 21:17:13,756 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-17 21:17:19,604 - INFO - middlewares - middlewares.py - time:  0.009936102999745344
+2024-06-17 21:17:19,605 - WARNING - log - log.py - Unauthorized: /api/v1/cart/add/
+2024-06-17 21:17:19,605 - WARNING - basehttp - basehttp.py - "POST /api/v1/cart/add/ HTTP/1.1" 401 183
+2024-06-17 21:17:39,249 - INFO - middlewares - middlewares.py - time:  0.07639760000029128
+2024-06-17 21:17:39,250 - INFO - basehttp - basehttp.py - "POST /api/token/refresh/ HTTP/1.1" 200 7673
+2024-06-17 21:18:27,698 - ERROR - log - log.py - Internal Server Error: /api/v1/cart/add/
+Traceback (most recent call last):
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/db/models/query.py", line 916, in get_or_create
+    return self.get(**kwargs), False
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/db/models/query.py", line 637, in get
+    raise self.model.DoesNotExist(
+cart.models.CartItem.DoesNotExist: CartItem matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/generics.py", line 194, in post
+    return self.create(request, *args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/cart/views.py", line 32, in create
+    self.perform_create(serializer)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/mixins.py", line 24, in perform_create
+    serializer.save()
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 208, in save
+    self.instance = self.create(validated_data)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/cart/serializers.py", line 43, in create
+    cart_item, created = CartItem.objects.get_or_create(
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/db/models/query.py", line 918, in get_or_create
+    params = self._extract_model_params(defaults, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/db/models/query.py", line 999, in _extract_model_params
+    raise exceptions.FieldError(
+django.core.exceptions.FieldError: Invalid field name(s) for model CartItem: 'qautity'.
+2024-06-17 21:18:27,700 - INFO - middlewares - middlewares.py - time:  0.09982571099999404
+2024-06-17 21:18:27,701 - ERROR - basehttp - basehttp.py - "POST /api/v1/cart/add/ HTTP/1.1" 500 141739
+2024-06-17 21:22:15,909 - ERROR - log - log.py - Internal Server Error: /api/v1/cart/add/
+Traceback (most recent call last):
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/generics.py", line 194, in post
+    return self.create(request, *args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/cart/views.py", line 32, in create
+    self.perform_create(serializer)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/mixins.py", line 24, in perform_create
+    serializer.save()
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 208, in save
+    self.instance = self.create(validated_data)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/cart/serializers.py", line 40, in create
+    quantity = validated_data['quantity']
+KeyError: 'quantity'
+2024-06-17 21:22:15,922 - INFO - middlewares - middlewares.py - time:  0.11035973499974716
+2024-06-17 21:22:15,924 - ERROR - basehttp - basehttp.py - "POST /api/v1/cart/add/ HTTP/1.1" 500 117736
+2024-06-17 21:22:33,670 - ERROR - log - log.py - Internal Server Error: /api/v1/cart/add/
+Traceback (most recent call last):
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/db/models/query.py", line 916, in get_or_create
+    return self.get(**kwargs), False
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/db/models/query.py", line 637, in get
+    raise self.model.DoesNotExist(
+cart.models.CartItem.DoesNotExist: CartItem matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/generics.py", line 194, in post
+    return self.create(request, *args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/cart/views.py", line 32, in create
+    self.perform_create(serializer)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/mixins.py", line 24, in perform_create
+    serializer.save()
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 208, in save
+    self.instance = self.create(validated_data)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/cart/serializers.py", line 43, in create
+    cart_item, created = CartItem.objects.get_or_create(
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/db/models/query.py", line 918, in get_or_create
+    params = self._extract_model_params(defaults, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/db/models/query.py", line 999, in _extract_model_params
+    raise exceptions.FieldError(
+django.core.exceptions.FieldError: Invalid field name(s) for model CartItem: 'qautity'.
+2024-06-17 21:22:33,671 - INFO - middlewares - middlewares.py - time:  0.08448242999975264
+2024-06-17 21:22:33,672 - ERROR - basehttp - basehttp.py - "POST /api/v1/cart/add/ HTTP/1.1" 500 141739
+2024-06-17 21:25:33,890 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-17 21:25:39,683 - INFO - middlewares - middlewares.py - time:  0.008751594000386831
+2024-06-17 21:25:39,684 - WARNING - log - log.py - Unauthorized: /api/v1/cart/add/
+2024-06-17 21:25:39,684 - WARNING - basehttp - basehttp.py - "POST /api/v1/cart/add/ HTTP/1.1" 401 183
+2024-06-17 21:25:57,516 - INFO - middlewares - middlewares.py - time:  0.06895091400019737
+2024-06-17 21:25:57,517 - INFO - basehttp - basehttp.py - "POST /api/token/refresh/ HTTP/1.1" 200 7673
+2024-06-17 21:26:19,544 - ERROR - log - log.py - Internal Server Error: /api/v1/cart/add/
+Traceback (most recent call last):
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/db/models/query.py", line 916, in get_or_create
+    return self.get(**kwargs), False
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/db/models/query.py", line 637, in get
+    raise self.model.DoesNotExist(
+cart.models.CartItem.DoesNotExist: CartItem matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/generics.py", line 194, in post
+    return self.create(request, *args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/cart/views.py", line 32, in create
+    self.perform_create(serializer)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/mixins.py", line 24, in perform_create
+    serializer.save()
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 208, in save
+    self.instance = self.create(validated_data)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/cart/serializers.py", line 43, in create
+    cart_item, created = CartItem.objects.get_or_create(
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/db/models/query.py", line 918, in get_or_create
+    params = self._extract_model_params(defaults, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/db/models/query.py", line 999, in _extract_model_params
+    raise exceptions.FieldError(
+django.core.exceptions.FieldError: Invalid field name(s) for model CartItem: 'qauntity'.
+2024-06-17 21:26:19,547 - INFO - middlewares - middlewares.py - time:  0.09648306999952183
+2024-06-17 21:26:19,548 - ERROR - basehttp - basehttp.py - "POST /api/v1/cart/add/ HTTP/1.1" 500 141753
+2024-06-17 21:27:30,800 - INFO - autoreload - autoreload.py - /home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/cart/serializers.py changed, reloading.
+2024-06-17 21:27:31,477 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-17 21:27:37,010 - INFO - middlewares - middlewares.py - time:  0.04533156500019686
+2024-06-17 21:27:37,011 - INFO - basehttp - basehttp.py - "POST /api/v1/cart/add/ HTTP/1.1" 201 29
+2024-06-19 17:13:11,205 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-19 17:14:02,505 - INFO - middlewares - middlewares.py - time:  0.06681007700012742
+2024-06-19 17:14:02,505 - WARNING - log - log.py - Not Found: /favicon.ico
+2024-06-19 17:14:02,506 - WARNING - basehttp - basehttp.py - "GET /favicon.ico HTTP/1.1" 404 2971
+2024-06-19 17:14:25,067 - INFO - middlewares - middlewares.py - time:  1.9672831109999152
+2024-06-19 17:14:25,085 - INFO - basehttp - basehttp.py - "GET /admin/user/user/2/change/ HTTP/1.1" 200 23830
+2024-06-19 17:14:26,835 - INFO - basehttp - basehttp.py - "GET /static/admin/css/base.css HTTP/1.1" 304 0
+2024-06-19 17:14:27,059 - INFO - basehttp - basehttp.py - "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+2024-06-19 17:14:27,092 - INFO - basehttp - basehttp.py - "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+2024-06-19 17:14:28,541 - INFO - basehttp - basehttp.py - "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+2024-06-19 17:14:28,622 - INFO - basehttp - basehttp.py - "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+2024-06-19 17:14:28,625 - INFO - middlewares - middlewares.py - time:  0.04270742500011693
+2024-06-19 17:14:28,630 - INFO - basehttp - basehttp.py - "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+2024-06-19 17:14:29,504 - INFO - basehttp - basehttp.py - "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+2024-06-19 17:14:29,867 - INFO - basehttp - basehttp.py - "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+2024-06-19 17:14:30,474 - INFO - basehttp - basehttp.py - "GET /static/admin/js/core.js HTTP/1.1" 304 0
+2024-06-19 17:14:30,478 - INFO - basehttp - basehttp.py - "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+2024-06-19 17:14:30,821 - INFO - basehttp - basehttp.py - "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+2024-06-19 17:14:30,883 - INFO - basehttp - basehttp.py - "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+2024-06-19 17:14:30,897 - INFO - basehttp - basehttp.py - "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+2024-06-19 17:14:31,133 - INFO - basehttp - basehttp.py - "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+2024-06-19 17:14:31,135 - INFO - basehttp - basehttp.py - "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+2024-06-19 17:14:31,159 - INFO - basehttp - basehttp.py - "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+2024-06-19 17:14:31,285 - INFO - basehttp - basehttp.py - "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+2024-06-19 17:14:31,290 - INFO - basehttp - basehttp.py - "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+2024-06-19 17:14:31,405 - INFO - basehttp - basehttp.py - "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+2024-06-19 17:16:05,042 - INFO - middlewares - middlewares.py - time:  0.029601657000057457
+2024-06-19 17:16:05,044 - WARNING - log - log.py - Not Found: /api/v1/api/v1/products/search/
+2024-06-19 17:16:05,052 - WARNING - basehttp - basehttp.py - "GET /api/v1/api/v1/products/search/ HTTP/1.1" 404 3028
+2024-06-19 17:17:32,258 - INFO - middlewares - middlewares.py - time:  0.0367089080000369
+2024-06-19 17:17:32,272 - WARNING - log - log.py - Not Found: /api/v1/api/v1/products/search/name=кухня
+2024-06-19 17:17:32,272 - WARNING - basehttp - basehttp.py - "GET /api/v1/api/v1/products/search/name=%D0%BA%D1%83%D1%85%D0%BD%D1%8F HTTP/1.1" 404 3095
+2024-06-19 17:18:04,865 - INFO - middlewares - middlewares.py - time:  0.21586874599984185
+2024-06-19 17:18:04,869 - INFO - basehttp - basehttp.py - "GET /api/v1/products/ HTTP/1.1" 200 7059
+2024-06-19 17:18:18,603 - INFO - middlewares - middlewares.py - time:  0.06659190699997453
+2024-06-19 17:18:18,607 - INFO - basehttp - basehttp.py - "GET /api/v1/products/search/?name=%D0%BA%D1%83%D1%85%D0%BD%D1%8F HTTP/1.1" 200 6599
+2024-06-19 17:18:32,511 - INFO - middlewares - middlewares.py - time:  0.08382671000003938
+2024-06-19 17:18:32,512 - INFO - basehttp - basehttp.py - "GET /api/v1/products/search/?name= HTTP/1.1" 200 7273
+2024-06-19 17:18:44,893 - INFO - middlewares - middlewares.py - time:  0.06384477200003857
+2024-06-19 17:18:44,904 - INFO - basehttp - basehttp.py - "GET /api/v1/products/search/?name=nune HTTP/1.1" 200 7293
+2024-06-19 17:18:52,305 - INFO - middlewares - middlewares.py - time:  0.07876438699986466
+2024-06-19 17:18:52,311 - INFO - basehttp - basehttp.py - "GET /api/v1/products/search/?name=null HTTP/1.1" 200 7293
+2024-06-19 17:18:56,703 - INFO - middlewares - middlewares.py - time:  0.13051315999996405
+2024-06-19 17:18:56,750 - INFO - basehttp - basehttp.py - "GET /api/v1/products/search/?name= HTTP/1.1" 200 7273
+2024-06-19 17:18:58,375 - INFO - middlewares - middlewares.py - time:  0.050339158000042517
+2024-06-19 17:18:58,380 - INFO - basehttp - basehttp.py - "GET /api/v1/products/search/?name HTTP/1.1" 200 7270
+2024-06-19 17:19:06,608 - INFO - middlewares - middlewares.py - time:  0.11818599800017182
+2024-06-19 17:19:06,609 - INFO - basehttp - basehttp.py - "GET /api/v1/products/search/?name= HTTP/1.1" 200 7273
+2024-06-19 17:19:20,755 - INFO - middlewares - middlewares.py - time:  0.03740551600003528
+2024-06-19 17:19:20,756 - INFO - basehttp - basehttp.py - "GET /api/v1/products/search/?name=%D1%88%D0%BA%D0%B0%D1%84 HTTP/1.1" 200 6409
+2024-06-19 17:19:29,234 - INFO - middlewares - middlewares.py - time:  0.06503469799986306
+2024-06-19 17:19:29,235 - INFO - basehttp - basehttp.py - "GET /api/v1/products/search/?name=%D1%88%D0%BA%D0%B0%D1%84%D0%BF%D0%BF%D1%80%D1%80%D0%BE%D0%BE HTTP/1.1" 200 7573
+2024-06-19 17:21:12,888 - INFO - autoreload - autoreload.py - /home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/main/views.py changed, reloading.
+2024-06-19 17:21:16,757 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-19 17:22:46,250 - INFO - autoreload - autoreload.py - /home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/main/views.py changed, reloading.
+2024-06-19 17:22:47,914 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-19 17:22:56,013 - INFO - autoreload - autoreload.py - /home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/main/views.py changed, reloading.
+2024-06-19 17:22:58,112 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-19 17:30:03,767 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-20 17:19:03,471 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-20 17:27:54,498 - INFO - middlewares - middlewares.py - time:  0.060871215999213746
+2024-06-20 17:27:54,500 - INFO - basehttp - basehttp.py - "GET /api/v1/products/search/?name=%D1%88%D0%BA%D0%B0%D1%84%D0%BF%D0%BF%D1%80%D1%80%D0%BE%D0%BE HTTP/1.1" 200 7573
+2024-06-20 17:27:54,544 - INFO - basehttp - basehttp.py - "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+2024-06-20 17:27:54,550 - INFO - basehttp - basehttp.py - "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+2024-06-20 17:27:54,551 - INFO - basehttp - basehttp.py - "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+2024-06-20 17:27:54,552 - INFO - basehttp - basehttp.py - "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 304 0
+2024-06-20 17:27:54,552 - INFO - basehttp - basehttp.py - "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+2024-06-20 17:27:54,552 - INFO - basehttp - basehttp.py - "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+2024-06-20 17:27:54,555 - INFO - basehttp - basehttp.py - "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+2024-06-20 17:27:54,563 - INFO - basehttp - basehttp.py - "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+2024-06-20 17:27:54,566 - INFO - basehttp - basehttp.py - "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+2024-06-20 17:27:54,567 - INFO - basehttp - basehttp.py - "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+2024-06-20 17:27:54,569 - INFO - basehttp - basehttp.py - "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 304 0
+2024-06-20 17:27:54,623 - INFO - basehttp - basehttp.py - "GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
+2024-06-20 17:28:14,699 - INFO - middlewares - middlewares.py - time:  0.05526097300025867
+2024-06-20 17:28:14,700 - INFO - basehttp - basehttp.py - "GET /api/v1/products/search/?name=None HTTP/1.1" 200 7293
+2024-06-20 17:29:24,118 - INFO - autoreload - autoreload.py - /home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/main/views.py changed, reloading.
+2024-06-20 17:29:24,764 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-20 17:29:32,016 - ERROR - log - log.py - Internal Server Error: /api/v1/products/search/
+Traceback (most recent call last):
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 415, in initial
+    self.check_permissions(request)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 332, in check_permissions
+    if not permission.has_permission(request, self):
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/permissions.py", line 240, in has_permission
+    queryset = self._queryset(view)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/permissions.py", line 223, in _queryset
+    queryset = view.get_queryset()
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/main/views.py", line 22, in get_queryset
+    print(queryset)
+UnboundLocalError: local variable 'queryset' referenced before assignment
+2024-06-20 17:29:32,018 - INFO - middlewares - middlewares.py - time:  0.10891253899899311
+2024-06-20 17:29:32,018 - ERROR - basehttp - basehttp.py - "GET /api/v1/products/search/?name=None HTTP/1.1" 500 118398
+2024-06-20 17:30:36,564 - INFO - autoreload - autoreload.py - /home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/main/views.py changed, reloading.
+2024-06-20 17:30:37,195 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-20 17:30:51,380 - INFO - middlewares - middlewares.py - time:  0.10525665199747891
+2024-06-20 17:30:51,382 - INFO - basehttp - basehttp.py - "GET /api/v1/products/search/?name=None HTTP/1.1" 200 7293
+2024-06-20 17:31:39,508 - INFO - autoreload - autoreload.py - /home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/main/views.py changed, reloading.
+2024-06-20 17:31:40,198 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-20 17:31:44,445 - INFO - middlewares - middlewares.py - time:  0.08869302899984177
+2024-06-20 17:31:44,446 - INFO - basehttp - basehttp.py - "GET /api/v1/products/search/?name=None HTTP/1.1" 200 7293
+2024-06-20 17:32:41,425 - INFO - autoreload - autoreload.py - /home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/main/views.py changed, reloading.
+2024-06-20 17:32:42,155 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-20 17:32:44,886 - INFO - middlewares - middlewares.py - time:  0.11259038999924087
+2024-06-20 17:32:44,887 - INFO - basehttp - basehttp.py - "GET /api/v1/products/search/?name=None HTTP/1.1" 200 7293
+2024-06-20 17:34:09,064 - INFO - autoreload - autoreload.py - /home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/main/views.py changed, reloading.
+2024-06-20 17:34:09,926 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-20 17:34:16,437 - INFO - middlewares - middlewares.py - time:  0.09934154899747227
+2024-06-20 17:34:16,438 - INFO - basehttp - basehttp.py - "GET /api/v1/products/search/?name=None HTTP/1.1" 200 7293
+2024-06-20 17:34:20,481 - INFO - middlewares - middlewares.py - time:  0.04573882700060494
+2024-06-20 17:34:20,482 - INFO - basehttp - basehttp.py - "GET /api/v1/products/search/?name=None HTTP/1.1" 200 7293
+2024-06-20 17:35:08,211 - INFO - autoreload - autoreload.py - /home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/main/views.py changed, reloading.
+2024-06-20 17:35:08,895 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-20 17:35:16,352 - INFO - middlewares - middlewares.py - time:  0.07163293700068607
+2024-06-20 17:35:16,353 - INFO - basehttp - basehttp.py - "GET /api/v1/products/search/?name=None HTTP/1.1" 200 7293
+2024-06-20 17:36:04,600 - INFO - middlewares - middlewares.py - time:  0.04333731500082649
+2024-06-20 17:36:04,601 - INFO - basehttp - basehttp.py - "GET /api/v1/products/search/?name= HTTP/1.1" 200 7273
+2024-06-20 17:36:24,548 - ERROR - log - log.py - Internal Server Error: /api/v1/products/search/
+Traceback (most recent call last):
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 415, in initial
+    self.check_permissions(request)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 332, in check_permissions
+    if not permission.has_permission(request, self):
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/permissions.py", line 240, in has_permission
+    queryset = self._queryset(view)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/permissions.py", line 223, in _queryset
+    queryset = view.get_queryset()
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/main/views.py", line 26, in get_queryset
+    if not queryset:
+UnboundLocalError: local variable 'queryset' referenced before assignment
+2024-06-20 17:36:24,549 - INFO - middlewares - middlewares.py - time:  0.07366675700177439
+2024-06-20 17:36:24,550 - ERROR - basehttp - basehttp.py - "GET /api/v1/products/search/? HTTP/1.1" 500 117845
+2024-06-20 17:42:09,253 - INFO - autoreload - autoreload.py - /home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/main/views.py changed, reloading.
+2024-06-20 17:42:10,101 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-20 17:42:20,258 - INFO - autoreload - autoreload.py - /home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/main/views.py changed, reloading.
+2024-06-20 17:42:20,996 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-20 17:42:22,338 - INFO - middlewares - middlewares.py - time:  0.06137980600033188
+2024-06-20 17:42:22,339 - INFO - basehttp - basehttp.py - "GET /api/v1/products/search/? HTTP/1.1" 200 7235
+2024-06-20 17:42:31,803 - INFO - middlewares - middlewares.py - time:  0.025038127998413984
+2024-06-20 17:42:31,804 - INFO - basehttp - basehttp.py - "GET /api/v1/products/search/? HTTP/1.1" 200 7235
+2024-06-20 17:42:38,958 - INFO - middlewares - middlewares.py - time:  0.019509543999447487
+2024-06-20 17:42:38,959 - INFO - basehttp - basehttp.py - "GET /api/v1/products/search/?name=None HTTP/1.1" 200 5485
+2024-06-20 17:53:58,185 - INFO - autoreload - autoreload.py - /home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/main/views.py changed, reloading.
+2024-06-20 17:53:59,117 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-20 17:54:00,543 - INFO - middlewares - middlewares.py - time:  0.07201177900060429
+2024-06-20 17:54:00,545 - INFO - basehttp - basehttp.py - "GET /api/v1/products/search/?name=None HTTP/1.1" 200 5485
+2024-06-20 17:54:04,908 - INFO - middlewares - middlewares.py - time:  0.022666837001452222
+2024-06-20 17:54:04,909 - INFO - basehttp - basehttp.py - "GET /api/v1/products/search/?name=None HTTP/1.1" 200 5485
+2024-06-20 17:54:50,110 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-20 17:54:56,681 - INFO - middlewares - middlewares.py - time:  0.06560253299903707
+2024-06-20 17:54:56,684 - INFO - basehttp - basehttp.py - "GET /api/v1/products/search/?name=None HTTP/1.1" 200 5485
+2024-06-20 17:59:30,899 - INFO - autoreload - autoreload.py - /home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/main/views.py changed, reloading.
+2024-06-20 17:59:31,501 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-20 17:59:40,616 - INFO - middlewares - middlewares.py - time:  0.06332326099800412
+2024-06-20 17:59:40,618 - INFO - basehttp - basehttp.py - "GET /api/v1/products/search/?name=None HTTP/1.1" 200 5485
+2024-06-20 18:02:13,346 - INFO - autoreload - autoreload.py - /home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/main/views.py changed, reloading.
+2024-06-20 18:02:14,073 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-20 18:02:17,586 - INFO - middlewares - middlewares.py - time:  0.06749476199911442
+2024-06-20 18:02:17,587 - INFO - basehttp - basehttp.py - "GET /api/v1/products/search/?name=None HTTP/1.1" 200 7293
+2024-06-20 18:03:37,541 - INFO - middlewares - middlewares.py - time:  0.04140414699941175
+2024-06-20 18:03:37,542 - INFO - basehttp - basehttp.py - "GET /api/v1/products/search/?name= HTTP/1.1" 200 7273
+2024-06-20 18:03:41,336 - INFO - middlewares - middlewares.py - time:  0.026343176999944262
+2024-06-20 18:03:41,337 - INFO - basehttp - basehttp.py - "GET /api/v1/products/search/? HTTP/1.1" 200 7235
+2024-06-21 16:31:55,188 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-21 16:32:05,517 - INFO - middlewares - middlewares.py - time:  0.04419248300109757
+2024-06-21 16:32:05,518 - WARNING - log - log.py - Not Found: /
+2024-06-21 16:32:05,520 - WARNING - runserver - runserver.py - [33mHTTP GET / 404 [0.10, 127.0.0.1:44390][0m

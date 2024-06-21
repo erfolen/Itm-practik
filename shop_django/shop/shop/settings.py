@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'daphne',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -40,7 +41,11 @@ INSTALLED_APPS = [
     'main.apps.MainConfig',
     'rest_framework',
     'user',
-    'cart'
+    'cart',
+    'debug_toolbar',
+    'channels',
+    'chat',
+
 ]
 
 MIDDLEWARE = [
@@ -104,7 +109,7 @@ TEMPLATES = [
         },
     },
 ]
-
+ASGI_APPLICATION = "shop.asgi.application"
 WSGI_APPLICATION = 'shop.wsgi.application'
 
 # Database

@@ -19,6 +19,7 @@ class ProductSearchView(generics.ListAPIView):
     def get_queryset(self):
 
         name = self.request.query_params.get('name', None)
+        queryset = Products.objects.all()
         if name is not None:
             queryset = Products.objects.filter(name__icontains=name)
         if not queryset:
