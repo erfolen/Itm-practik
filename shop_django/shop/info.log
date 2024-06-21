@@ -2429,3 +2429,35 @@ UnboundLocalError: local variable 'queryset' referenced before assignment
 2024-06-21 17:39:33,196 - INFO - middlewares - middlewares.py - time:  0.008865470001182985
 2024-06-21 17:39:33,199 - INFO - runserver - runserver.py - [mHTTP GET /chat/ 200 [0.03, 127.0.0.1:50210][0m
 2024-06-21 17:54:21,751 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-21 18:03:10,487 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-21 18:03:19,974 - INFO - middlewares - middlewares.py - time:  0.017249171003641095
+2024-06-21 18:03:19,980 - INFO - runserver - runserver.py - [mHTTP GET /chat/ 200 [0.04, 127.0.0.1:51140][0m
+2024-06-21 18:03:32,948 - INFO - middlewares - middlewares.py - time:  0.023244918003911152
+2024-06-21 18:03:32,950 - WARNING - log - log.py - Not Found: /chat/maiy/
+2024-06-21 18:03:32,951 - WARNING - runserver - runserver.py - [33mHTTP GET /chat/maiy/ 404 [0.03, 127.0.0.1:51140][0m
+2024-06-21 18:04:50,421 - INFO - middlewares - middlewares.py - time:  0.014990152005339041
+2024-06-21 18:04:50,422 - WARNING - log - log.py - Not Found: /chat/lobby/
+2024-06-21 18:04:50,423 - WARNING - runserver - runserver.py - [33mHTTP GET /chat/lobby/ 404 [0.02, 127.0.0.1:49598][0m
+2024-06-21 18:05:31,875 - INFO - autoreload - autoreload.py - /home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/chat/urls.py changed, reloading.
+2024-06-21 18:05:33,004 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-21 18:05:40,281 - INFO - middlewares - middlewares.py - time:  0.003938175999792293
+2024-06-21 18:05:40,282 - INFO - runserver - runserver.py - [mHTTP GET /chat/ 200 [0.01, 127.0.0.1:40916][0m
+2024-06-21 18:05:45,757 - INFO - middlewares - middlewares.py - time:  0.014918640001269523
+2024-06-21 18:05:45,765 - INFO - runserver - runserver.py - [mHTTP GET /chat/maiy/ 200 [0.03, 127.0.0.1:40916][0m
+2024-06-21 18:05:45,827 - INFO - runserver - runserver.py - WebSocket HANDSHAKING /ws/chat/maiy/ [127.0.0.1:60466]
+2024-06-21 18:05:46,320 - INFO - runserver - runserver.py - WebSocket DISCONNECT /ws/chat/maiy/ [127.0.0.1:60466]
+2024-06-21 18:20:25,385 - INFO - autoreload - autoreload.py - /home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/shop/asgi.py changed, reloading.
+2024-06-21 18:22:30,780 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-21 18:23:16,215 - INFO - middlewares - middlewares.py - time:  0.00972060800268082
+2024-06-21 18:23:16,217 - INFO - runserver - runserver.py - [mHTTP GET /chat/maiy/ 200 [0.02, 127.0.0.1:53424][0m
+2024-06-21 18:23:16,253 - INFO - runserver - runserver.py - WebSocket HANDSHAKING /ws/chat/maiy/ [127.0.0.1:53448]
+2024-06-21 18:23:16,285 - INFO - runserver - runserver.py - WebSocket CONNECT /ws/chat/maiy/ [127.0.0.1:53448]
+2024-06-21 20:11:07,918 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-21 20:11:14,226 - INFO - middlewares - middlewares.py - time:  0.017076304997317493
+2024-06-21 20:11:14,228 - INFO - runserver - runserver.py - [mHTTP GET /chat/maiy/ 200 [0.04, 127.0.0.1:54728][0m
+2024-06-21 20:11:14,258 - INFO - runserver - runserver.py - WebSocket HANDSHAKING /ws/chat/maiy/ [127.0.0.1:43444]
+2024-06-21 20:11:14,390 - INFO - runserver - runserver.py - WebSocket CONNECT /ws/chat/maiy/ [127.0.0.1:43444]
+2024-06-21 20:11:34,163 - INFO - middlewares - middlewares.py - time:  0.008369126997422427
+2024-06-21 20:11:34,165 - INFO - runserver - runserver.py - [mHTTP GET /chat/maiy/ 200 [0.02, 127.0.0.1:54728][0m
+2024-06-21 20:11:34,219 - INFO - runserver - runserver.py - WebSocket HANDSHAKING /ws/chat/maiy/ [127.0.0.1:56456]
+2024-06-21 20:11:34,246 - INFO - runserver - runserver.py - WebSocket CONNECT /ws/chat/maiy/ [127.0.0.1:56456]
