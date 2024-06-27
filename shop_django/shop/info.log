@@ -2461,3 +2461,209 @@ UnboundLocalError: local variable 'queryset' referenced before assignment
 2024-06-21 20:11:34,165 - INFO - runserver - runserver.py - [mHTTP GET /chat/maiy/ 200 [0.02, 127.0.0.1:54728][0m
 2024-06-21 20:11:34,219 - INFO - runserver - runserver.py - WebSocket HANDSHAKING /ws/chat/maiy/ [127.0.0.1:56456]
 2024-06-21 20:11:34,246 - INFO - runserver - runserver.py - WebSocket CONNECT /ws/chat/maiy/ [127.0.0.1:56456]
+2024-06-21 20:18:47,477 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-21 20:18:53,110 - INFO - middlewares - middlewares.py - time:  0.008164347003912553
+2024-06-21 20:18:53,112 - INFO - runserver - runserver.py - [mHTTP GET /chat/maiy/ 200 [0.04, 127.0.0.1:38250][0m
+2024-06-21 20:18:53,149 - INFO - runserver - runserver.py - WebSocket HANDSHAKING /ws/chat/maiy/ [127.0.0.1:38272]
+2024-06-21 20:18:53,258 - INFO - runserver - runserver.py - WebSocket CONNECT /ws/chat/maiy/ [127.0.0.1:38272]
+2024-06-21 20:19:04,792 - INFO - middlewares - middlewares.py - time:  0.0031260629984899424
+2024-06-21 20:19:04,794 - INFO - runserver - runserver.py - [mHTTP GET /chat/maiy/ 200 [0.01, 127.0.0.1:38250][0m
+2024-06-21 20:19:04,847 - INFO - runserver - runserver.py - WebSocket HANDSHAKING /ws/chat/maiy/ [127.0.0.1:57410]
+2024-06-21 20:19:04,867 - INFO - runserver - runserver.py - WebSocket CONNECT /ws/chat/maiy/ [127.0.0.1:57410]
+2024-06-21 20:27:38,956 - INFO - middlewares - middlewares.py - time:  0.010081893000460695
+2024-06-21 20:27:38,960 - INFO - runserver - runserver.py - [mHTTP GET /chat/maiy/ 200 [0.02, 127.0.0.1:38012][0m
+2024-06-21 20:27:38,978 - INFO - runserver - runserver.py - WebSocket DISCONNECT /ws/chat/maiy/ [127.0.0.1:57410]
+2024-06-21 20:28:44,781 - INFO - middlewares - middlewares.py - time:  0.003945905002183281
+2024-06-21 20:28:44,783 - INFO - runserver - runserver.py - [mHTTP GET /chat/maiy/ 200 [0.01, 127.0.0.1:55740][0m
+2024-06-21 20:28:44,836 - INFO - runserver - runserver.py - WebSocket HANDSHAKING /ws/chat/maiy/ [127.0.0.1:55754]
+2024-06-21 20:28:44,876 - INFO - runserver - runserver.py - WebSocket CONNECT /ws/chat/maiy/ [127.0.0.1:55754]
+2024-06-21 20:31:37,932 - INFO - middlewares - middlewares.py - time:  0.00752053500036709
+2024-06-21 20:31:37,935 - INFO - runserver - runserver.py - [mHTTP GET /chat/maiy/ 200 [0.02, 127.0.0.1:46894][0m
+2024-06-21 20:31:37,968 - INFO - runserver - runserver.py - WebSocket DISCONNECT /ws/chat/maiy/ [127.0.0.1:38272]
+2024-06-21 20:31:38,070 - INFO - runserver - runserver.py - WebSocket HANDSHAKING /ws/chat/maiy/ [127.0.0.1:46908]
+2024-06-21 20:31:38,092 - INFO - runserver - runserver.py - WebSocket CONNECT /ws/chat/maiy/ [127.0.0.1:46908]
+2024-06-21 20:34:46,531 - INFO - middlewares - middlewares.py - time:  0.008055332000367343
+2024-06-21 20:34:46,533 - INFO - runserver - runserver.py - [mHTTP GET /chat/ 200 [0.01, 127.0.0.1:45430][0m
+2024-06-21 20:34:46,647 - INFO - runserver - runserver.py - WebSocket DISCONNECT /ws/chat/maiy/ [127.0.0.1:46908]
+2024-06-21 20:36:49,725 - INFO - middlewares - middlewares.py - time:  0.2921498720024829
+2024-06-21 20:36:49,726 - INFO - runserver - runserver.py - [mHTTP GET /admin/user/user/2/change/ 200 [0.30, 127.0.0.1:44156][0m
+2024-06-21 20:36:49,799 - INFO - runserver - runserver.py - [36mHTTP GET /static/admin/js/vendor/jquery/jquery.js 304 [0.01, 127.0.0.1:44172][0m
+2024-06-21 20:36:49,818 - INFO - middlewares - middlewares.py - time:  0.024468598006933462
+2024-06-21 20:36:49,819 - INFO - runserver - runserver.py - [mHTTP GET /admin/jsi18n/ 200 [0.03, 127.0.0.1:44156][0m
+2024-06-21 20:37:38,118 - INFO - middlewares - middlewares.py - time:  0.12872438200429315
+2024-06-21 20:37:38,119 - WARNING - log - log.py - Bad Request: /api/token/
+2024-06-21 20:37:38,121 - WARNING - runserver - runserver.py - [31;1mHTTP POST /api/token/ 400 [0.14, 127.0.0.1:44156][0m
+2024-06-21 20:38:31,408 - INFO - middlewares - middlewares.py - time:  0.018996027996763587
+2024-06-21 20:38:31,409 - WARNING - log - log.py - Not Found: /chat//
+2024-06-21 20:38:31,410 - WARNING - runserver - runserver.py - [33mHTTP GET /chat// 404 [0.02, 127.0.0.1:44156][0m
+2024-06-21 20:39:54,304 - INFO - middlewares - middlewares.py - time:  0.004790343999047764
+2024-06-21 20:39:54,309 - INFO - runserver - runserver.py - [mHTTP GET /chat/ 200 [0.01, 127.0.0.1:57358][0m
+2024-06-21 20:39:54,402 - INFO - runserver - runserver.py - WebSocket DISCONNECT /ws/chat/maiy/ [127.0.0.1:55754]
+2024-06-21 20:39:56,456 - INFO - middlewares - middlewares.py - time:  0.019844597998599056
+2024-06-21 20:39:56,458 - WARNING - log - log.py - Not Found: /chat//
+2024-06-21 20:39:56,460 - WARNING - runserver - runserver.py - [33mHTTP GET /chat// 404 [0.03, 127.0.0.1:57358][0m
+2024-06-21 20:41:07,419 - INFO - middlewares - middlewares.py - time:  0.04839782199996989
+2024-06-21 20:41:07,421 - WARNING - log - log.py - Not Found: /chat//
+2024-06-21 20:41:07,423 - WARNING - runserver - runserver.py - [33mHTTP GET /chat// 404 [0.06, 127.0.0.1:42828][0m
+2024-06-21 20:41:56,036 - INFO - middlewares - middlewares.py - time:  0.003586074999475386
+2024-06-21 20:41:56,038 - INFO - runserver - runserver.py - [mHTTP GET /chat/ 200 [0.01, 127.0.0.1:42828][0m
+2024-06-21 20:42:04,403 - INFO - middlewares - middlewares.py - time:  0.013697342998057138
+2024-06-21 20:42:04,406 - INFO - runserver - runserver.py - [mHTTP GET /chat/jkkj/ 200 [0.02, 127.0.0.1:42828][0m
+2024-06-21 20:42:04,469 - INFO - runserver - runserver.py - WebSocket HANDSHAKING /ws/chat/jkkj/ [127.0.0.1:35584]
+2024-06-21 20:42:04,515 - INFO - runserver - runserver.py - WebSocket CONNECT /ws/chat/jkkj/ [127.0.0.1:35584]
+2024-06-21 20:47:00,229 - INFO - autoreload - autoreload.py - /home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/chat/consumers.py changed, reloading.
+2024-06-21 20:47:01,619 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-21 20:48:51,635 - INFO - autoreload - autoreload.py - /home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/chat/consumers.py changed, reloading.
+2024-06-21 20:48:52,780 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-21 20:49:22,449 - INFO - middlewares - middlewares.py - time:  0.0071617180001339875
+2024-06-21 20:49:22,451 - INFO - runserver - runserver.py - [mHTTP GET /chat/ 200 [0.02, 127.0.0.1:48306][0m
+2024-06-21 20:49:25,480 - INFO - middlewares - middlewares.py - time:  0.01883128700137604
+2024-06-21 20:49:25,485 - INFO - runserver - runserver.py - [mHTTP GET /chat/sddfd/ 200 [0.03, 127.0.0.1:48306][0m
+2024-06-21 20:49:25,545 - INFO - runserver - runserver.py - WebSocket HANDSHAKING /ws/chat/sddfd/ [127.0.0.1:46540]
+2024-06-21 20:49:25,696 - INFO - runserver - runserver.py - WebSocket CONNECT /ws/chat/sddfd/ [127.0.0.1:46540]
+2024-06-21 20:49:34,804 - INFO - middlewares - middlewares.py - time:  0.006317425002634991
+2024-06-21 20:49:34,808 - INFO - runserver - runserver.py - [mHTTP GET /chat/jkkj/ 200 [0.02, 127.0.0.1:48306][0m
+2024-06-21 20:49:34,861 - INFO - runserver - runserver.py - WebSocket HANDSHAKING /ws/chat/jkkj/ [127.0.0.1:41628]
+2024-06-21 20:49:34,902 - INFO - runserver - runserver.py - WebSocket CONNECT /ws/chat/jkkj/ [127.0.0.1:41628]
+2024-06-21 21:00:45,844 - INFO - autoreload - autoreload.py - /home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/chat/views.py changed, reloading.
+2024-06-21 21:00:47,353 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-23 12:38:00,890 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-23 12:38:03,984 - INFO - middlewares - middlewares.py - time:  0.0101092780023464
+2024-06-23 12:38:03,985 - INFO - runserver - runserver.py - [mHTTP GET /chat/sddfd/ 200 [0.02, 127.0.0.1:43340][0m
+2024-06-23 12:38:04,024 - INFO - runserver - runserver.py - WebSocket HANDSHAKING /ws/chat/sddfd/ [127.0.0.1:43372]
+2024-06-23 12:38:04,258 - INFO - runserver - runserver.py - WebSocket CONNECT /ws/chat/sddfd/ [127.0.0.1:43372]
+2024-06-23 12:38:07,626 - INFO - middlewares - middlewares.py - time:  0.007273556002473924
+2024-06-23 12:38:07,632 - INFO - runserver - runserver.py - [mHTTP GET /chat/jkkj/ 200 [0.02, 127.0.0.1:43340][0m
+2024-06-23 12:38:07,684 - INFO - runserver - runserver.py - WebSocket HANDSHAKING /ws/chat/jkkj/ [127.0.0.1:41796]
+2024-06-23 12:38:07,711 - INFO - runserver - runserver.py - WebSocket CONNECT /ws/chat/jkkj/ [127.0.0.1:41796]
+2024-06-23 12:38:46,151 - INFO - middlewares - middlewares.py - time:  0.009737701999256387
+2024-06-23 12:38:46,154 - INFO - runserver - runserver.py - [mHTTP GET /chat/sddfd/ 200 [0.03, 127.0.0.1:43340][0m
+2024-06-23 12:38:46,223 - INFO - runserver - runserver.py - WebSocket DISCONNECT /ws/chat/jkkj/ [127.0.0.1:41796]
+2024-06-23 12:38:46,236 - INFO - runserver - runserver.py - WebSocket HANDSHAKING /ws/chat/sddfd/ [127.0.0.1:54264]
+2024-06-23 12:38:46,263 - INFO - runserver - runserver.py - WebSocket CONNECT /ws/chat/sddfd/ [127.0.0.1:54264]
+2024-06-24 19:45:30,084 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-24 19:45:40,504 - INFO - middlewares - middlewares.py - time:  0.029279991998919286
+2024-06-24 19:45:40,510 - INFO - runserver - runserver.py - [mHTTP GET /chat/sddfd/ 200 [0.05, 127.0.0.1:60758][0m
+2024-06-24 19:45:40,574 - INFO - runserver - runserver.py - WebSocket HANDSHAKING /ws/chat/sddfd/ [127.0.0.1:60770]
+2024-06-24 19:45:40,739 - INFO - middlewares - middlewares.py - time:  0.02006790599989472
+2024-06-24 19:45:40,740 - WARNING - log - log.py - Not Found: /favicon.ico
+2024-06-24 19:45:40,742 - WARNING - runserver - runserver.py - [33mHTTP GET /favicon.ico 404 [0.03, 127.0.0.1:60758][0m
+2024-06-24 19:45:41,506 - INFO - runserver - runserver.py - WebSocket DISCONNECT /ws/chat/sddfd/ [127.0.0.1:60770]
+2024-06-24 19:45:45,167 - INFO - middlewares - middlewares.py - time:  0.0025234570020984393
+2024-06-24 19:45:45,169 - INFO - runserver - runserver.py - [mHTTP GET /chat/ 200 [0.01, 127.0.0.1:60758][0m
+2024-06-24 19:45:51,048 - INFO - middlewares - middlewares.py - time:  0.005250759000773542
+2024-06-24 19:45:51,051 - INFO - runserver - runserver.py - [mHTTP GET /chat/vic/ 200 [0.01, 127.0.0.1:60758][0m
+2024-06-24 19:45:51,154 - INFO - runserver - runserver.py - WebSocket HANDSHAKING /ws/chat/vic/ [127.0.0.1:52366]
+2024-06-24 19:45:51,524 - INFO - runserver - runserver.py - WebSocket DISCONNECT /ws/chat/vic/ [127.0.0.1:52366]
+2024-06-24 19:57:58,446 - INFO - autoreload - autoreload.py - /home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/shop/settings.py changed, reloading.
+2024-06-24 19:57:59,476 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-24 19:59:51,366 - INFO - autoreload - autoreload.py - /home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/shop/settings.py changed, reloading.
+2024-06-24 19:59:52,385 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-24 20:01:30,979 - INFO - autoreload - autoreload.py - /home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/shop/urls.py changed, reloading.
+2024-06-24 20:01:32,034 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-24 20:02:47,628 - INFO - autoreload - autoreload.py - /home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/shop/urls.py changed, reloading.
+2024-06-24 20:02:48,584 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-24 20:02:58,773 - INFO - autoreload - autoreload.py - /home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/shop/urls.py changed, reloading.
+2024-06-24 20:02:59,759 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-24 20:03:10,173 - INFO - middlewares - middlewares.py - time:  0.21756927499882295
+2024-06-24 20:03:10,175 - INFO - runserver - runserver.py - [mHTTP GET /admin/user/user/2/change/ 200 [0.25, 127.0.0.1:32834][0m
+2024-06-24 20:03:10,271 - INFO - runserver - runserver.py - [mHTTP GET /static/admin/js/vendor/jquery/jquery.js 200 [0.03, 127.0.0.1:32842][0m
+2024-06-24 20:03:10,276 - INFO - runserver - runserver.py - [36mHTTP GET /static/admin/js/calendar.js 304 [0.02, 127.0.0.1:32846][0m
+2024-06-24 20:03:10,280 - INFO - runserver - runserver.py - [36mHTTP GET /static/admin/js/admin/DateTimeShortcuts.js 304 [0.02, 127.0.0.1:32856][0m
+2024-06-24 20:03:10,314 - INFO - runserver - runserver.py - [mHTTP GET /static/admin/js/vendor/xregexp/xregexp.js 200 [0.05, 127.0.0.1:32868][0m
+2024-06-24 20:03:10,326 - INFO - middlewares - middlewares.py - time:  0.059822757000802085
+2024-06-24 20:03:10,328 - INFO - runserver - runserver.py - [mHTTP GET /admin/jsi18n/ 200 [0.10, 127.0.0.1:32834][0m
+2024-06-24 20:03:10,552 - INFO - runserver - runserver.py - [36mHTTP GET /static/admin/img/icon-calendar.svg 304 [0.01, 127.0.0.1:32834][0m
+2024-06-24 20:03:10,554 - INFO - runserver - runserver.py - [36mHTTP GET /static/admin/img/icon-clock.svg 304 [0.01, 127.0.0.1:32868][0m
+2024-06-24 20:41:22,548 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-24 20:41:30,986 - INFO - middlewares - middlewares.py - time:  0.022220044000277994
+2024-06-24 20:41:30,989 - INFO - runserver - runserver.py - [mHTTP GET /chat/vic/ 200 [0.08, 127.0.0.1:44572][0m
+2024-06-24 20:41:31,039 - INFO - runserver - runserver.py - WebSocket HANDSHAKING /ws/chat/vic/ [127.0.0.1:44598]
+2024-06-24 20:41:31,860 - INFO - runserver - runserver.py - WebSocket DISCONNECT /ws/chat/vic/ [127.0.0.1:44598]
+2024-06-24 20:43:41,343 - INFO - middlewares - middlewares.py - time:  0.003313412998977583
+2024-06-24 20:43:41,344 - INFO - runserver - runserver.py - [mHTTP GET /chat/ 200 [0.02, 127.0.0.1:35652][0m
+2024-06-24 20:43:45,871 - INFO - middlewares - middlewares.py - time:  0.0020261250028852373
+2024-06-24 20:43:45,872 - INFO - runserver - runserver.py - [mHTTP GET /chat/1111/ 200 [0.02, 127.0.0.1:35652][0m
+2024-06-24 20:43:45,945 - INFO - runserver - runserver.py - WebSocket HANDSHAKING /ws/chat/1111/ [127.0.0.1:43096]
+2024-06-24 20:43:46,035 - INFO - runserver - runserver.py - WebSocket DISCONNECT /ws/chat/1111/ [127.0.0.1:43096]
+2024-06-24 20:46:57,049 - INFO - autoreload - autoreload.py - /home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/shop/settings.py changed, reloading.
+2024-06-24 20:46:58,179 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-24 20:47:02,412 - INFO - middlewares - middlewares.py - time:  0.009958318001736188
+2024-06-24 20:47:02,413 - INFO - runserver - runserver.py - [mHTTP GET /chat/1111/ 200 [0.05, 127.0.0.1:38984][0m
+2024-06-24 20:47:02,447 - INFO - runserver - runserver.py - WebSocket HANDSHAKING /ws/chat/1111/ [127.0.0.1:39008]
+2024-06-24 20:47:02,495 - INFO - runserver - runserver.py - WebSocket DISCONNECT /ws/chat/1111/ [127.0.0.1:39008]
+2024-06-27 17:42:21,490 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-27 17:42:34,587 - INFO - middlewares - middlewares.py - time:  0.025068340000871103
+2024-06-27 17:42:34,588 - WARNING - log - log.py - Not Found: /home
+2024-06-27 17:42:34,590 - WARNING - runserver - runserver.py - [33mHTTP GET /home 404 [0.09, 127.0.0.1:37482][0m
+2024-06-27 17:42:45,744 - INFO - middlewares - middlewares.py - time:  0.004027989001770038
+2024-06-27 17:42:45,745 - INFO - runserver - runserver.py - [mHTTP GET /chat/ 200 [0.02, 127.0.0.1:37482][0m
+2024-06-27 17:42:50,883 - INFO - middlewares - middlewares.py - time:  0.014410216004762333
+2024-06-27 17:42:50,889 - INFO - runserver - runserver.py - [mHTTP GET /chat/maiy/ 200 [0.04, 127.0.0.1:37482][0m
+2024-06-27 17:42:50,946 - INFO - runserver - runserver.py - WebSocket HANDSHAKING /ws/chat/maiy/ [127.0.0.1:60482]
+2024-06-27 17:42:51,917 - INFO - runserver - runserver.py - WebSocket DISCONNECT /ws/chat/maiy/ [127.0.0.1:60482]
+2024-06-27 17:48:35,333 - INFO - middlewares - middlewares.py - time:  0.23909143899800256
+2024-06-27 17:48:35,334 - INFO - runserver - runserver.py - [mHTTP GET /admin/user/user/2/change/ 200 [0.27, 127.0.0.1:38538][0m
+2024-06-27 17:48:35,411 - INFO - runserver - runserver.py - [36mHTTP GET /static/admin/css/base.css 304 [0.02, 127.0.0.1:38540][0m
+2024-06-27 17:48:35,415 - INFO - runserver - runserver.py - [36mHTTP GET /static/admin/css/dark_mode.css 304 [0.02, 127.0.0.1:38542][0m
+2024-06-27 17:48:35,418 - INFO - runserver - runserver.py - [36mHTTP GET /static/admin/css/forms.css 304 [0.02, 127.0.0.1:38564][0m
+2024-06-27 17:48:35,419 - INFO - runserver - runserver.py - [36mHTTP GET /static/admin/css/nav_sidebar.css 304 [0.02, 127.0.0.1:38556][0m
+2024-06-27 17:48:35,420 - INFO - runserver - runserver.py - [36mHTTP GET /static/admin/css/responsive.css 304 [0.02, 127.0.0.1:38576][0m
+2024-06-27 17:48:35,450 - INFO - middlewares - middlewares.py - time:  0.04092655800195644
+2024-06-27 17:48:35,451 - INFO - runserver - runserver.py - [36mHTTP GET /static/admin/js/calendar.js 304 [0.03, 127.0.0.1:38540][0m
+2024-06-27 17:48:35,459 - INFO - runserver - runserver.py - [mHTTP GET /admin/jsi18n/ 200 [0.07, 127.0.0.1:38538][0m
+2024-06-27 17:48:35,461 - INFO - runserver - runserver.py - [36mHTTP GET /static/admin/js/jquery.init.js 304 [0.02, 127.0.0.1:38542][0m
+2024-06-27 17:48:35,462 - INFO - runserver - runserver.py - [36mHTTP GET /static/admin/js/admin/RelatedObjectLookups.js 304 [0.01, 127.0.0.1:38576][0m
+2024-06-27 17:48:35,463 - INFO - runserver - runserver.py - [36mHTTP GET /static/admin/js/admin/DateTimeShortcuts.js 304 [0.02, 127.0.0.1:38564][0m
+2024-06-27 17:48:35,465 - INFO - runserver - runserver.py - [36mHTTP GET /static/admin/js/core.js 304 [0.02, 127.0.0.1:38556][0m
+2024-06-27 17:48:35,486 - INFO - runserver - runserver.py - [36mHTTP GET /static/admin/css/widgets.css 304 [0.03, 127.0.0.1:38540][0m
+2024-06-27 17:48:35,493 - INFO - runserver - runserver.py - [36mHTTP GET /static/admin/js/actions.js 304 [0.01, 127.0.0.1:38538][0m
+2024-06-27 17:48:35,521 - INFO - runserver - runserver.py - [36mHTTP GET /static/admin/js/prepopulate_init.js 304 [0.02, 127.0.0.1:38540][0m
+2024-06-27 17:48:35,523 - INFO - runserver - runserver.py - [36mHTTP GET /static/admin/img/icon-addlink.svg 304 [0.02, 127.0.0.1:38538][0m
+2024-06-27 17:48:35,524 - INFO - runserver - runserver.py - [36mHTTP GET /static/admin/js/prepopulate.js 304 [0.02, 127.0.0.1:38576][0m
+2024-06-27 17:48:35,525 - INFO - runserver - runserver.py - [36mHTTP GET /static/admin/js/urlify.js 304 [0.02, 127.0.0.1:38542][0m
+2024-06-27 17:48:35,566 - INFO - runserver - runserver.py - [36mHTTP GET /static/admin/js/nav_sidebar.js 304 [0.00, 127.0.0.1:38576][0m
+2024-06-27 17:48:35,568 - INFO - runserver - runserver.py - [36mHTTP GET /static/admin/js/theme.js 304 [0.01, 127.0.0.1:38542][0m
+2024-06-27 17:48:35,589 - INFO - runserver - runserver.py - [36mHTTP GET /static/admin/js/change_form.js 304 [0.00, 127.0.0.1:38542][0m
+2024-06-27 17:48:35,707 - INFO - runserver - runserver.py - [36mHTTP GET /static/admin/img/icon-calendar.svg 304 [0.01, 127.0.0.1:38542][0m
+2024-06-27 17:48:35,708 - INFO - runserver - runserver.py - [36mHTTP GET /static/admin/img/icon-clock.svg 304 [0.01, 127.0.0.1:38576][0m
+2024-06-27 17:48:53,139 - INFO - middlewares - middlewares.py - time:  0.13531353900179965
+2024-06-27 17:48:53,141 - INFO - runserver - runserver.py - [mHTTP GET /api/v1/products/search/? 200 [0.15, 127.0.0.1:38576][0m
+2024-06-27 17:48:53,194 - INFO - runserver - runserver.py - [36mHTTP GET /static/rest_framework/css/bootstrap.min.css 304 [0.01, 127.0.0.1:38576][0m
+2024-06-27 17:48:53,220 - INFO - runserver - runserver.py - [36mHTTP GET /static/rest_framework/css/bootstrap-tweaks.css 304 [0.02, 127.0.0.1:38542][0m
+2024-06-27 17:48:53,222 - INFO - runserver - runserver.py - [36mHTTP GET /static/rest_framework/css/prettify.css 304 [0.02, 127.0.0.1:38576][0m
+2024-06-27 17:48:53,223 - INFO - runserver - runserver.py - [36mHTTP GET /static/rest_framework/css/default.css 304 [0.02, 127.0.0.1:38538][0m
+2024-06-27 17:48:53,224 - INFO - runserver - runserver.py - [36mHTTP GET /static/rest_framework/js/jquery-3.7.1.min.js 304 [0.02, 127.0.0.1:38540][0m
+2024-06-27 17:48:53,225 - INFO - runserver - runserver.py - [36mHTTP GET /static/rest_framework/js/ajax-form.js 304 [0.02, 127.0.0.1:38556][0m
+2024-06-27 17:48:53,227 - INFO - runserver - runserver.py - [36mHTTP GET /static/rest_framework/js/csrf.js 304 [0.02, 127.0.0.1:38564][0m
+2024-06-27 17:48:53,233 - INFO - runserver - runserver.py - [36mHTTP GET /static/rest_framework/js/bootstrap.min.js 304 [0.00, 127.0.0.1:38542][0m
+2024-06-27 17:48:53,240 - INFO - runserver - runserver.py - [36mHTTP GET /static/rest_framework/js/prettify-min.js 304 [0.00, 127.0.0.1:38576][0m
+2024-06-27 17:48:53,254 - INFO - runserver - runserver.py - [36mHTTP GET /static/rest_framework/js/default.js 304 [0.01, 127.0.0.1:38538][0m
+2024-06-27 17:48:53,256 - INFO - runserver - runserver.py - [36mHTTP GET /static/rest_framework/js/load-ajax-form.js 304 [0.01, 127.0.0.1:38540][0m
+2024-06-27 17:48:53,279 - INFO - runserver - runserver.py - [36mHTTP GET /static/rest_framework/img/grid.png 304 [0.00, 127.0.0.1:38540][0m
+2024-06-27 17:56:25,933 - INFO - autoreload - autoreload.py - /home/victor/lern/ITM/practika/Itm-practik/shop_django/shop/shop/settings.py changed, reloading.
+2024-06-27 17:56:26,949 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-27 17:56:58,100 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-27 17:57:07,771 - INFO - middlewares - middlewares.py - time:  0.031407630995090585
+2024-06-27 17:57:07,774 - INFO - runserver - runserver.py - [mHTTP GET /chat/1111/ 200 [0.08, 127.0.0.1:59822][0m
+2024-06-27 17:57:07,813 - INFO - runserver - runserver.py - WebSocket HANDSHAKING /ws/chat/1111/ [127.0.0.1:59840]
+2024-06-27 17:57:08,455 - INFO - runserver - runserver.py - WebSocket DISCONNECT /ws/chat/1111/ [127.0.0.1:59840]
+2024-06-27 17:58:20,948 - INFO - middlewares - middlewares.py - time:  0.008109844995487947
+2024-06-27 17:58:20,953 - INFO - runserver - runserver.py - [mHTTP GET /chat/1111/ 200 [0.04, 127.0.0.1:35792][0m
+2024-06-27 17:58:21,016 - INFO - runserver - runserver.py - WebSocket HANDSHAKING /ws/chat/1111/ [127.0.0.1:35816]
+2024-06-27 17:58:21,551 - INFO - runserver - runserver.py - WebSocket DISCONNECT /ws/chat/1111/ [127.0.0.1:35816]
+2024-06-27 17:58:53,300 - INFO - middlewares - middlewares.py - time:  0.0021682380029233173
+2024-06-27 17:58:53,302 - INFO - runserver - runserver.py - [mHTTP GET /chat/ 200 [0.02, 127.0.0.1:35792][0m
+2024-06-27 17:58:59,379 - INFO - middlewares - middlewares.py - time:  0.007977087996550836
+2024-06-27 17:58:59,383 - INFO - runserver - runserver.py - [mHTTP GET /chat/hhhhhh/ 200 [0.04, 127.0.0.1:35792][0m
+2024-06-27 17:58:59,487 - INFO - runserver - runserver.py - WebSocket HANDSHAKING /ws/chat/hhhhhh/ [127.0.0.1:37420]
+2024-06-27 17:58:59,606 - INFO - runserver - runserver.py - WebSocket DISCONNECT /ws/chat/hhhhhh/ [127.0.0.1:37420]
+2024-06-27 18:29:09,960 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2024-06-27 18:29:17,817 - INFO - middlewares - middlewares.py - time:  0.012179531004221644
+2024-06-27 18:29:17,819 - INFO - runserver - runserver.py - [mHTTP GET /chat/hhhhhh/ 200 [0.06, 127.0.0.1:53920][0m
+2024-06-27 18:29:17,866 - INFO - runserver - runserver.py - WebSocket HANDSHAKING /ws/chat/hhhhhh/ [127.0.0.1:53924]
+2024-06-27 18:29:17,963 - INFO - runserver - runserver.py - WebSocket CONNECT /ws/chat/hhhhhh/ [127.0.0.1:53924]
+2024-06-27 18:34:49,943 - INFO - middlewares - middlewares.py - time:  0.0024102870011120103
+2024-06-27 18:34:49,945 - INFO - runserver - runserver.py - [mHTTP GET /chat/sddfd/ 200 [0.02, 127.0.0.1:42030][0m
+2024-06-27 18:34:49,989 - INFO - runserver - runserver.py - WebSocket HANDSHAKING /ws/chat/sddfd/ [127.0.0.1:42048]
+2024-06-27 18:34:50,024 - INFO - runserver - runserver.py - WebSocket CONNECT /ws/chat/sddfd/ [127.0.0.1:42048]
