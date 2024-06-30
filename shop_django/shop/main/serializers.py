@@ -12,3 +12,4 @@ class ManufacturesSerializer(serializers.ModelSerializer):
     class Meta:
         model = Manufactures
         fields = '__all__'
+
