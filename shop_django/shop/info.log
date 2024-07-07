@@ -2706,3 +2706,69 @@ UnboundLocalError: local variable 'queryset' referenced before assignment
 2024-07-01 19:14:52,908 - INFO - middlewares - middlewares.py - time:  0.0032921169986366294
 2024-07-01 19:43:01,678 - WARNING - log - log.py - Not Found: /favicon.ico
 2024-07-01 19:43:01,680 - WARNING - runserver - runserver.py - [33mHTTP GET /favicon.ico 404 [0.02, 127.0.0.1:42752][0m
+2024-07-02 19:06:22,070 - WARNING - log - log.py - Unauthorized: /api/v1/cart/
+2024-07-02 19:06:45,447 - WARNING - log - log.py - Unauthorized: /api/v1/cart/
+2024-07-02 19:09:38,006 - ERROR - log - log.py - Internal Server Error: /api/v1/cart/
+Traceback (most recent call last):
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 415, in initial
+    self.check_permissions(request)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 332, in check_permissions
+    if not permission.has_permission(request, self):
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/permissions.py", line 240, in has_permission
+    queryset = self._queryset(view)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/permissions.py", line 223, in _queryset
+    queryset = view.get_queryset()
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/generics.py", line 67, in get_queryset
+    assert self.queryset is not None, (
+AssertionError: 'CartView' should either include a `queryset` attribute, or override the `get_queryset()` method.
+2024-07-02 19:12:54,997 - ERROR - log - log.py - Internal Server Error: /api/v1/cart/
+Traceback (most recent call last):
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 415, in initial
+    self.check_permissions(request)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/views.py", line 332, in check_permissions
+    if not permission.has_permission(request, self):
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/permissions.py", line 240, in has_permission
+    queryset = self._queryset(view)
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/permissions.py", line 223, in _queryset
+    queryset = view.get_queryset()
+  File "/home/victor/lern/ITM/practika/Itm-practik/shop_django/venv/lib/python3.10/site-packages/rest_framework/generics.py", line 67, in get_queryset
+    assert self.queryset is not None, (
+AssertionError: 'CartView' should either include a `queryset` attribute, or override the `get_queryset()` method.
+2024-07-07 11:04:48,457 - WARNING - log - log.py - Not Found: /
+2024-07-07 11:04:48,470 - WARNING - runserver - runserver.py - [33mHTTP GET / 404 [0.04, 127.0.0.1:60306][0m
+2024-07-07 11:04:48,763 - WARNING - log - log.py - Not Found: /favicon.ico
+2024-07-07 11:04:48,764 - WARNING - runserver - runserver.py - [33mHTTP GET /favicon.ico 404 [0.01, 127.0.0.1:60306][0m
+2024-07-07 11:09:22,844 - WARNING - log - log.py - Not Found: /
+2024-07-07 11:09:22,847 - WARNING - runserver - runserver.py - [33mHTTP GET / 404 [0.06, 127.0.0.1:35250][0m
