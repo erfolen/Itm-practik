@@ -6,7 +6,7 @@ from main.models import Categories, Products, Manufactures
 from main.serializers import ProductSerializer, ManufacturesSerializer
 
 
-class ProductApiTestCAse(APITestCase):
+class MainApiTestCAse(APITestCase):
     def setUp(self):
         self.client = APIClient()
         self.category_1 = Categories.objects.create(name='Диваны')

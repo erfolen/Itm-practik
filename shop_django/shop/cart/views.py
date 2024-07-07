@@ -8,7 +8,7 @@ from .serializers import CartSerializers, AddCartSerializers, ProductSerializer
 
 class CartView(generics.RetrieveAPIView):
     serializer_class = CartSerializers
-    permission_classes = [IsAuthenticated]
+    # permission_classes = [IsAuthenticated]
 
     def get_object(self):
         cart, created = Cart.objects_or_created(user=self.request.user)
@@ -17,7 +17,7 @@ class CartView(generics.RetrieveAPIView):
 
 class AddCartItemView(generics.CreateAPIView):
     serializer_class = AddCartSerializers
-    permission_classes = [IsAuthenticated]
+    # permission_classes = [IsAuthenticated]
 
     def get_serializer_context(self):
         context = super().get_serializer_context()
