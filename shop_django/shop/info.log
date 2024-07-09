@@ -2772,3 +2772,41 @@ AssertionError: 'CartView' should either include a `queryset` attribute, or over
 2024-07-07 11:04:48,764 - WARNING - runserver - runserver.py - [33mHTTP GET /favicon.ico 404 [0.01, 127.0.0.1:60306][0m
 2024-07-07 11:09:22,844 - WARNING - log - log.py - Not Found: /
 2024-07-07 11:09:22,847 - WARNING - runserver - runserver.py - [33mHTTP GET / 404 [0.06, 127.0.0.1:35250][0m
+2024-07-09 05:33:03,713 - WARNING - log - log.py - Not Found: /favicon.ico
+2024-07-09 05:33:03,715 - WARNING - runserver - runserver.py - [33mHTTP GET /favicon.ico 404 [0.02, 127.0.0.1:34318][0m
+2024-07-09 05:33:09,319 - WARNING - log - log.py - Not Found: /static/admin/css/dark_mode.css
+2024-07-09 05:33:09,321 - WARNING - runserver - runserver.py - [33mHTTP GET /static/admin/css/dark_mode.css 404 [0.01, 127.0.0.1:34320][0m
+2024-07-09 05:33:09,327 - WARNING - log - log.py - Not Found: /static/admin/css/base.css
+2024-07-09 05:33:09,327 - WARNING - log - log.py - Not Found: /static/admin/css/nav_sidebar.css
+2024-07-09 05:33:09,328 - WARNING - runserver - runserver.py - [33mHTTP GET /static/admin/css/base.css 404 [0.03, 127.0.0.1:34318][0m
+2024-07-09 05:33:09,330 - WARNING - runserver - runserver.py - [33mHTTP GET /static/admin/css/nav_sidebar.css 404 [0.02, 127.0.0.1:59718][0m
+2024-07-09 05:33:09,420 - WARNING - log - log.py - Not Found: /static/admin/css/login.css
+2024-07-09 05:33:09,421 - WARNING - runserver - runserver.py - [33mHTTP GET /static/admin/css/login.css 404 [0.03, 127.0.0.1:59718][0m
+2024-07-09 05:33:09,423 - WARNING - log - log.py - Not Found: /static/admin/css/responsive.css
+2024-07-09 05:33:09,425 - WARNING - runserver - runserver.py - [33mHTTP GET /static/admin/css/responsive.css 404 [0.02, 127.0.0.1:34318][0m
+2024-07-09 05:33:09,521 - WARNING - log - log.py - Not Found: /static/admin/js/theme.js
+2024-07-09 05:33:09,523 - WARNING - runserver - runserver.py - [33mHTTP GET /static/admin/js/theme.js 404 [0.03, 127.0.0.1:34318][0m
+2024-07-09 05:33:09,645 - WARNING - log - log.py - Not Found: /static/admin/js/nav_sidebar.js
+2024-07-09 05:33:09,648 - WARNING - runserver - runserver.py - [33mHTTP GET /static/admin/js/nav_sidebar.js 404 [0.02, 127.0.0.1:34318][0m
+2024-07-09 05:33:22,094 - WARNING - log - log.py - Not Found: /static/rest_framework/css/bootstrap.min.css
+2024-07-09 05:33:22,095 - WARNING - runserver - runserver.py - [33mHTTP GET /static/rest_framework/css/bootstrap.min.css 404 [0.10, 127.0.0.1:34318][0m
+2024-07-09 05:33:22,111 - WARNING - log - log.py - Not Found: /static/rest_framework/css/bootstrap-tweaks.css
+2024-07-09 05:33:22,114 - WARNING - runserver - runserver.py - [33mHTTP GET /static/rest_framework/css/bootstrap-tweaks.css 404 [0.06, 127.0.0.1:59718][0m
+2024-07-09 05:33:22,114 - WARNING - log - log.py - Not Found: /static/rest_framework/css/prettify.css
+2024-07-09 05:33:22,117 - WARNING - runserver - runserver.py - [33mHTTP GET /static/rest_framework/css/prettify.css 404 [0.06, 127.0.0.1:34320][0m
+2024-07-09 05:33:22,457 - WARNING - log - log.py - Not Found: /static/rest_framework/css/default.css
+2024-07-09 05:33:22,458 - WARNING - runserver - runserver.py - [33mHTTP GET /static/rest_framework/css/default.css 404 [0.03, 127.0.0.1:34320][0m
+2024-07-09 05:33:22,572 - WARNING - log - log.py - Not Found: /static/rest_framework/js/jquery-3.7.1.min.js
+2024-07-09 05:33:22,573 - WARNING - runserver - runserver.py - [33mHTTP GET /static/rest_framework/js/jquery-3.7.1.min.js 404 [0.09, 127.0.0.1:34320][0m
+2024-07-09 05:33:22,585 - WARNING - log - log.py - Not Found: /static/rest_framework/js/ajax-form.js
+2024-07-09 05:33:22,586 - WARNING - runserver - runserver.py - [33mHTTP GET /static/rest_framework/js/ajax-form.js 404 [0.05, 127.0.0.1:59718][0m
+2024-07-09 05:33:22,710 - WARNING - log - log.py - Not Found: /static/rest_framework/js/bootstrap.min.js
+2024-07-09 05:33:22,714 - WARNING - runserver - runserver.py - [33mHTTP GET /static/rest_framework/js/bootstrap.min.js 404 [0.02, 127.0.0.1:59718][0m
+2024-07-09 05:33:22,826 - WARNING - log - log.py - Not Found: /static/rest_framework/js/csrf.js
+2024-07-09 05:33:22,828 - WARNING - runserver - runserver.py - [33mHTTP GET /static/rest_framework/js/csrf.js 404 [0.06, 127.0.0.1:34320][0m
+2024-07-09 05:33:22,844 - WARNING - log - log.py - Not Found: /static/rest_framework/js/prettify-min.js
+2024-07-09 05:33:22,846 - WARNING - runserver - runserver.py - [33mHTTP GET /static/rest_framework/js/prettify-min.js 404 [0.03, 127.0.0.1:59718][0m
+2024-07-09 05:33:22,904 - WARNING - log - log.py - Not Found: /static/rest_framework/js/default.js
+2024-07-09 05:33:22,906 - WARNING - runserver - runserver.py - [33mHTTP GET /static/rest_framework/js/default.js 404 [0.02, 127.0.0.1:34318][0m
+2024-07-09 05:33:23,005 - WARNING - log - log.py - Not Found: /static/rest_framework/js/load-ajax-form.js
+2024-07-09 05:33:23,007 - WARNING - runserver - runserver.py - [33mHTTP GET /static/rest_framework/js/load-ajax-form.js 404 [0.03, 127.0.0.1:34318][0m

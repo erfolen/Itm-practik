@@ -34,9 +34,9 @@ class ChatConsumer(AsyncWebsocketConsumer):
         await self.channel_layer.group_discard(self.room_group_name, self.channel_name)
 
        # Уменьшаем счетчик активных пользователей
-        active_users = await self.redis.decr(f'{self.room_group_name}_active_users')  # Добавлено
+        active_users = await self.redis.decr(f'{self.room_group_name}_active_users')
         if active_users == 0:  # Добавлено
-            await self.redis.expire(f'chat_messages_{self.room_group_name}', 300)  # Изменено
+            await self.redis.expire(f'chat_messages_{self.room_group_name}', 300)
         await self.redis.close()
 
     # Receive message from WebSocket
