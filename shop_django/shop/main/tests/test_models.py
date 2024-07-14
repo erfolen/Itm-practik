@@ -84,7 +84,6 @@ class ProductsModelTest(TestCase):
             category=self.category,
             manufacture=self.manufacture
         )
-
     def tearDown(self):
         Products.objects.all().delete()
         Categories.objects.all().delete()

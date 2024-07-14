@@ -2810,3 +2810,5 @@ AssertionError: 'CartView' should either include a `queryset` attribute, or over
 2024-07-09 05:33:22,906 - WARNING - runserver - runserver.py - [33mHTTP GET /static/rest_framework/js/default.js 404 [0.02, 127.0.0.1:34318][0m
 2024-07-09 05:33:23,005 - WARNING - log - log.py - Not Found: /static/rest_framework/js/load-ajax-form.js
 2024-07-09 05:33:23,007 - WARNING - runserver - runserver.py - [33mHTTP GET /static/rest_framework/js/load-ajax-form.js 404 [0.03, 127.0.0.1:34318][0m
+2024-07-09 10:42:59,094 - WARNING - log - log.py - Not Found: /favicon.ico
+2024-07-09 10:42:59,096 - WARNING - runserver - runserver.py - [33mHTTP GET /favicon.ico 404 [0.02, 127.0.0.1:55018][0m
